@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Card" load_steps=4 format=3 uid="uid://ifl4afpw1si8"]
+
+[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_b0pad"]
+[ext_resource type="Texture2D" uid="uid://dwwohw571cr2a" path="res://art/tile_0092.png" id="1_yv5n0"]
+[ext_resource type="AudioStream" uid="uid://de2ryat1pxq6" path="res://art/enemy_attack.ogg" id="3_7tvns"]
+
+[resource]
+script = ExtResource("1_b0pad")
+id = "confusion"
+type = 1
+target = 0
+rarity = 0
+typing = 0
+cost = 1
+exhaust = true
+cardName = "Confusion"
+icon = ExtResource("1_yv5n0")
+tooltip = "[center]Exhaust.[/center]"
+sound = ExtResource("3_7tvns")

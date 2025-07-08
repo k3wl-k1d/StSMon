@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://crh7udrttfcmw"]
+
+[ext_resource type="StyleBox" uid="uid://cii52y4iklkde" path="res://Scenes/CardUI/Styleboxes/Flying/flying_base_card_stylebox.tres" id="1_qunfc"]
+[ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_6f63n"]
+[ext_resource type="StyleBox" uid="uid://dvdytse782lf7" path="res://Scenes/CardUI/Styleboxes/Flying/flying_hover_card_stylebox.tres" id="3_whgk5"]
+[ext_resource type="Texture2D" uid="uid://con6y7mc74c5a" path="res://art/tile_0120.png" id="4_wyxs0"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_feather_dance.gd" id="5_wx41l"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_350mr"]
+
+[resource]
+script = ExtResource("5_wx41l")
+id = "flying_feather_dance"
+type = 1
+target = 0
+rarity = 1
+typing = 12
+cost = 2
+exhaust = false
+cardName = "Feather Dance"
+icon = ExtResource("4_wyxs0")
+tooltip = "[center]Increase your Crit by 3. Draw a card.[/center]"
+sound = ExtResource("6_350mr")
+cardBaseStylebox = ExtResource("1_qunfc")
+cardDragStylebox = ExtResource("2_6f63n")
+cardHoverStylebox = ExtResource("3_whgk5")

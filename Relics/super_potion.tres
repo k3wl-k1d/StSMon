@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://b07wkfc5ooau2"]
+
+[ext_resource type="Texture2D" uid="uid://c4e7ovx16yfl1" path="res://art/tile_0113.png" id="1_hjuvs"]
+[ext_resource type="Script" path="res://Relics/super_potion.gd" id="2_h842c"]
+
+[resource]
+script = ExtResource("2_h842c")
+relicName = "Super Potion"
+id = "super_potion"
+type = 3
+characterType = 0
+typing = 0
+starter = false
+consumable = true
+baseStacks = 5
+currentStacks = 5
+icon = ExtResource("1_hjuvs")
+tooltip = "[color=\"ffdf00\"]Super Potion:[/color]
+Heal your team 8 health at the end of combat"

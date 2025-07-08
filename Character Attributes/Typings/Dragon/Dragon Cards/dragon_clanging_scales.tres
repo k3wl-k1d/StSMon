@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://byvlte5abxdci"]
+
+[ext_resource type="Texture2D" uid="uid://cqcal03735mv8" path="res://art/tile_0118.png" id="1_ar03k"]
+[ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_scutc"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_clanging_scales.gd" id="2_fdf7f"]
+[ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_orhb5"]
+[ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_4g7gw"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_6jt05"]
+
+[resource]
+script = ExtResource("2_fdf7f")
+id = "dragon_clanging_scales"
+type = 0
+target = 4
+rarity = 2
+typing = 16
+cost = 2
+exhaust = false
+cardName = "Clanging Scales"
+icon = ExtResource("1_ar03k")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies but gain [color='bd6500']5 Exposed[/color].[/center]"
+sound = ExtResource("6_6jt05")
+cardBaseStylebox = ExtResource("1_scutc")
+cardDragStylebox = ExtResource("2_orhb5")
+cardHoverStylebox = ExtResource("3_4g7gw")

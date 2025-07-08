@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://1hpop4cqa15r"]
+
+[ext_resource type="StyleBox" uid="uid://cyhnloxa86n40" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_base_card_stylebox.tres" id="1_5ygk0"]
+[ext_resource type="Texture2D" uid="uid://cgopx2ponr1qi" path="res://art/tile_0121.png" id="1_gjj7b"]
+[ext_resource type="StyleBox" uid="uid://ca201cne2u1w4" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_drag_card_stylebox.tres" id="2_6yw4v"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_astonish.gd" id="2_weluf"]
+[ext_resource type="StyleBox" uid="uid://cosmxhmhdt3f2" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_hover_card_stylebox.tres" id="3_rh5r2"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_31rfb"]
+
+[resource]
+script = ExtResource("2_weluf")
+id = "ghost_astonish"
+type = 0
+target = 3
+rarity = 0
+typing = 15
+cost = 0
+exhaust = false
+cardName = "Astonish"
+icon = ExtResource("1_gjj7b")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an enemy and apply [color='3e1a91']2 Curse[/color].[/center]"
+sound = ExtResource("6_31rfb")
+cardBaseStylebox = ExtResource("1_5ygk0")
+cardDragStylebox = ExtResource("2_6yw4v")
+cardHoverStylebox = ExtResource("3_rh5r2")

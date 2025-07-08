@@ -1,0 +1,51 @@
+[gd_scene load_steps=14 format=3 uid="uid://bbuwbnk37x81x"]
+
+[ext_resource type="Script" path="res://Scenes/Entities/Enemy/enemy_action_picker.gd" id="1_1reik"]
+[ext_resource type="Script" path="res://Enemy Attributes/Caterpie/caterpie_attack_action.gd" id="2_kalgg"]
+[ext_resource type="Texture2D" uid="uid://bfvi02kojsa00" path="res://art/tile_0103.png" id="3_ge4ju"]
+[ext_resource type="Script" path="res://Custom Resources/intent.gd" id="4_nvftr"]
+[ext_resource type="AudioStream" uid="uid://de2ryat1pxq6" path="res://art/enemy_attack.ogg" id="5_yrj62"]
+[ext_resource type="Script" path="res://Enemy Attributes/Caterpie/caterpie_debuff_attack_action.gd" id="6_aa5ul"]
+[ext_resource type="Script" path="res://Enemy Attributes/Caterpie/caterpie_block_action.gd" id="6_ub5ec"]
+[ext_resource type="Texture2D" uid="uid://c6rlnthwa4dy5" path="res://art/attack_negative.png" id="7_h2b3a"]
+[ext_resource type="Texture2D" uid="uid://bi6pfjs32f820" path="res://art/tile_0101.png" id="9_g24xh"]
+[ext_resource type="AudioStream" uid="uid://k8m4o3hlwm7l" path="res://art/enemy_block.ogg" id="10_imyl8"]
+
+[sub_resource type="Resource" id="Resource_46yce"]
+script = ExtResource("4_nvftr")
+baseText = "%s"
+icon = ExtResource("3_ge4ju")
+
+[sub_resource type="Resource" id="Resource_ffsvx"]
+script = ExtResource("4_nvftr")
+baseText = "%s"
+icon = ExtResource("7_h2b3a")
+
+[sub_resource type="Resource" id="Resource_c7fie"]
+script = ExtResource("4_nvftr")
+baseText = "%s"
+icon = ExtResource("9_g24xh")
+
+[node name="CaterpieAI" type="Node"]
+script = ExtResource("1_1reik")
+
+[node name="AttackAction" type="Node" parent="."]
+script = ExtResource("2_kalgg")
+intent = SubResource("Resource_46yce")
+type = 1
+actionName = "Bug Bite"
+sound = ExtResource("5_yrj62")
+chanceWeight = 1.0
+
+[node name="DebuffAttackAction" type="Node" parent="."]
+script = ExtResource("6_aa5ul")
+intent = SubResource("Resource_ffsvx")
+chanceWeight = 1.0
+
+[node name="BlockAction" type="Node" parent="."]
+script = ExtResource("6_ub5ec")
+intent = SubResource("Resource_c7fie")
+type = 1
+actionName = "Protect"
+sound = ExtResource("10_imyl8")
+chanceWeight = 1.0

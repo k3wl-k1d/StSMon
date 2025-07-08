@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://sp1g8b0wsuse"]
+
+[ext_resource type="StyleBox" uid="uid://cyhnloxa86n40" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_base_card_stylebox.tres" id="1_708fj"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_curse.gd" id="2_l1bcg"]
+[ext_resource type="StyleBox" uid="uid://ca201cne2u1w4" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_drag_card_stylebox.tres" id="2_mawir"]
+[ext_resource type="StyleBox" uid="uid://cosmxhmhdt3f2" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_hover_card_stylebox.tres" id="3_s8urt"]
+[ext_resource type="Texture2D" uid="uid://cd3bljirfx4l3" path="res://Pokemon Assets/Other Art/Curse.png" id="4_400cy"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_5dfuc"]
+
+[resource]
+script = ExtResource("2_l1bcg")
+id = "ghost_curse"
+type = 1
+target = 3
+rarity = 0
+typing = 15
+cost = 1
+exhaust = false
+cardName = "Curse"
+icon = ExtResource("4_400cy")
+tooltip = "[center]Apply [color='3e1a91']5 Curse[/color] to an enemy.[/center]"
+sound = ExtResource("6_5dfuc")
+cardBaseStylebox = ExtResource("1_708fj")
+cardDragStylebox = ExtResource("2_mawir")
+cardHoverStylebox = ExtResource("3_s8urt")

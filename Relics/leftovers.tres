@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://c05trd4oqaldg"]
+
+[ext_resource type="Texture2D" uid="uid://boklhiqs1414d" path="res://art/tile_0115.png" id="1_tfyai"]
+[ext_resource type="Script" path="res://Relics/leftovers.gd" id="2_2b5o2"]
+
+[resource]
+script = ExtResource("2_2b5o2")
+relicName = "Leftovers"
+id = "leftovers"
+type = 2
+characterType = 0
+typing = 0
+starter = true
+consumable = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_tfyai")
+tooltip = "[color=\"ffdf00\"]Leftovers:[/color]
+Turn end, heal 1 HP"

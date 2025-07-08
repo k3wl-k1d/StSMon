@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://dl4bqwhjkqdbp"]
+
+[ext_resource type="StyleBox" uid="uid://cii52y4iklkde" path="res://Scenes/CardUI/Styleboxes/Flying/flying_base_card_stylebox.tres" id="1_2bon8"]
+[ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_4ipmm"]
+[ext_resource type="StyleBox" uid="uid://dvdytse782lf7" path="res://Scenes/CardUI/Styleboxes/Flying/flying_hover_card_stylebox.tres" id="3_qunen"]
+[ext_resource type="Texture2D" uid="uid://33wsovfwun21" path="res://art/arrow_small_disabled.png" id="4_x6os1"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_tailwind.gd" id="5_1h7s3"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_6uw61"]
+
+[resource]
+script = ExtResource("5_1h7s3")
+id = "flying_tailwind"
+type = 1
+target = 2
+rarity = 1
+typing = 12
+cost = 2
+exhaust = false
+cardName = "Tailwind"
+icon = ExtResource("4_x6os1")
+tooltip = "[center]Both allies gain [color='34eba8']%s Rush[/color]. Draw a card.[/center]"
+sound = ExtResource("6_6uw61")
+cardBaseStylebox = ExtResource("1_2bon8")
+cardDragStylebox = ExtResource("2_4ipmm")
+cardHoverStylebox = ExtResource("3_qunen")

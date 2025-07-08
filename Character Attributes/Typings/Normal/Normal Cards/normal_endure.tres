@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://qf100u2r7lff"]
+
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_edhr0"]
+[ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_5rumd"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_cmi24"]
+[ext_resource type="Texture2D" uid="uid://bj3im6egs4wxx" path="res://art/tile_0086.png" id="4_oqjgw"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_endure.gd" id="5_3q2f6"]
+[ext_resource type="AudioStream" uid="uid://df64e7qat73gs" path="res://art/block.ogg" id="6_cqg55"]
+
+[resource]
+script = ExtResource("5_3q2f6")
+id = "normal_endure"
+type = 1
+target = 0
+rarity = 0
+typing = 0
+cost = 1
+exhaust = false
+cardName = "Endure"
+icon = ExtResource("4_oqjgw")
+tooltip = "[center]Gain [color='2fbff7']%s[/color] Block and exhaust a random card.[/center]"
+sound = ExtResource("6_cqg55")
+cardBaseStylebox = ExtResource("1_edhr0")
+cardDragStylebox = ExtResource("2_5rumd")
+cardHoverStylebox = ExtResource("3_cmi24")

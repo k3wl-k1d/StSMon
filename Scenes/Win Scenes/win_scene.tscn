@@ -1,0 +1,123 @@
+[gd_scene load_steps=8 format=3 uid="uid://cibog4eo8pk27"]
+
+[ext_resource type="Script" path="res://Scenes/Win Scenes/win_scene.gd" id="1_wngu8"]
+[ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="3_3rg65"]
+[ext_resource type="Texture2D" uid="uid://cf6u4hrp3ntk6" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_icon.png" id="4_cpyue"]
+
+[sub_resource type="Gradient" id="Gradient_pteh1"]
+colors = PackedColorArray(1, 0, 0, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_exc36"]
+gradient = SubResource("Gradient_pteh1")
+width = 75
+
+[sub_resource type="LabelSettings" id="LabelSettings_v510g"]
+font_size = 66
+font_color = Color(0, 0, 0, 1)
+outline_size = 8
+shadow_size = 4
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(4, 2)
+
+[sub_resource type="LabelSettings" id="LabelSettings_6tik7"]
+font_size = 22
+font_color = Color(0, 0, 0, 1)
+outline_size = 8
+shadow_size = 2
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(4, 2)
+
+[node name="WinScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wngu8")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 768.0
+offset_right = 431.0
+offset_bottom = 335.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 1.5708
+texture = SubResource("GradientTexture1D_exc36")
+
+[node name="CharacterText" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -117.0
+offset_top = -76.5
+offset_right = 117.0
+offset_bottom = 76.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 6
+alignment = 1
+
+[node name="Title" type="Label" parent="CharacterText"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("3_3rg65")
+text = "Victory!"
+label_settings = SubResource("LabelSettings_v510g")
+horizontal_alignment = 1
+
+[node name="Message" type="Label" parent="CharacterText"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("3_3rg65")
+text = "Your team is victorious!"
+label_settings = SubResource("LabelSettings_6tik7")
+horizontal_alignment = 1
+
+[node name="MainMenuButton" type="Button" parent="CharacterText"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("3_3rg65")
+text = "Main Menu"
+
+[node name="CharacterPortrait" type="TextureRect" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -120.0
+offset_right = 120.0
+grow_vertical = 0
+texture = ExtResource("4_cpyue")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="CharacterPortrait2" type="TextureRect" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -120.0
+offset_top = -120.0
+grow_horizontal = 0
+grow_vertical = 0
+texture = ExtResource("4_cpyue")
+expand_mode = 1
+stretch_mode = 5
+flip_h = true
+
+[connection signal="pressed" from="CharacterText/MainMenuButton" to="." method="_on_main_menu_button_pressed"]

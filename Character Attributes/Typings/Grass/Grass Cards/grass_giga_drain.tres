@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://dbgn71whxp15v"]
+
+[ext_resource type="StyleBox" uid="uid://dv63252xj1fc0" path="res://Scenes/CardUI/Styleboxes/Grass/grass_base_card_stylebox.tres" id="1_mf0o8"]
+[ext_resource type="StyleBox" uid="uid://b5o03afs84ycy" path="res://Scenes/CardUI/Styleboxes/Grass/grass_drag_card_stylebox.tres" id="2_u4syi"]
+[ext_resource type="StyleBox" uid="uid://bsso4wr02vs2l" path="res://Scenes/CardUI/Styleboxes/Grass/grass_hover_card_stylebox.tres" id="3_a3weo"]
+[ext_resource type="Texture2D" uid="uid://bxgrktox5it82" path="res://art/tile_0105.png" id="4_2mvcp"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_giga_drain.gd" id="5_77ily"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_0c1x0"]
+
+[resource]
+script = ExtResource("5_77ily")
+id = "grass_giga_drain"
+type = 0
+target = 4
+rarity = 0
+typing = 3
+cost = 2
+exhaust = false
+cardName = "Giga Drain"
+icon = ExtResource("4_2mvcp")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies and heal [color='32a852']%s[/color] health.[/center]"
+sound = ExtResource("6_0c1x0")
+cardBaseStylebox = ExtResource("1_mf0o8")
+cardDragStylebox = ExtResource("2_u4syi")
+cardHoverStylebox = ExtResource("3_a3weo")

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardPile" load_steps=15 format=3 uid="uid://b4r3dthgjosls"]
+
+[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_huecl"]
+[ext_resource type="Resource" uid="uid://1hpop4cqa15r" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_astonish.tres" id="2_kf38h"]
+[ext_resource type="Resource" uid="uid://sp1g8b0wsuse" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_curse.tres" id="3_efebr"]
+[ext_resource type="Resource" uid="uid://d3rls73bqxtid" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_grudge.tres" id="4_gblkm"]
+[ext_resource type="Resource" uid="uid://c0bcvutrqx8oi" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_hex.tres" id="5_pjnmp"]
+[ext_resource type="Resource" uid="uid://t346o38dvpnv" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_last_respects.tres" id="6_g6bqb"]
+[ext_resource type="Resource" uid="uid://cs5qge8qm3joa" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_nightmare.tres" id="7_f27bj"]
+[ext_resource type="Resource" uid="uid://vojlnpppt5py" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_night_shade.tres" id="8_pweg2"]
+[ext_resource type="Resource" uid="uid://c4k1qqwk7rbsj" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_ominous_wind.tres" id="9_s57lw"]
+[ext_resource type="Resource" uid="uid://bmpfq6yak5aae" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_poltergeist.tres" id="10_g5uey"]
+[ext_resource type="Resource" uid="uid://d3540cqjxymfr" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_spirit_shackle.tres" id="11_v0sd2"]
+[ext_resource type="Resource" uid="uid://bbyadtx58q82y" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_shadow_ball.tres" id="12_bos81"]
+[ext_resource type="Resource" uid="uid://o3c7kegavtgg" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_destiny_bond.tres" id="13_b0re7"]
+[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="13_u8ilp"]
+
+[resource]
+script = ExtResource("13_u8ilp")
+cards = Array[ExtResource("1_huecl")]([ExtResource("2_kf38h"), ExtResource("3_efebr"), ExtResource("4_gblkm"), ExtResource("5_pjnmp"), ExtResource("6_g6bqb"), ExtResource("7_f27bj"), ExtResource("8_pweg2"), ExtResource("9_s57lw"), ExtResource("10_g5uey"), ExtResource("11_v0sd2"), ExtResource("12_bos81"), ExtResource("13_b0re7")])

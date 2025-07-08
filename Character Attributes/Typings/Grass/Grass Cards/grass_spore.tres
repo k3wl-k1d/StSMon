@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://cct7tbinxjxvg"]
+
+[ext_resource type="StyleBox" uid="uid://dv63252xj1fc0" path="res://Scenes/CardUI/Styleboxes/Grass/grass_base_card_stylebox.tres" id="1_dvnkc"]
+[ext_resource type="StyleBox" uid="uid://b5o03afs84ycy" path="res://Scenes/CardUI/Styleboxes/Grass/grass_drag_card_stylebox.tres" id="2_laxfo"]
+[ext_resource type="StyleBox" uid="uid://bsso4wr02vs2l" path="res://Scenes/CardUI/Styleboxes/Grass/grass_hover_card_stylebox.tres" id="3_fxbo8"]
+[ext_resource type="Texture2D" uid="uid://psr6xk3k26oh" path="res://art/tile_0114.png" id="4_xdkgx"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_spore.gd" id="5_0a32l"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_yyqnr"]
+
+[resource]
+script = ExtResource("5_0a32l")
+id = "grass_spore"
+type = 1
+target = 3
+rarity = 0
+typing = 3
+cost = 1
+exhaust = false
+cardName = "Spore"
+icon = ExtResource("4_xdkgx")
+tooltip = "[center]Apply [color='57f7d2']1 Sleep[/color] to an enemy.[/center]"
+sound = ExtResource("6_yyqnr")
+cardBaseStylebox = ExtResource("1_dvnkc")
+cardDragStylebox = ExtResource("2_laxfo")
+cardHoverStylebox = ExtResource("3_fxbo8")

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="WebbedStatus" load_steps=3 format=3 uid="uid://cpbpddqpf12ly"]
+
+[ext_resource type="Texture2D" uid="uid://ukld5o613i0a" path="res://art/tile_0122.png" id="1_v5f3k"]
+[ext_resource type="Script" path="res://Statuses/webbed.gd" id="2_ythnq"]
+
+[resource]
+script = ExtResource("2_ythnq")
+id = "webbed"
+type = 0
+stackType = 2
+canExpire = true
+canBeNegative = false
+duration = 2
+stacks = 0
+name = "Webbed"
+icon = ExtResource("1_v5f3k")
+tooltip = "Webbed: Decrease your speed by 25%% for %s turns."

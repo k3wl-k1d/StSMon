@@ -1,0 +1,81 @@
+[gd_scene load_steps=5 format=3 uid="uid://cc3d1rtfpylvd"]
+
+[ext_resource type="PackedScene" uid="uid://dec1tpqrufcad" path="res://Scenes/Event Rooms/event_room_button.tscn" id="1_ebw6t"]
+[ext_resource type="Script" path="res://Scenes/Event Rooms/gamblers_event.gd" id="1_xb41t"]
+[ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_fuwel"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_24pta"]
+font_size = 22
+
+[node name="GamblersEvent" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xb41t")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.165656, 0.165656, 0.165656, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -98.0
+offset_bottom = 141.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 8
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("2_fuwel")
+text = "Bright lights and blaring rings assault your team's 
+senses as you enter a games house...
+
+\"PLACE YOUR BETS! RED OR BLACK? THAT'S THE QUESTION!!!\"
+
+A woman shouts from the shadows.
+Your team feels inclined to gamble..."
+label_settings = SubResource("LabelSettings_24pta")
+horizontal_alignment = 1
+
+[node name="Spacer" type="Control" parent="VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(0, 10)
+layout_mode = 2
+
+[node name="BetOnRed" parent="VBoxContainer" instance=ExtResource("1_ebw6t")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(175, 26)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_pressed_color = Color(0.892538, 0.298679, 0.30804, 1)
+text = " Bet $50 on Red "
+
+[node name="BetOnBlack" parent="VBoxContainer" instance=ExtResource("1_ebw6t")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(175, 26)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_hover_color = Color(0.187176, 0.187176, 0.187176, 1)
+text = " Bet $50 on Black "
+
+[node name="Leave" parent="VBoxContainer" instance=ExtResource("1_ebw6t")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(175, 26)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Leave"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bdttselqfmsj7"]
+
+[ext_resource type="Texture2D" uid="uid://c2xhttrclo1r7" path="res://art/tile_0116.png" id="1_qqps3"]
+[ext_resource type="Script" path="res://Relics/ether.gd" id="2_1c5mu"]
+
+[resource]
+script = ExtResource("2_1c5mu")
+relicName = "Ether"
+id = "ether"
+type = 1
+characterType = 0
+typing = 0
+starter = false
+consumable = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_qqps3")
+tooltip = "[color=\"ffdf00\"]Ether:[/color]
+The first teammate gets +1 PP at the start of combat"

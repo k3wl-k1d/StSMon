@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://cqi5sxximwwfh"]
+
+[ext_resource type="StyleBox" uid="uid://cii52y4iklkde" path="res://Scenes/CardUI/Styleboxes/Flying/flying_base_card_stylebox.tres" id="1_5w257"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_hurricane.gd" id="1_d664e"]
+[ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_rsmxh"]
+[ext_resource type="StyleBox" uid="uid://dvdytse782lf7" path="res://Scenes/CardUI/Styleboxes/Flying/flying_hover_card_stylebox.tres" id="3_xn83e"]
+[ext_resource type="Texture2D" uid="uid://cqcal03735mv8" path="res://art/tile_0118.png" id="4_3ew11"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_lo5gy"]
+
+[resource]
+script = ExtResource("1_d664e")
+id = "flying_hurricane"
+type = 0
+target = 3
+rarity = 2
+typing = 12
+cost = 1
+exhaust = false
+cardName = "Hurricane"
+icon = ExtResource("4_3ew11")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy. Exhaust a random card to draw 2.[/center]"
+sound = ExtResource("6_lo5gy")
+cardBaseStylebox = ExtResource("1_5w257")
+cardDragStylebox = ExtResource("2_rsmxh")
+cardHoverStylebox = ExtResource("3_xn83e")

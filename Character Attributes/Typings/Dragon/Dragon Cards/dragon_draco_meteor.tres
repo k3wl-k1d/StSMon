@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://1pmhw5302rtr"]
+
+[ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_e66i0"]
+[ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_w05fn"]
+[ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_gjct1"]
+[ext_resource type="Texture2D" uid="uid://f7tgpjiguspe" path="res://art/tile_0129.png" id="4_2t5wd"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_draco_meteor.gd" id="5_3f7kl"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_harcw"]
+
+[resource]
+script = ExtResource("5_3f7kl")
+id = "dragon_draco_meteor"
+type = 0
+target = 4
+rarity = 2
+typing = 16
+cost = 3
+exhaust = false
+cardName = "Draco Meteor"
+icon = ExtResource("4_2t5wd")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies but gain [color='bd6500']2 Intimidation[/color].[/center]"
+sound = ExtResource("6_harcw")
+cardBaseStylebox = ExtResource("1_e66i0")
+cardDragStylebox = ExtResource("2_w05fn")
+cardHoverStylebox = ExtResource("3_gjct1")

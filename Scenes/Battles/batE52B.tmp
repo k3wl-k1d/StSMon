@@ -1,0 +1,206 @@
+[gd_scene load_steps=38 format=3 uid="uid://cg8go2l2cxvrr"]
+
+[ext_resource type="Script" path="res://Scenes/Battles/battle.gd" id="1_sv376"]
+[ext_resource type="Texture2D" uid="uid://cp4iq5fd6j8be" path="res://art/background.png" id="1_y7qvo"]
+[ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="2_a1hac"]
+[ext_resource type="PackedScene" uid="uid://cpmt1g8vco303" path="res://Scenes/CardTargetSelector/card_target_selector.tscn" id="2_drp5d"]
+[ext_resource type="Script" path="res://Scenes/hand.gd" id="2_mj6w3"]
+[ext_resource type="PackedScene" uid="uid://byi7xd4w7s22c" path="res://Scenes/Entities/Player/player.tscn" id="3_5nwcd"]
+[ext_resource type="AudioStream" uid="uid://dpdenqqbovwfq" path="res://art/8_bit_iced_village_lofi.mp3" id="3_dsxls"]
+[ext_resource type="Script" path="res://Scenes/Entities/entity_handler.gd" id="5_58hwi"]
+[ext_resource type="Script" path="res://Scenes/Entities/Enemy/enemy_handler.gd" id="5_vvw4b"]
+[ext_resource type="Script" path="res://Scenes/UI/battle_ui.gd" id="6_n84um"]
+[ext_resource type="Script" path="res://Scenes/Entities/Player/player_handler.gd" id="7_35xfd"]
+[ext_resource type="Resource" uid="uid://blu6htqvxnnqj" path="res://Character Attributes/Typings/Normal/Munchlax to Snorlax/Munchlax/munchlax.tres" id="8_kqcte"]
+[ext_resource type="Resource" uid="uid://d1bduubp0futd" path="res://Character Attributes/Typings/Fairy/Flabebe/flabebe.tres" id="8_u8qk3"]
+[ext_resource type="SpriteFrames" uid="uid://cj5llj22ojbkd" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_animation.tres" id="9_bwkof"]
+[ext_resource type="Texture2D" uid="uid://kwjumhw0edlf" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_faint_icon.png" id="10_umteb"]
+[ext_resource type="PackedScene" uid="uid://ce4ljv3vn70s5" path="res://Scenes/UI/tooltip.tscn" id="11_jaoj8"]
+[ext_resource type="Texture2D" uid="uid://cv0mtkfntjbec" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_pain_icon.png" id="11_o1th6"]
+[ext_resource type="PackedScene" uid="uid://bocfm5sgfyw0q" path="res://Scenes/CardUI/mana_ui.tscn" id="11_pju2q"]
+[ext_resource type="Texture2D" uid="uid://cf6u4hrp3ntk6" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_icon.png" id="12_6de2r"]
+[ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="12_gvgu6"]
+[ext_resource type="Script" path="res://Custom Resources/character_stats.gd" id="13_65uu5"]
+[ext_resource type="Resource" uid="uid://cdt8ou8kf5840" path="res://Character Attributes/Typings/Normal/Munchlax to Snorlax/Munchlax/munchlax_starting_deck.tres" id="14_3nvy2"]
+[ext_resource type="Script" path="res://Scenes/UI/red_flash.gd" id="14_jsucr"]
+[ext_resource type="PackedScene" uid="uid://04bxkbtrehtr" path="res://Scenes/UI/battle_over_panel.tscn" id="16_a8mcp"]
+[ext_resource type="PackedScene" uid="uid://b7cfrckcq2fw" path="res://Enemy Attributes/Rattata/rattata_ai.tscn" id="17_es1rc"]
+[ext_resource type="SpriteFrames" uid="uid://g026eg0t0von" path="res://Pokemon Assets/Pokemon/Rattata/rattata_animation.tres" id="18_dqot8"]
+[ext_resource type="Texture2D" uid="uid://bnkuicnjifaxj" path="res://Pokemon Assets/Pokemon/Rattata/rattata_icon.png" id="19_gbbp2"]
+[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="20_uceqb"]
+[ext_resource type="PackedScene" uid="uid://cbf7mxnth6of" path="res://Enemy Attributes/Zubat/zubat_ai.tscn" id="21_taama"]
+[ext_resource type="SpriteFrames" uid="uid://guridbhhulb7" path="res://Pokemon Assets/Pokemon/Zubat/zubat_animation.tres" id="22_ybtfr"]
+[ext_resource type="Texture2D" uid="uid://texi34ehy7on" path="res://Pokemon Assets/Pokemon/Zubat/zubat_icon.png" id="23_4ltmd"]
+[ext_resource type="PackedScene" uid="uid://buga4toas8bo0" path="res://Scenes/UI/turn_order_ui.tscn" id="25_p4sw4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eksh8"]
+size = Vector2(512, 189)
+
+[sub_resource type="Resource" id="Resource_gnl2x"]
+resource_local_to_scene = true
+script = ExtResource("13_65uu5")
+primaryType = 0
+secondaryType = 18
+startingDeck = ExtResource("14_3nvy2")
+cardsPerTurn = 4
+maxMana = 4
+hurtIcon = ExtResource("11_o1th6")
+faintIcon = ExtResource("10_umteb")
+name = "Munchlax"
+maxHealth = 40
+entitySpeed = 35
+animation = ExtResource("9_bwkof")
+icon = ExtResource("12_6de2r")
+
+[sub_resource type="Resource" id="Resource_7l4ot"]
+resource_local_to_scene = true
+script = ExtResource("20_uceqb")
+ai = ExtResource("17_es1rc")
+name = "Rattata"
+maxHealth = 10
+entitySpeed = 72
+animation = ExtResource("18_dqot8")
+icon = ExtResource("19_gbbp2")
+
+[sub_resource type="Resource" id="Resource_s7e33"]
+resource_local_to_scene = true
+script = ExtResource("20_uceqb")
+ai = ExtResource("21_taama")
+name = "Zubat"
+maxHealth = 8
+entitySpeed = 55
+animation = ExtResource("22_ybtfr")
+icon = ExtResource("23_4ltmd")
+
+[sub_resource type="Resource" id="Resource_sgi66"]
+resource_local_to_scene = true
+script = ExtResource("20_uceqb")
+ai = ExtResource("21_taama")
+name = "Zubat"
+maxHealth = 8
+entitySpeed = 55
+animation = ExtResource("22_ybtfr")
+icon = ExtResource("23_4ltmd")
+
+[node name="Battle" type="Node2D"]
+script = ExtResource("1_sv376")
+charStatsP1 = ExtResource("8_u8qk3")
+charStatsP2 = ExtResource("8_kqcte")
+music = ExtResource("3_dsxls")
+metadata/_edit_lock_ = true
+
+[node name="Background" type="Sprite2D" parent="."]
+modulate = Color(0.393086, 0.393086, 0.393085, 1)
+scale = Vector2(2, 2)
+texture = ExtResource("1_y7qvo")
+centered = false
+metadata/_edit_lock_ = true
+
+[node name="CardDropArea" type="Area2D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CardDropArea"]
+position = Vector2(256, 94.5)
+shape = SubResource("RectangleShape2D_eksh8")
+debug_color = Color(0, 0.237515, 0.282173, 0.42)
+
+[node name="EntityHandler" type="Node2D" parent="."]
+script = ExtResource("5_58hwi")
+
+[node name="PlayerHandler" type="Node2D" parent="EntityHandler" node_paths=PackedStringArray("hand")]
+script = ExtResource("7_35xfd")
+hand = NodePath("../../BattleUI/Hand")
+
+[node name="Player" parent="EntityHandler/PlayerHandler" instance=ExtResource("3_5nwcd")]
+position = Vector2(44, 140)
+stats = ExtResource("8_u8qk3")
+
+[node name="Player2" parent="EntityHandler/PlayerHandler" instance=ExtResource("3_5nwcd")]
+position = Vector2(145, 135)
+stats = SubResource("Resource_gnl2x")
+
+[node name="EnemyHandler" type="Node2D" parent="EntityHandler"]
+script = ExtResource("5_vvw4b")
+
+[node name="Rattata" parent="EntityHandler/EnemyHandler" instance=ExtResource("2_a1hac")]
+position = Vector2(384, 141)
+stats = SubResource("Resource_7l4ot")
+
+[node name="Zubat" parent="EntityHandler/EnemyHandler" instance=ExtResource("2_a1hac")]
+position = Vector2(313, 131)
+stats = SubResource("Resource_s7e33")
+
+[node name="Zubat2" parent="EntityHandler/EnemyHandler" instance=ExtResource("2_a1hac")]
+position = Vector2(455, 125)
+stats = SubResource("Resource_sgi66")
+
+[node name="CardTargetSelector" parent="." instance=ExtResource("2_drp5d")]
+
+[node name="BattleUI" type="CanvasLayer" parent="." groups=["ui_layer"]]
+script = ExtResource("6_n84um")
+
+[node name="Hand" type="HBoxContainer" parent="BattleUI"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -155.0
+offset_top = -76.0
+offset_right = 155.0
+grow_horizontal = 2
+grow_vertical = 0
+alignment = 1
+script = ExtResource("2_mj6w3")
+
+[node name="ManaUI" parent="BattleUI" instance=ExtResource("11_pju2q")]
+offset_left = 12.0
+offset_top = -48.0
+offset_right = 50.0
+offset_bottom = -10.0
+
+[node name="Tooltip" parent="BattleUI" instance=ExtResource("11_jaoj8")]
+offset_left = -111.0
+offset_top = 9.0
+offset_right = 109.0
+offset_bottom = 81.0
+
+[node name="EndTurnButton" type="Button" parent="BattleUI"]
+unique_name_in_owner = true
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -38.0
+offset_right = -10.0
+offset_bottom = -10.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("12_gvgu6")
+text = "End Turn"
+
+[node name="TurnOrderUI" parent="BattleUI" instance=ExtResource("25_p4sw4")]
+
+[node name="RedFlash" type="CanvasLayer" parent="."]
+layer = 2
+script = ExtResource("14_jsucr")
+
+[node name="ColorRect" type="ColorRect" parent="RedFlash"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.862745, 0.301961, 0.298039, 0)
+
+[node name="Timer" type="Timer" parent="RedFlash"]
+wait_time = 0.1
+one_shot = true
+
+[node name="BattleOverLayer" type="CanvasLayer" parent="."]
+
+[node name="BattleOverPanel" parent="BattleOverLayer" instance=ExtResource("16_a8mcp")]
+visible = false

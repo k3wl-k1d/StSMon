@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://b8xvr6kkw0op"]
+
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_1eogk"]
+[ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_sx50f"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_gpriv"]
+[ext_resource type="Texture2D" uid="uid://bfvi02kojsa00" path="res://art/tile_0103.png" id="4_bb1ka"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_acupressure.gd" id="5_2xugy"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_d3o2s"]
+
+[resource]
+script = ExtResource("5_2xugy")
+id = "normal_accupressure"
+type = 2
+target = 0
+rarity = 2
+typing = 0
+cost = 2
+exhaust = false
+cardName = "Acupressure"
+icon = ExtResource("4_bb1ka")
+tooltip = "Round start, gain a random stat buff. [R]"
+sound = ExtResource("6_d3o2s")
+cardBaseStylebox = ExtResource("1_1eogk")
+cardDragStylebox = ExtResource("2_sx50f")
+cardHoverStylebox = ExtResource("3_gpriv")

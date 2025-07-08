@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="SpotlightStatus" load_steps=3 format=3 uid="uid://dlylvqw0iop0a"]
+
+[ext_resource type="Texture2D" uid="uid://bb3rcs5nqntir" path="res://art/arrow.png" id="1_wltw1"]
+[ext_resource type="Script" path="res://Statuses/spotlight.gd" id="2_6a1yn"]
+
+[resource]
+script = ExtResource("2_6a1yn")
+id = "spotlight"
+type = 1
+stackType = 2
+canExpire = true
+canBeNegative = false
+duration = 1
+stacks = 0
+name = "Spotlighted"
+icon = ExtResource("1_wltw1")
+tooltip = "Spotlighted: All enemy attacks are redirected to you for %s turns"

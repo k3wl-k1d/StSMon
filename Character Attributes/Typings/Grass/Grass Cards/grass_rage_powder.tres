@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://byx7psbvuu8di"]
+
+[ext_resource type="StyleBox" uid="uid://dv63252xj1fc0" path="res://Scenes/CardUI/Styleboxes/Grass/grass_base_card_stylebox.tres" id="1_0tcpj"]
+[ext_resource type="StyleBox" uid="uid://b5o03afs84ycy" path="res://Scenes/CardUI/Styleboxes/Grass/grass_drag_card_stylebox.tres" id="2_whrp2"]
+[ext_resource type="StyleBox" uid="uid://bsso4wr02vs2l" path="res://Scenes/CardUI/Styleboxes/Grass/grass_hover_card_stylebox.tres" id="3_0y5rb"]
+[ext_resource type="Texture2D" uid="uid://bb3rcs5nqntir" path="res://art/arrow.png" id="4_hvhln"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_rage_powder.gd" id="5_0c8pc"]
+[ext_resource type="AudioStream" uid="uid://df64e7qat73gs" path="res://art/block.ogg" id="6_krl56"]
+
+[resource]
+script = ExtResource("5_0c8pc")
+id = "grass_rage_powder"
+type = 1
+target = 0
+rarity = 1
+typing = 3
+cost = 2
+exhaust = false
+cardName = "Rage Powder"
+icon = ExtResource("4_hvhln")
+tooltip = "[center]Redirect all enemy targets to the user and gain [color='2fbff7']%s[/color] Block.[/center]"
+sound = ExtResource("6_krl56")
+cardBaseStylebox = ExtResource("1_0tcpj")
+cardDragStylebox = ExtResource("2_whrp2")
+cardHoverStylebox = ExtResource("3_0y5rb")

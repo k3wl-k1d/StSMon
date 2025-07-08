@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="BurnStatus" load_steps=3 format=3 uid="uid://d0iuwhx5dyui"]
+
+[ext_resource type="Texture2D" uid="uid://boklhiqs1414d" path="res://art/tile_0115.png" id="1_qvqkx"]
+[ext_resource type="Script" path="res://Statuses/burn.gd" id="2_70c77"]
+
+[resource]
+script = ExtResource("2_70c77")
+baseDamage = 4
+id = "burn"
+type = 0
+stackType = 0
+canExpire = true
+canBeNegative = false
+duration = 2
+stacks = 0
+name = "Burn"
+icon = ExtResource("1_qvqkx")
+tooltip = "Burn: For %s turns, take 10%% max health damage. Attacks deal 25%% less damage."

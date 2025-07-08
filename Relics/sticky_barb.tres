@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://dsj6uk6my5ly5"]
+
+[ext_resource type="Texture2D" uid="uid://bxa8pkakcodgw" path="res://art/tile_0082.png" id="1_vdvxx"]
+[ext_resource type="Script" path="res://Relics/sticky_barb.gd" id="2_g27p6"]
+
+[resource]
+script = ExtResource("2_g27p6")
+relicName = "Sticky Barb"
+id = "sticky_barb"
+type = 0
+characterType = 0
+typing = 0
+starter = false
+consumable = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_vdvxx")
+tooltip = "[color=\"ffdf00\"]Sticky Barb:[/color]
+Turn start, deal 2 damage to all enemies"

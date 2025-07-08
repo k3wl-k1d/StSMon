@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CharacterStats" load_steps=3 format=3 uid="uid://qdlnshnex7ww"]
+
+[ext_resource type="Script" path="res://Custom Resources/character_stats.gd" id="1_0qm10"]
+[ext_resource type="Resource" uid="uid://c785f3wudapx4" path="res://Character Attributes/starting_deck.tres" id="2_d2ebt"]
+
+[resource]
+script = ExtResource("1_0qm10")
+startingDeck = ExtResource("2_d2ebt")
+cardsPerTurn = 4
+maxMana = 3
+maxHealth = 45
+speed = 30

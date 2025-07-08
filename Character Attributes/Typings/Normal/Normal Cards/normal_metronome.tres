@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://c5lgo7vv6mm0u"]
+
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_4y25y"]
+[ext_resource type="Texture2D" uid="uid://c7xx3uproscj" path="res://art/tile_0128.png" id="1_chlpf"]
+[ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_3ekav"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_metronome.gd" id="2_uj3rq"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_i6xku"]
+[ext_resource type="AudioStream" uid="uid://df64e7qat73gs" path="res://art/block.ogg" id="3_qn0du"]
+
+[resource]
+script = ExtResource("2_uj3rq")
+id = "normal_metronome"
+type = 1
+target = 0
+rarity = 2
+typing = 0
+cost = 1
+exhaust = false
+cardName = "Metronome"
+icon = ExtResource("1_chlpf")
+tooltip = "Generate a random card. It costs 0. [R]"
+sound = ExtResource("3_qn0du")
+cardBaseStylebox = ExtResource("1_4y25y")
+cardDragStylebox = ExtResource("2_3ekav")
+cardHoverStylebox = ExtResource("3_i6xku")

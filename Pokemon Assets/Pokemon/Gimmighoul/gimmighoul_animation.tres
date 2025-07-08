@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" load_steps=2 format=3 uid="uid://dsohpwdh3aqhd"]
+
+[ext_resource type="Texture2D" uid="uid://qm8gweuuke0i" path="res://Pokemon Assets/Pokemon/Gimmighoul/gimmighoul.png" id="1_lcv6y"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_lcv6y")
+}],
+"loop": true,
+"name": &"gimmighoul",
+"speed": 5.0
+}]

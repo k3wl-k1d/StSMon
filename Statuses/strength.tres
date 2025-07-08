@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="StrengthStatus" load_steps=3 format=3 uid="uid://lox8ibwmpti3"]
+
+[ext_resource type="Texture2D" uid="uid://dgyg5jtari5ev" path="res://art/muscle.png" id="1_078m1"]
+[ext_resource type="Script" path="res://Statuses/strength.gd" id="2_o2jjh"]
+
+[resource]
+script = ExtResource("2_o2jjh")
+id = "strength"
+type = 2
+stackType = 1
+canExpire = false
+canBeNegative = false
+duration = 0
+stacks = 2
+name = "Strength"
+icon = ExtResource("1_078m1")
+tooltip = "Strength: Attacks deal +%s damage."

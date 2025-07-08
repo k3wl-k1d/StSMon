@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://x41bxqv82adw"]
+
+[ext_resource type="StyleBox" uid="uid://cii52y4iklkde" path="res://Scenes/CardUI/Styleboxes/Flying/flying_base_card_stylebox.tres" id="1_58knk"]
+[ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_xvsjc"]
+[ext_resource type="StyleBox" uid="uid://dvdytse782lf7" path="res://Scenes/CardUI/Styleboxes/Flying/flying_hover_card_stylebox.tres" id="3_jf7uu"]
+[ext_resource type="Texture2D" uid="uid://bxgrktox5it82" path="res://art/tile_0105.png" id="4_2665h"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_gust.gd" id="5_wo6eb"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_x5isc"]
+
+[resource]
+script = ExtResource("5_wo6eb")
+id = "flying_gust"
+type = 0
+target = 3
+rarity = 0
+typing = 12
+cost = 1
+exhaust = false
+cardName = "Gust"
+icon = ExtResource("4_2665h")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy and draw a card.[/center]"
+sound = ExtResource("6_x5isc")
+cardBaseStylebox = ExtResource("1_58knk")
+cardDragStylebox = ExtResource("2_xvsjc")
+cardHoverStylebox = ExtResource("3_jf7uu")

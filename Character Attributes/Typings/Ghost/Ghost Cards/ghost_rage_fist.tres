@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Card" load_steps=7 format=3 uid="uid://bl2qstaepn3ds"]
+
+[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_5n7ea"]
+[ext_resource type="Texture2D" uid="uid://ck1t4hdip6xrl" path="res://art/tile_0119.png" id="1_rx6ld"]
+[ext_resource type="StyleBox" uid="uid://cyhnloxa86n40" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_base_card_stylebox.tres" id="1_tw12w"]
+[ext_resource type="StyleBox" uid="uid://ca201cne2u1w4" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_drag_card_stylebox.tres" id="2_hp18g"]
+[ext_resource type="StyleBox" uid="uid://cosmxhmhdt3f2" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_hover_card_stylebox.tres" id="3_u05as"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_k184k"]
+
+[resource]
+script = ExtResource("1_5n7ea")
+id = "ghost_rage_fist"
+type = 0
+target = 3
+rarity = 2
+typing = 15
+cost = 2
+exhaust = false
+cardName = "Rage Fist"
+icon = ExtResource("1_rx6ld")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an enemy. If your ally is fainted, deal [color='f74a2f']%s[/color] Damage instead.[/center]"
+sound = ExtResource("6_k184k")
+cardBaseStylebox = ExtResource("1_tw12w")
+cardDragStylebox = ExtResource("2_hp18g")
+cardHoverStylebox = ExtResource("3_u05as")

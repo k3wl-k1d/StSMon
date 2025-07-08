@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://cvl12trbp1y6j"]
+
+[ext_resource type="StyleBox" uid="uid://dv63252xj1fc0" path="res://Scenes/CardUI/Styleboxes/Grass/grass_base_card_stylebox.tres" id="1_baqrr"]
+[ext_resource type="Texture2D" uid="uid://f7tgpjiguspe" path="res://art/tile_0129.png" id="1_ubg13"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_sleep_powder.gd" id="2_1nlaa"]
+[ext_resource type="StyleBox" uid="uid://b5o03afs84ycy" path="res://Scenes/CardUI/Styleboxes/Grass/grass_drag_card_stylebox.tres" id="2_lkma3"]
+[ext_resource type="StyleBox" uid="uid://bsso4wr02vs2l" path="res://Scenes/CardUI/Styleboxes/Grass/grass_hover_card_stylebox.tres" id="3_arq5a"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_tie13"]
+
+[resource]
+script = ExtResource("2_1nlaa")
+id = "grass_sleep_powder"
+type = 1
+target = 4
+rarity = 2
+typing = 3
+cost = 2
+exhaust = true
+cardName = "Sleep Powder"
+icon = ExtResource("1_ubg13")
+tooltip = "[center]Exhaust
+Apply [color='57f7d2']%s Sleep[/color] to all enemies.[/center]"
+sound = ExtResource("6_tie13")
+cardBaseStylebox = ExtResource("1_baqrr")
+cardDragStylebox = ExtResource("2_lkma3")
+cardHoverStylebox = ExtResource("3_arq5a")

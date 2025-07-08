@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://prf33dxhw1ea"]
+
+[ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="1_lv2tv"]
+[ext_resource type="Resource" uid="uid://cdy5f5h0ps80r" path="res://Enemy Attributes/Pecharunt/pecharunt.tres" id="2_gmnql"]
+
+[node name="Tier2Pecharunt" type="Node"]
+
+[node name="Enemy" parent="." instance=ExtResource("1_lv2tv")]
+position = Vector2(570, 197)
+stats = ExtResource("2_gmnql")

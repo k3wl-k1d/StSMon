@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" load_steps=2 format=3 uid="uid://bqdeclosxdkw8"]
+
+[ext_resource type="Texture2D" uid="uid://b8bq77uq4fif2" path="res://art/tile_0124.png" id="1_82wtu"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_82wtu")
+}],
+"loop": true,
+"name": &"stock_sprite",
+"speed": 5.0
+}]

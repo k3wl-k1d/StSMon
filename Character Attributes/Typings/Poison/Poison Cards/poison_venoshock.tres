@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://c41qmdmxbrq4s"]
+
+[ext_resource type="Texture2D" uid="uid://bxgrktox5it82" path="res://art/tile_0105.png" id="1_tqg1k"]
+[ext_resource type="StyleBox" uid="uid://dw6hxwgsb0i1n" path="res://Scenes/CardUI/Styleboxes/Poison/poison_base_card_stylebox.tres" id="1_yhywg"]
+[ext_resource type="StyleBox" uid="uid://dygi6qc47ydvn" path="res://Scenes/CardUI/Styleboxes/Poison/poison_drag_card_stylebox.tres" id="2_lqxmu"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_venoshock.gd" id="2_nbx6w"]
+[ext_resource type="StyleBox" uid="uid://4bmt4assscxi" path="res://Scenes/CardUI/Styleboxes/Poison/poison_hover_card_stylebox.tres" id="3_kuyu2"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_xvtmr"]
+
+[resource]
+script = ExtResource("2_nbx6w")
+id = "poison_venoshock"
+type = 0
+target = 3
+rarity = 1
+typing = 14
+cost = 2
+exhaust = false
+cardName = "Venoshock"
+icon = ExtResource("1_tqg1k")
+tooltip = "[center]Deal flat Damage equal to the target's [color='90249e']Poison[/color] stacks.[/center]"
+sound = ExtResource("6_xvtmr")
+cardBaseStylebox = ExtResource("1_yhywg")
+cardDragStylebox = ExtResource("2_lqxmu")
+cardHoverStylebox = ExtResource("3_kuyu2")

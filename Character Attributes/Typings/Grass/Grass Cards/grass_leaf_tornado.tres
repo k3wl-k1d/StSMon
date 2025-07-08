@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://bw2538r515wd4"]
+
+[ext_resource type="StyleBox" uid="uid://dv63252xj1fc0" path="res://Scenes/CardUI/Styleboxes/Grass/grass_base_card_stylebox.tres" id="1_2fry8"]
+[ext_resource type="StyleBox" uid="uid://b5o03afs84ycy" path="res://Scenes/CardUI/Styleboxes/Grass/grass_drag_card_stylebox.tres" id="2_p21c2"]
+[ext_resource type="StyleBox" uid="uid://bsso4wr02vs2l" path="res://Scenes/CardUI/Styleboxes/Grass/grass_hover_card_stylebox.tres" id="3_x8t4f"]
+[ext_resource type="Texture2D" uid="uid://cqcal03735mv8" path="res://art/tile_0118.png" id="4_di6am"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_leaf_tornado.gd" id="5_aqsdu"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_yl5xe"]
+
+[resource]
+script = ExtResource("5_aqsdu")
+id = "grass_leaf_tornado"
+type = 0
+target = 4
+rarity = 1
+typing = 3
+cost = 3
+exhaust = false
+cardName = "Leaf Tornado"
+icon = ExtResource("4_di6am")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies.[/center]"
+sound = ExtResource("6_yl5xe")
+cardBaseStylebox = ExtResource("1_2fry8")
+cardDragStylebox = ExtResource("2_p21c2")
+cardHoverStylebox = ExtResource("3_x8t4f")

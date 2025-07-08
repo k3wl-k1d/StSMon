@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://b5ndrr74s70ke"]
+
+[ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_l82qg"]
+[ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_kqvwi"]
+[ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_upth0"]
+[ext_resource type="Texture2D" uid="uid://bfvi02kojsa00" path="res://art/tile_0103.png" id="4_h034c"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dragon_claw.gd" id="5_fq1xx"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_fbec6"]
+
+[resource]
+script = ExtResource("5_fq1xx")
+id = "dragon_dragon_claw"
+type = 0
+target = 3
+rarity = 0
+typing = 16
+cost = 1
+exhaust = false
+cardName = "Dragon Claw"
+icon = ExtResource("4_h034c")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy.[/center]"
+sound = ExtResource("6_fbec6")
+cardBaseStylebox = ExtResource("1_l82qg")
+cardDragStylebox = ExtResource("2_kqvwi")
+cardHoverStylebox = ExtResource("3_upth0")

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://d032b6mg2ssrj"]
+
+[ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="1_2ebvp"]
+[ext_resource type="Resource" uid="uid://dbqi1d5fes1o7" path="res://Enemy Attributes/Caterpie/caterpie.tres" id="2_4kpx4"]
+
+[node name="Tier0Caterpie3" type="Node2D"]
+
+[node name="Enemy" parent="." instance=ExtResource("1_2ebvp")]
+position = Vector2(402, 278)
+stats = ExtResource("2_4kpx4")
+
+[node name="Enemy2" parent="." instance=ExtResource("1_2ebvp")]
+position = Vector2(505, 239)
+stats = ExtResource("2_4kpx4")
+
+[node name="Enemy3" parent="." instance=ExtResource("1_2ebvp")]
+position = Vector2(614, 275)
+stats = ExtResource("2_4kpx4")

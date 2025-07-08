@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="DetectStatus" load_steps=3 format=3 uid="uid://kmija8snx1f8"]
+
+[ext_resource type="Texture2D" uid="uid://oe7v35ii8vrs" path="res://art/tile_0102.png" id="1_buqop"]
+[ext_resource type="Script" path="res://Statuses/detect.gd" id="2_x0r8a"]
+
+[resource]
+script = ExtResource("2_x0r8a")
+id = "detect"
+type = 2
+stackType = 1
+canExpire = false
+canBeNegative = false
+duration = 0
+stacks = 2
+name = "Detect"
+icon = ExtResource("1_buqop")
+tooltip = "Detect: Take %s less damage from attacks."

@@ -1,0 +1,103 @@
+[gd_scene load_steps=12 format=3 uid="uid://ctcgsgdhgiihc"]
+
+[ext_resource type="FontFile" uid="uid://co4ihgn107xyw" path="res://Pokemon Assets/Fonts/pkmnems.ttf" id="1_6qove"]
+[ext_resource type="Texture2D" uid="uid://cxvb062yxb211" path="res://art/gold.png" id="2_0bhjr"]
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="2_5as05"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_4aepa"]
+[ext_resource type="Script" path="res://Scenes/UI/reward_button.gd" id="4_bjc0q"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bbnkf"]
+bg_color = Color(0.646029, 0.646029, 0.646029, 0.517647)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.493545, 0.493546, 0.493545, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2ml65"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_inbyi"]
+bg_color = Color(0.45098, 0.45098, 0.45098, 0.745098)
+border_color = Color(0.864883, 0.737315, 0.422368, 1)
+shadow_color = Color(0.866667, 0.737255, 0.423529, 0.529412)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oct3a"]
+bg_color = Color(0.294118, 0.294118, 0.294118, 0.745098)
+border_color = Color(0.493545, 0.493546, 0.493545, 1)
+shadow_size = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ftvoh"]
+bg_color = Color(0.722173, 0.690546, 0.653987, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.903956, 0.7321, 0, 1)
+shadow_color = Color(0.866667, 0.737255, 0.423529, 0.529412)
+
+[sub_resource type="Theme" id="Theme_ohniv"]
+default_font = ExtResource("1_6qove")
+default_font_size = 22
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_disabled_color = Color(0, 0, 0, 1)
+Button/colors/font_focus_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+Button/colors/font_outline_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(0, 0, 0, 1)
+Button/colors/icon_disabled_color = Color(0, 0, 0, 1)
+Button/colors/icon_focus_color = Color(0, 0, 0, 1)
+Button/colors/icon_hover_color = Color(0, 0, 0, 1)
+Button/colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+Button/colors/icon_normal_color = Color(0, 0, 0, 1)
+Button/colors/icon_pressed_color = Color(0, 0, 0, 1)
+Button/constants/align_to_largest_stylebox = 0
+Button/constants/h_separation = 0
+Button/constants/icon_max_width = 0
+Button/constants/outline_size = 0
+Button/font_sizes/font_size = 22
+Button/fonts/font = ExtResource("1_6qove")
+Button/styles/disabled = SubResource("StyleBoxFlat_bbnkf")
+Button/styles/focus = SubResource("StyleBoxEmpty_2ml65")
+Button/styles/hover = SubResource("StyleBoxFlat_inbyi")
+Button/styles/normal = SubResource("StyleBoxFlat_oct3a")
+Button/styles/pressed = SubResource("StyleBoxFlat_ftvoh")
+HBoxContainer/constants/separation = 0
+Panel/styles/panel = ExtResource("2_5as05")
+PanelContainer/styles/panel = ExtResource("3_4aepa")
+
+[node name="RewardButton" type="Button"]
+custom_minimum_size = Vector2(0, 28)
+offset_right = 150.0
+offset_bottom = 28.0
+theme = SubResource("Theme_ohniv")
+script = ExtResource("4_bjc0q")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="CustomIcon" type="TextureRect" parent="MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("2_0bhjr")
+stretch_mode = 5
+
+[node name="CustomText" type="Label" parent="MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "9999 gold"
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

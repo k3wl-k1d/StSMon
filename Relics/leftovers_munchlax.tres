@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bp2ognq13h7jq"]
+
+[ext_resource type="Texture2D" uid="uid://boklhiqs1414d" path="res://art/tile_0115.png" id="1_3lvfs"]
+[ext_resource type="Script" path="res://Relics/leftovers_munchlax.gd" id="2_dhvjv"]
+
+[resource]
+script = ExtResource("2_dhvjv")
+relicName = "Munchlax's Leftovers"
+id = "leftovers_munchlax"
+type = 2
+characterType = 1
+typing = 0
+starter = true
+consumable = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_3lvfs")
+tooltip = "[color=\"47cbff\"]Munchlax's Leftovers:[/color]
+Turn end, Munchlax heals 4 HP"

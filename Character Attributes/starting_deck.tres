@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardPile" load_steps=7 format=3 uid="uid://c785f3wudapx4"]
+
+[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_0xccl"]
+[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_2ma4l"]
+[ext_resource type="Resource" uid="uid://c3pdyii5yve6e" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_tackle.tres" id="2_l1bud"]
+[ext_resource type="Resource" uid="uid://bdc8p11bg6dw4" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_protect.tres" id="3_5ekhe"]
+[ext_resource type="Resource" uid="uid://d3yylfvwvtcds" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dragon_rush.tres" id="4_fdqrn"]
+[ext_resource type="Resource" uid="uid://b3tbi44kp0rbe" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_frenzy_plant.tres" id="5_udi64"]
+
+[resource]
+script = ExtResource("2_2ma4l")
+cards = Array[ExtResource("1_0xccl")]([ExtResource("2_l1bud"), ExtResource("2_l1bud"), ExtResource("2_l1bud"), ExtResource("2_l1bud"), ExtResource("3_5ekhe"), ExtResource("3_5ekhe"), ExtResource("4_fdqrn"), ExtResource("5_udi64")])

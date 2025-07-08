@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://b38gow7xkvayf"]
+
+[ext_resource type="StyleBox" uid="uid://dw6hxwgsb0i1n" path="res://Scenes/CardUI/Styleboxes/Poison/poison_base_card_stylebox.tres" id="1_5e2bh"]
+[ext_resource type="StyleBox" uid="uid://dygi6qc47ydvn" path="res://Scenes/CardUI/Styleboxes/Poison/poison_drag_card_stylebox.tres" id="2_sstcy"]
+[ext_resource type="StyleBox" uid="uid://4bmt4assscxi" path="res://Scenes/CardUI/Styleboxes/Poison/poison_hover_card_stylebox.tres" id="3_o413r"]
+[ext_resource type="Texture2D" uid="uid://c2xhttrclo1r7" path="res://art/tile_0116.png" id="4_v0tn8"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_poison_gas.gd" id="5_mj6wr"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_2rx10"]
+
+[resource]
+script = ExtResource("5_mj6wr")
+id = "poison_poison_gas"
+type = 1
+target = 4
+rarity = 1
+typing = 14
+cost = 2
+exhaust = false
+cardName = "Poison Gas"
+icon = ExtResource("4_v0tn8")
+tooltip = "[center]Apply [color='90249e']6 Poison[/color] to all enemies.[/center]"
+sound = ExtResource("6_2rx10")
+cardBaseStylebox = ExtResource("1_5e2bh")
+cardDragStylebox = ExtResource("2_sstcy")
+cardHoverStylebox = ExtResource("3_o413r")

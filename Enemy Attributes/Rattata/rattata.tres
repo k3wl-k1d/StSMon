@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="EnemyStats" load_steps=6 format=3 uid="uid://c2554tyhuoney"]
+
+[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="1_or3ab"]
+[ext_resource type="PackedScene" uid="uid://b7cfrckcq2fw" path="res://Enemy Attributes/Rattata/rattata_ai.tscn" id="1_si7v4"]
+[ext_resource type="SpriteFrames" uid="uid://g026eg0t0von" path="res://Pokemon Assets/Pokemon/Rattata/rattata_animation.tres" id="2_awybm"]
+[ext_resource type="Script" path="res://Custom Resources/status.gd" id="3_304yw"]
+[ext_resource type="Texture2D" uid="uid://bnkuicnjifaxj" path="res://Pokemon Assets/Pokemon/Rattata/rattata_icon.png" id="3_un34x"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_or3ab")
+ai = ExtResource("1_si7v4")
+name = "Rattata"
+maxHealth = 15
+entitySpeed = 72
+battleStartStatuses = Array[ExtResource("3_304yw")]([])
+animation = ExtResource("2_awybm")
+icon = ExtResource("3_un34x")

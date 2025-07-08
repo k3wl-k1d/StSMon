@@ -1,0 +1,54 @@
+[gd_scene load_steps=14 format=3 uid="uid://csn267ta1ynb4"]
+
+[ext_resource type="Script" path="res://Scenes/Entities/Enemy/enemy_action_picker.gd" id="1_3otk8"]
+[ext_resource type="Script" path="res://Enemy Attributes/Golbat/2x_attack_action.gd" id="2_jwfjc"]
+[ext_resource type="Texture2D" uid="uid://c6rme2o6dyaoj" path="res://art/tile_0104.png" id="3_ijisn"]
+[ext_resource type="Script" path="res://Custom Resources/intent.gd" id="4_nhwm0"]
+[ext_resource type="AudioStream" uid="uid://de2ryat1pxq6" path="res://art/enemy_attack.ogg" id="5_6tj1f"]
+[ext_resource type="Script" path="res://Enemy Attributes/Golbat/heal_attack_action.gd" id="6_2aj70"]
+[ext_resource type="Texture2D" uid="uid://c6rlnthwa4dy5" path="res://art/attack_negative.png" id="7_ehep0"]
+[ext_resource type="Script" path="res://Enemy Attributes/Golbat/block_action.gd" id="8_3o0w1"]
+[ext_resource type="Texture2D" uid="uid://bi6pfjs32f820" path="res://art/tile_0101.png" id="9_a5qbp"]
+[ext_resource type="AudioStream" uid="uid://k8m4o3hlwm7l" path="res://art/enemy_block.ogg" id="10_ck6ex"]
+
+[sub_resource type="Resource" id="Resource_waeke"]
+script = ExtResource("4_nhwm0")
+baseText = "2x%s"
+icon = ExtResource("3_ijisn")
+
+[sub_resource type="Resource" id="Resource_otban"]
+script = ExtResource("4_nhwm0")
+baseText = "%s"
+icon = ExtResource("7_ehep0")
+
+[sub_resource type="Resource" id="Resource_d4y4v"]
+script = ExtResource("4_nhwm0")
+baseText = "%s"
+icon = ExtResource("9_a5qbp")
+
+[node name="GolbatAI" type="Node"]
+script = ExtResource("1_3otk8")
+
+[node name="2xAttackAction" type="Node" parent="."]
+script = ExtResource("2_jwfjc")
+intent = SubResource("Resource_waeke")
+type = 1
+actionName = "Dual Wingbeat"
+sound = ExtResource("5_6tj1f")
+chanceWeight = 0.5
+
+[node name="HealAttackAction" type="Node" parent="."]
+script = ExtResource("6_2aj70")
+intent = SubResource("Resource_otban")
+type = 1
+actionName = "Leech Life"
+sound = ExtResource("5_6tj1f")
+chanceWeight = 0.3
+
+[node name="BlockAction" type="Node" parent="."]
+script = ExtResource("8_3o0w1")
+intent = SubResource("Resource_d4y4v")
+type = 1
+actionName = "Protect"
+sound = ExtResource("10_ck6ex")
+chanceWeight = 0.2

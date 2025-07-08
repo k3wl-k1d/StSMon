@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://c4k1qqwk7rbsj"]
+
+[ext_resource type="StyleBox" uid="uid://cyhnloxa86n40" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_base_card_stylebox.tres" id="1_jw4fr"]
+[ext_resource type="Texture2D" uid="uid://c24y6l0ivlqp7" path="res://art/tile_0108.png" id="1_puepd"]
+[ext_resource type="StyleBox" uid="uid://ca201cne2u1w4" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_drag_card_stylebox.tres" id="2_83b1e"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_ominous_wind.gd" id="2_ovlao"]
+[ext_resource type="StyleBox" uid="uid://cosmxhmhdt3f2" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_hover_card_stylebox.tres" id="3_jp2lf"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_einyc"]
+
+[resource]
+script = ExtResource("2_ovlao")
+id = "ghost_ominous_wind"
+type = 0
+target = 4
+rarity = 1
+typing = 15
+cost = 2
+exhaust = false
+cardName = "Ominous Wind"
+icon = ExtResource("1_puepd")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage and apply [color='3e1a91']4 Curse[/color] to all enemies.[/center]"
+sound = ExtResource("6_einyc")
+cardBaseStylebox = ExtResource("1_jw4fr")
+cardDragStylebox = ExtResource("2_83b1e")
+cardHoverStylebox = ExtResource("3_jp2lf")

@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="EnemyStats" load_steps=7 format=3 uid="uid://cdy5f5h0ps80r"]
+
+[ext_resource type="Script" path="res://Custom Resources/status.gd" id="1_jloxa"]
+[ext_resource type="PackedScene" uid="uid://b2dlg3l50fbw1" path="res://Enemy Attributes/Pecharunt/pecharunt_ai.tscn" id="1_ofl4g"]
+[ext_resource type="Texture2D" uid="uid://bbi3qx2r0vab7" path="res://Pokemon Assets/Pokemon/Pecharunt/1025_pecharunt.png" id="1_pv0wo"]
+[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="2_4j680"]
+[ext_resource type="Texture2D" uid="uid://bq2bvwv5rsqgo" path="res://Pokemon Assets/Pokemon/Pecharunt/pecharunt_icon.png" id="3_yrcik"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_26kyn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_pv0wo")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[resource]
+script = ExtResource("2_4j680")
+ai = ExtResource("1_ofl4g")
+name = "Pecharunt"
+maxHealth = 88
+entitySpeed = 88
+battleStartStatuses = Array[ExtResource("1_jloxa")]([])
+animation = SubResource("SpriteFrames_26kyn")
+icon = ExtResource("3_yrcik")

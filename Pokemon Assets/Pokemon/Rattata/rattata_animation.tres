@@ -1,0 +1,158 @@
+[gd_resource type="SpriteFrames" load_steps=23 format=3 uid="uid://g026eg0t0von"]
+
+[ext_resource type="Texture2D" uid="uid://m0bxint5oewp" path="res://Pokemon Assets/Pokemon/Rattata/19_rattata.png" id="1_y2dti"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xarbn"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(320, 0, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_28mx1"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(256, 0, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qdrre"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(192, 0, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dmlu6"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(128, 0, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_osisw"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(64, 0, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_avx5t"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(0, 0, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3vey3"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(384, 0, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d3k7r"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(448, 0, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u3ld0"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(512, 0, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rod10"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(0, 63, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m2hp6"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(64, 63, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tku6e"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(128, 63, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ebf0y"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(192, 63, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ju17r"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(256, 63, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uoi17"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(320, 63, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1tei6"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(384, 63, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yr7ik"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(448, 63, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qan4n"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(512, 63, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ecsj"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(0, 126, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iy47i"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(64, 126, 64, 63)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_35g6o"]
+atlas = ExtResource("1_y2dti")
+region = Rect2(128, 126, 64, 63)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xarbn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_28mx1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qdrre")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dmlu6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_osisw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_avx5t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3vey3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d3k7r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u3ld0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rod10")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m2hp6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tku6e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ebf0y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ju17r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uoi17")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1tei6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yr7ik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qan4n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ecsj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iy47i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_35g6o")
+}],
+"loop": true,
+"name": &"rattata",
+"speed": 8.0
+}]

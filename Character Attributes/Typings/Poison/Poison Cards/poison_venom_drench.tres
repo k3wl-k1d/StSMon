@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://du72ei5v551d6"]
+
+[ext_resource type="StyleBox" uid="uid://dw6hxwgsb0i1n" path="res://Scenes/CardUI/Styleboxes/Poison/poison_base_card_stylebox.tres" id="1_qjifk"]
+[ext_resource type="StyleBox" uid="uid://dygi6qc47ydvn" path="res://Scenes/CardUI/Styleboxes/Poison/poison_drag_card_stylebox.tres" id="2_87r3s"]
+[ext_resource type="StyleBox" uid="uid://4bmt4assscxi" path="res://Scenes/CardUI/Styleboxes/Poison/poison_hover_card_stylebox.tres" id="3_6o151"]
+[ext_resource type="Texture2D" uid="uid://psr6xk3k26oh" path="res://art/tile_0114.png" id="4_rvpf2"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_venom_drench.gd" id="5_phe3s"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_fy6v7"]
+
+[resource]
+script = ExtResource("5_phe3s")
+id = "poison_venom_drench"
+type = 2
+target = 3
+rarity = 2
+typing = 14
+cost = 3
+exhaust = false
+cardName = "Venom Drench"
+icon = ExtResource("4_rvpf2")
+tooltip = "[center]Turn start, [color='90249e']Poison[/color] is doubled instead. Apply [color='90249e']6 Poison[/color].[/center]"
+sound = ExtResource("6_fy6v7")
+cardBaseStylebox = ExtResource("1_qjifk")
+cardDragStylebox = ExtResource("2_87r3s")
+cardHoverStylebox = ExtResource("3_6o151")

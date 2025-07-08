@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://bouqte6pcxl5n"]
+
+[ext_resource type="StyleBox" uid="uid://dw6hxwgsb0i1n" path="res://Scenes/CardUI/Styleboxes/Poison/poison_base_card_stylebox.tres" id="1_ysk5c"]
+[ext_resource type="StyleBox" uid="uid://dygi6qc47ydvn" path="res://Scenes/CardUI/Styleboxes/Poison/poison_drag_card_stylebox.tres" id="2_q0j7h"]
+[ext_resource type="StyleBox" uid="uid://4bmt4assscxi" path="res://Scenes/CardUI/Styleboxes/Poison/poison_hover_card_stylebox.tres" id="3_uo72p"]
+[ext_resource type="Texture2D" uid="uid://c7xx3uproscj" path="res://art/tile_0128.png" id="4_l0u2d"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_toxic.gd" id="5_8plty"]
+[ext_resource type="AudioStream" uid="uid://df64e7qat73gs" path="res://art/block.ogg" id="6_22era"]
+
+[resource]
+script = ExtResource("5_8plty")
+id = "poison_toxic"
+type = 1
+target = 3
+rarity = 0
+typing = 14
+cost = 1
+exhaust = false
+cardName = "Toxic"
+icon = ExtResource("4_l0u2d")
+tooltip = "[center]Apply [color='90249e']4 Poison[/color] to an enemy.[/center]"
+sound = ExtResource("6_22era")
+cardBaseStylebox = ExtResource("1_ysk5c")
+cardDragStylebox = ExtResource("2_q0j7h")
+cardHoverStylebox = ExtResource("3_uo72p")

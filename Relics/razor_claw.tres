@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bactflx2hj4vw"]
+
+[ext_resource type="Script" path="res://Relics/razor_claw.gd" id="1_jo53e"]
+[ext_resource type="Texture2D" uid="uid://con6y7mc74c5a" path="res://art/tile_0120.png" id="1_q35tv"]
+
+[resource]
+script = ExtResource("1_jo53e")
+attacksRequired = 4
+relicName = "Razor Claw"
+id = "razor_claw"
+type = 4
+characterType = 0
+typing = 0
+starter = false
+consumable = false
+shouldDisplayStacks = true
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_q35tv")
+tooltip = "[color=\"ffdf00\"]Cell Battery:[/color]
+Upon playing 4 attack cards, raise the Crit meter by 1"

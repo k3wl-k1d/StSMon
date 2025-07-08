@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://ddg7r0af8cxxb"]
+
+[ext_resource type="Texture2D" uid="uid://bi6pfjs32f820" path="res://art/tile_0101.png" id="1_5cjw1"]
+[ext_resource type="Script" path="res://Statuses/guarded.gd" id="2_f82gj"]
+
+[resource]
+script = ExtResource("2_f82gj")
+id = "guarded"
+type = 0
+stackType = 2
+canExpire = true
+canBeNegative = false
+duration = 2
+stacks = 0
+name = "Guarded"
+icon = ExtResource("1_5cjw1")
+tooltip = "Guarded: Take 50%% less damage for %s turns."

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardPile" load_steps=15 format=3 uid="uid://bw6bkvj863qnb"]
+
+[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_koxgl"]
+[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_bnn5u"]
+[ext_resource type="Resource" uid="uid://cq6kwart48fu6" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_slash.tres" id="2_fcfjq"]
+[ext_resource type="Resource" uid="uid://dya0n0jmppu27" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_takedown.tres" id="2_svv00"]
+[ext_resource type="Resource" uid="uid://cutasm8mp4aka" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_sharpen.tres" id="3_11gxo"]
+[ext_resource type="Resource" uid="uid://1w472uaf5q6m" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_helping_hand.tres" id="3_555j6"]
+[ext_resource type="Resource" uid="uid://ba725c68ytuwl" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_tail_slap.tres" id="4_ivcu8"]
+[ext_resource type="Resource" uid="uid://cycgpew4047oq" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_payday.tres" id="4_jejvc"]
+[ext_resource type="Resource" uid="uid://bywnhdsryius5" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_follow_me.tres" id="5_fkfy3"]
+[ext_resource type="Resource" uid="uid://v0gdgjweju64" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_swift.tres" id="9_wa8fr"]
+[ext_resource type="Resource" uid="uid://c5lgo7vv6mm0u" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_metronome.tres" id="9_wwbfk"]
+[ext_resource type="Resource" uid="uid://b8xvr6kkw0op" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_acupressure.tres" id="10_3idlp"]
+[ext_resource type="Resource" uid="uid://d3bojqislwpj3" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_thrash.tres" id="12_lk4yj"]
+[ext_resource type="Resource" uid="uid://qf100u2r7lff" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_endure.tres" id="13_odyuo"]
+
+[resource]
+script = ExtResource("2_bnn5u")
+cards = Array[ExtResource("1_koxgl")]([ExtResource("10_3idlp"), ExtResource("5_fkfy3"), ExtResource("3_555j6"), ExtResource("9_wwbfk"), ExtResource("4_jejvc"), ExtResource("3_11gxo"), ExtResource("2_fcfjq"), ExtResource("9_wa8fr"), ExtResource("4_ivcu8"), ExtResource("2_svv00"), ExtResource("12_lk4yj"), ExtResource("13_odyuo")])

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://c0xle6j2bgoop"]
+
+[ext_resource type="Texture2D" uid="uid://44jbm5bqr4k" path="res://art/tile_0117.png" id="1_1xjpd"]
+[ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_laxca"]
+[ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_co07k"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dragon_rage.gd" id="2_r23bj"]
+[ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_pfye2"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_qbm13"]
+
+[resource]
+script = ExtResource("2_r23bj")
+id = "dragon_dragon_rage"
+type = 0
+target = 3
+rarity = 1
+typing = 16
+cost = 2
+exhaust = false
+cardName = "Dragon Rage"
+icon = ExtResource("1_1xjpd")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage, increased by %s for every time you've used this card this battle.[/center]"
+sound = ExtResource("6_qbm13")
+cardBaseStylebox = ExtResource("1_laxca")
+cardDragStylebox = ExtResource("2_co07k")
+cardHoverStylebox = ExtResource("3_pfye2")

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://bio0quwifbwvh"]
+
+[ext_resource type="Texture2D" uid="uid://bxa8pkakcodgw" path="res://art/tile_0082.png" id="1_3joaf"]
+[ext_resource type="StyleBox" uid="uid://cii52y4iklkde" path="res://Scenes/CardUI/Styleboxes/Flying/flying_base_card_stylebox.tres" id="1_lcka6"]
+[ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_4pyov"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_bounce.gd" id="2_k5nq5"]
+[ext_resource type="StyleBox" uid="uid://dvdytse782lf7" path="res://Scenes/CardUI/Styleboxes/Flying/flying_hover_card_stylebox.tres" id="3_wavvt"]
+[ext_resource type="AudioStream" uid="uid://df64e7qat73gs" path="res://art/block.ogg" id="6_g25w0"]
+
+[resource]
+script = ExtResource("2_k5nq5")
+id = "flying_bounce"
+type = 1
+target = 0
+rarity = 1
+typing = 12
+cost = 2
+exhaust = false
+cardName = "Bounce"
+icon = ExtResource("1_3joaf")
+tooltip = "[center]Gain [color='2fbff7']%s[/color] Block and [color='34eba8']1 Haste[/color]. Draw a card.[/center]"
+sound = ExtResource("6_g25w0")
+cardBaseStylebox = ExtResource("1_lcka6")
+cardDragStylebox = ExtResource("2_4pyov")
+cardHoverStylebox = ExtResource("3_wavvt")

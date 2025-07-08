@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyStats" load_steps=6 format=3 uid="uid://dbqi1d5fes1o7"]
+
+[ext_resource type="PackedScene" uid="uid://bbuwbnk37x81x" path="res://Enemy Attributes/Caterpie/caterpie_ai.tscn" id="1_14ytk"]
+[ext_resource type="Script" path="res://Custom Resources/status.gd" id="1_xawlj"]
+[ext_resource type="SpriteFrames" uid="uid://d1y7to11boi1j" path="res://Pokemon Assets/Pokemon/Caterpie/caterpie_animation.tres" id="2_0c4ey"]
+[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="2_6nuaj"]
+[ext_resource type="Texture2D" uid="uid://dhs2hg8vv3jt8" path="res://Pokemon Assets/Pokemon/Caterpie/caterpie_icon.png" id="4_d4jnd"]
+
+[resource]
+script = ExtResource("2_6nuaj")
+ai = ExtResource("1_14ytk")
+name = "Caterpie"
+maxHealth = 6
+entitySpeed = 45
+battleStartStatuses = Array[ExtResource("1_xawlj")]([])
+animation = ExtResource("2_0c4ey")
+icon = ExtResource("4_d4jnd")

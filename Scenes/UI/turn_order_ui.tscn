@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://buga4toas8bo0"]
+
+[ext_resource type="Script" path="res://Scenes/UI/turn_order_ui.gd" id="1_vr28t"]
+
+[node name="TurnOrderUI" type="VBoxContainer"]
+offset_right = 43.0
+offset_bottom = 18.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_constants/separation = 0
+script = ExtResource("1_vr28t")

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bjvpn65ckpcw"]
+
+[ext_resource type="Texture2D" uid="uid://psr6xk3k26oh" path="res://art/tile_0114.png" id="1_p32sm"]
+[ext_resource type="Script" path="res://Relics/cell_battery.gd" id="2_2p14y"]
+
+[resource]
+script = ExtResource("2_2p14y")
+skills_required = 3
+damage = 5
+relicName = "Cell Battery"
+id = "cell_battery"
+type = 4
+characterType = 0
+typing = 0
+starter = false
+consumable = false
+shouldDisplayStacks = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_p32sm")
+tooltip = "[color=\"ffdf00\"]Cell Battery:[/color]
+Upon playing 3 skill cards in a turn, deal 5 damage to all enemies"

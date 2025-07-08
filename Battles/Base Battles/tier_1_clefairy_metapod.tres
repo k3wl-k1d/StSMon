@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="BattleStats" load_steps=3 format=3 uid="uid://d3lcudol0dfr7"]
+
+[ext_resource type="Script" path="res://Custom Resources/battle_stats.gd" id="1_1sc3o"]
+[ext_resource type="PackedScene" uid="uid://c17a3hmcucsrs" path="res://Battles/Base Battles/tier_1_clefairy_metapod_1.tscn" id="1_26mh7"]
+
+[resource]
+script = ExtResource("1_1sc3o")
+battleTier = 1
+weight = 0.5
+goldMin = 30
+goldMax = 42
+enemies = ExtResource("1_26mh7")

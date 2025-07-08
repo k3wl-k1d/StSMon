@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="VenomDrenchPower" load_steps=3 format=3 uid="uid://b2s6t6oke7fai"]
+
+[ext_resource type="Texture2D" uid="uid://psr6xk3k26oh" path="res://art/tile_0114.png" id="1_m1edn"]
+[ext_resource type="Script" path="res://Statuses/Powers/venom_drench_power.gd" id="2_a5715"]
+
+[resource]
+script = ExtResource("2_a5715")
+id = "venom_drench_power"
+type = 0
+stackType = 0
+canExpire = false
+canBeNegative = false
+duration = 0
+stacks = 0
+name = "Venom Drench"
+icon = ExtResource("1_m1edn")
+tooltip = "Venom Drenched: Turn start, double my Poison stacks."

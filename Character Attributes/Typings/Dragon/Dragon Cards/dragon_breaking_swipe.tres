@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://cmb6pb64bvc0n"]
+
+[ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_y2dux"]
+[ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_53pw8"]
+[ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_de2ow"]
+[ext_resource type="Texture2D" uid="uid://ck1t4hdip6xrl" path="res://art/tile_0119.png" id="4_cqc5l"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_breaking_swipe.gd" id="5_rxu12"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_3bjbk"]
+
+[resource]
+script = ExtResource("5_rxu12")
+id = "dragon_breaking_swipe"
+type = 0
+target = 4
+rarity = 0
+typing = 16
+cost = 1
+exhaust = false
+cardName = "Breaking Swipe"
+icon = ExtResource("4_cqc5l")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage and apply [color='bd6500']2 Intimidation[/color] to all Enemies.[/center]"
+sound = ExtResource("6_3bjbk")
+cardBaseStylebox = ExtResource("1_y2dux")
+cardDragStylebox = ExtResource("2_53pw8")
+cardHoverStylebox = ExtResource("3_de2ow")

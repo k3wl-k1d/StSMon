@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://cq6kwart48fu6"]
+
+[ext_resource type="Texture2D" uid="uid://cqcal03735mv8" path="res://art/tile_0118.png" id="1_acfnv"]
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_s4ch3"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_slash.gd" id="2_b5you"]
+[ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_n8gbm"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="3_k3gus"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_w30f3"]
+
+[resource]
+script = ExtResource("2_b5you")
+id = "normal_slash"
+type = 0
+target = 4
+rarity = 0
+typing = 0
+cost = 2
+exhaust = false
+cardName = "Slash"
+icon = ExtResource("1_acfnv")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies.[/center]"
+sound = ExtResource("3_k3gus")
+cardBaseStylebox = ExtResource("1_s4ch3")
+cardDragStylebox = ExtResource("2_n8gbm")
+cardHoverStylebox = ExtResource("3_w30f3")

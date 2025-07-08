@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://b0imqemk7gi1o"]
+
+[ext_resource type="Script" path="res://Relics/black_glasses.gd" id="1_v8k7i"]
+[ext_resource type="Texture2D" uid="uid://b8bq77uq4fif2" path="res://art/tile_0124.png" id="1_xaqgy"]
+
+[resource]
+script = ExtResource("1_v8k7i")
+relicName = "Black Glasses"
+id = "black_glasses"
+type = 1
+characterType = 0
+typing = 0
+starter = false
+consumable = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_xaqgy")
+tooltip = "[color=\"ffdf00\"]Black Glasses:[/color]
+Gain 1 extra PP at the start of each turn but you can no longer see enemy intents"

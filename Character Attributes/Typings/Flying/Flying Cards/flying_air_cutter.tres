@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://b06r4kfugrf26"]
+
+[ext_resource type="StyleBox" uid="uid://cii52y4iklkde" path="res://Scenes/CardUI/Styleboxes/Flying/flying_base_card_stylebox.tres" id="1_rc5ny"]
+[ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_7n0ky"]
+[ext_resource type="StyleBox" uid="uid://dvdytse782lf7" path="res://Scenes/CardUI/Styleboxes/Flying/flying_hover_card_stylebox.tres" id="3_ga7kw"]
+[ext_resource type="Texture2D" uid="uid://cqcal03735mv8" path="res://art/tile_0118.png" id="4_lreoa"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_air_cutter.gd" id="5_kcvfr"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_vsu48"]
+
+[resource]
+script = ExtResource("5_kcvfr")
+id = "flying_air_cutter"
+type = 0
+target = 4
+rarity = 0
+typing = 12
+cost = 1
+exhaust = false
+cardName = "Air Cutter"
+icon = ExtResource("4_lreoa")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies.[/center]"
+sound = ExtResource("6_vsu48")
+cardBaseStylebox = ExtResource("1_rc5ny")
+cardDragStylebox = ExtResource("2_7n0ky")
+cardHoverStylebox = ExtResource("3_ga7kw")

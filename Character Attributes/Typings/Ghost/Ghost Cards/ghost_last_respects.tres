@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://t346o38dvpnv"]
+
+[ext_resource type="Texture2D" uid="uid://bxgrktox5it82" path="res://art/tile_0105.png" id="1_5efbf"]
+[ext_resource type="StyleBox" uid="uid://cyhnloxa86n40" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_base_card_stylebox.tres" id="1_sv2vd"]
+[ext_resource type="StyleBox" uid="uid://ca201cne2u1w4" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_drag_card_stylebox.tres" id="2_kih3x"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_last_respects.gd" id="2_nvi0v"]
+[ext_resource type="StyleBox" uid="uid://cosmxhmhdt3f2" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_hover_card_stylebox.tres" id="3_l4ud3"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_n85py"]
+
+[resource]
+script = ExtResource("2_nvi0v")
+id = "ghost_last_respects"
+type = 0
+target = 4
+rarity = 2
+typing = 15
+cost = 2
+exhaust = false
+cardName = "Last Respects"
+icon = ExtResource("1_5efbf")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all enemies. When an ally faints, permanently increase my damage by 10.[/center]"
+sound = ExtResource("6_n85py")
+cardBaseStylebox = ExtResource("1_sv2vd")
+cardDragStylebox = ExtResource("2_kih3x")
+cardHoverStylebox = ExtResource("3_l4ud3")

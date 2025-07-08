@@ -1,0 +1,40 @@
+[gd_scene load_steps=9 format=3 uid="uid://24bj427a3r3s"]
+
+[ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="1_ixwk0"]
+[ext_resource type="PackedScene" uid="uid://cbf7mxnth6of" path="res://Enemy Attributes/Zubat/zubat_ai.tscn" id="2_ksmnv"]
+[ext_resource type="SpriteFrames" uid="uid://guridbhhulb7" path="res://Pokemon Assets/Pokemon/Zubat/zubat_animation.tres" id="3_f873j"]
+[ext_resource type="Script" path="res://Custom Resources/status.gd" id="4_ik1my"]
+[ext_resource type="Texture2D" uid="uid://texi34ehy7on" path="res://Pokemon Assets/Pokemon/Zubat/zubat_icon.png" id="5_so85m"]
+[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="6_idtds"]
+
+[sub_resource type="Resource" id="Resource_mb5nx"]
+resource_local_to_scene = true
+script = ExtResource("6_idtds")
+ai = ExtResource("2_ksmnv")
+name = "Zubat"
+maxHealth = 8
+entitySpeed = 55
+battleStartStatuses = Array[ExtResource("4_ik1my")]([])
+animation = ExtResource("3_f873j")
+icon = ExtResource("5_so85m")
+
+[sub_resource type="Resource" id="Resource_obi05"]
+resource_local_to_scene = true
+script = ExtResource("6_idtds")
+ai = ExtResource("2_ksmnv")
+name = "Zubat"
+maxHealth = 8
+entitySpeed = 55
+battleStartStatuses = Array[ExtResource("4_ik1my")]([])
+animation = ExtResource("3_f873j")
+icon = ExtResource("5_so85m")
+
+[node name="Tier0Zubat2" type="Node2D"]
+
+[node name="Enemy" parent="." instance=ExtResource("1_ixwk0")]
+position = Vector2(618, 153)
+stats = SubResource("Resource_mb5nx")
+
+[node name="Enemy2" parent="." instance=ExtResource("1_ixwk0")]
+position = Vector2(483, 246)
+stats = SubResource("Resource_obi05")

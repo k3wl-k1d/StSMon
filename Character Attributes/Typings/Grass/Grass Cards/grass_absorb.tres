@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://13b2jjqoqca3"]
+
+[ext_resource type="StyleBox" uid="uid://dv63252xj1fc0" path="res://Scenes/CardUI/Styleboxes/Grass/grass_base_card_stylebox.tres" id="1_wv84w"]
+[ext_resource type="StyleBox" uid="uid://b5o03afs84ycy" path="res://Scenes/CardUI/Styleboxes/Grass/grass_drag_card_stylebox.tres" id="2_2mpun"]
+[ext_resource type="StyleBox" uid="uid://bsso4wr02vs2l" path="res://Scenes/CardUI/Styleboxes/Grass/grass_hover_card_stylebox.tres" id="3_kjaor"]
+[ext_resource type="Texture2D" uid="uid://bfvi02kojsa00" path="res://art/tile_0103.png" id="4_l7fnw"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_absorb.gd" id="5_u0j30"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_78g87"]
+
+[resource]
+script = ExtResource("5_u0j30")
+id = "grass_absorb"
+type = 0
+target = 3
+rarity = 0
+typing = 3
+cost = 1
+exhaust = false
+cardName = "Absorb"
+icon = ExtResource("4_l7fnw")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy and heal [color='32a852']%s[/color] health.[/center]"
+sound = ExtResource("6_78g87")
+cardBaseStylebox = ExtResource("1_wv84w")
+cardDragStylebox = ExtResource("2_2mpun")
+cardHoverStylebox = ExtResource("3_kjaor")

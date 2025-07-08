@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bvesadrc1xh5g"]
+
+[ext_resource type="Texture2D" uid="uid://dwwohw571cr2a" path="res://art/tile_0092.png" id="1_bq036"]
+[ext_resource type="Script" path="res://Relics/spell_tag.gd" id="2_opfqk"]
+
+[resource]
+script = ExtResource("2_opfqk")
+relicName = "Spell Tag"
+id = "spell_tag"
+type = 1
+characterType = 0
+typing = 16
+starter = false
+consumable = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_bq036")
+tooltip = "[color=\"ffdf00\"]Spell Tag:[/color]
+Your attack-card damage is dealt as [color='3e1a91']Curses[/color] but your team bears unbearable repercussions"

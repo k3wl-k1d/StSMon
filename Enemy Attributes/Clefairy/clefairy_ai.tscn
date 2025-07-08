@@ -1,0 +1,68 @@
+[gd_scene load_steps=18 format=3 uid="uid://btomku2lj3ojh"]
+
+[ext_resource type="Script" path="res://Scenes/Entities/Enemy/enemy_action_picker.gd" id="1_kvefr"]
+[ext_resource type="Script" path="res://Enemy Attributes/Clefairy/clefairy_attack_action.gd" id="2_blh52"]
+[ext_resource type="Texture2D" uid="uid://c6rme2o6dyaoj" path="res://art/tile_0104.png" id="3_k340c"]
+[ext_resource type="Script" path="res://Custom Resources/intent.gd" id="4_kwvdh"]
+[ext_resource type="AudioStream" uid="uid://de2ryat1pxq6" path="res://art/enemy_attack.ogg" id="5_8o7x5"]
+[ext_resource type="Script" path="res://Enemy Attributes/Clefairy/clefairy_heal_attack_action.gd" id="6_3b3k2"]
+[ext_resource type="Texture2D" uid="uid://c6rlnthwa4dy5" path="res://art/attack_negative.png" id="7_xjrjk"]
+[ext_resource type="Script" path="res://Enemy Attributes/Clefairy/clefairy_block_action.gd" id="8_lxyqo"]
+[ext_resource type="Texture2D" uid="uid://bi6pfjs32f820" path="res://art/tile_0101.png" id="9_wp7j8"]
+[ext_resource type="AudioStream" uid="uid://k8m4o3hlwm7l" path="res://art/enemy_block.ogg" id="10_8ev1x"]
+[ext_resource type="Script" path="res://Enemy Attributes/Clefairy/clefairy_buff_action.gd" id="11_fjgn6"]
+[ext_resource type="Texture2D" uid="uid://d0edy7thj8ce6" path="res://art/heart.png" id="12_6sswl"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="13_f3vsl"]
+
+[sub_resource type="Resource" id="Resource_2xgok"]
+script = ExtResource("4_kwvdh")
+baseText = "%s"
+icon = ExtResource("3_k340c")
+
+[sub_resource type="Resource" id="Resource_snigu"]
+script = ExtResource("4_kwvdh")
+baseText = "%s"
+icon = ExtResource("7_xjrjk")
+
+[sub_resource type="Resource" id="Resource_a2s1h"]
+script = ExtResource("4_kwvdh")
+baseText = "%s"
+icon = ExtResource("9_wp7j8")
+
+[sub_resource type="Resource" id="Resource_0d63o"]
+script = ExtResource("4_kwvdh")
+baseText = ""
+icon = ExtResource("12_6sswl")
+
+[node name="ClefairyAI" type="Node"]
+script = ExtResource("1_kvefr")
+
+[node name="SpreadAttackAction" type="Node" parent="."]
+script = ExtResource("2_blh52")
+intent = SubResource("Resource_2xgok")
+type = 1
+actionName = "Dazzling Gleam"
+sound = ExtResource("5_8o7x5")
+chanceWeight = 2.0
+
+[node name="HealAttackAction" type="Node" parent="."]
+script = ExtResource("6_3b3k2")
+intent = SubResource("Resource_snigu")
+type = 1
+actionName = "Draining Kiss"
+sound = ExtResource("5_8o7x5")
+chanceWeight = 1.0
+
+[node name="BlockAction" type="Node" parent="."]
+script = ExtResource("8_lxyqo")
+intent = SubResource("Resource_a2s1h")
+type = 1
+actionName = "Protect"
+sound = ExtResource("10_8ev1x")
+chanceWeight = 2.0
+
+[node name="BuffAction" type="Node" parent="."]
+script = ExtResource("11_fjgn6")
+intent = SubResource("Resource_0d63o")
+actionName = "Calm Mind"
+sound = ExtResource("13_f3vsl")

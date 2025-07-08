@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://cmenhm8iis6wm"]
+
+[ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_umxfb"]
+[ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_piosv"]
+[ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_dns2q"]
+[ext_resource type="Texture2D" uid="uid://cqcal03735mv8" path="res://art/tile_0118.png" id="4_kd80c"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_twister.gd" id="5_5sfox"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_pxyol"]
+
+[resource]
+script = ExtResource("5_5sfox")
+id = "dragon_twister"
+type = 0
+target = 4
+rarity = 0
+typing = 16
+cost = 2
+exhaust = false
+cardName = "Twister"
+icon = ExtResource("4_kd80c")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies.[/center]"
+sound = ExtResource("6_pxyol")
+cardBaseStylebox = ExtResource("1_umxfb")
+cardDragStylebox = ExtResource("2_piosv")
+cardHoverStylebox = ExtResource("3_dns2q")

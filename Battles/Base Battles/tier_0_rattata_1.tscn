@@ -1,0 +1,25 @@
+[gd_scene load_steps=8 format=3 uid="uid://bpkuuxe43udm8"]
+
+[ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="1_xxeup"]
+[ext_resource type="PackedScene" uid="uid://b7cfrckcq2fw" path="res://Enemy Attributes/Rattata/rattata_ai.tscn" id="2_pr88g"]
+[ext_resource type="SpriteFrames" uid="uid://g026eg0t0von" path="res://Pokemon Assets/Pokemon/Rattata/rattata_animation.tres" id="3_umcoq"]
+[ext_resource type="Script" path="res://Custom Resources/status.gd" id="4_htdna"]
+[ext_resource type="Texture2D" uid="uid://bnkuicnjifaxj" path="res://Pokemon Assets/Pokemon/Rattata/rattata_icon.png" id="5_1f1m1"]
+[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="6_nbejg"]
+
+[sub_resource type="Resource" id="Resource_ib6nb"]
+resource_local_to_scene = true
+script = ExtResource("6_nbejg")
+ai = ExtResource("2_pr88g")
+name = "Rattata"
+maxHealth = 15
+entitySpeed = 72
+battleStartStatuses = Array[ExtResource("4_htdna")]([])
+animation = ExtResource("3_umcoq")
+icon = ExtResource("5_1f1m1")
+
+[node name="Tier0Rattata1" type="Node2D"]
+
+[node name="Enemy" parent="." instance=ExtResource("1_xxeup")]
+position = Vector2(589, 255)
+stats = SubResource("Resource_ib6nb")

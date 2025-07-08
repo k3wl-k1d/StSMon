@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://cnn4pvrqud3rr"]
+
+[ext_resource type="Texture2D" uid="uid://cqvh1eb3jil4n" path="res://Pokemon Assets/Other Art/LoadedDieNL.png" id="1_tkqdy"]
+[ext_resource type="Script" path="res://Relics/loaded_dice.gd" id="2_o6csh"]
+
+[resource]
+script = ExtResource("2_o6csh")
+relicName = "Gimmighoul's Loaded Dice"
+id = "loaded_dice_gimmighoul"
+type = 4
+characterType = 2
+typing = 0
+starter = true
+consumable = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_tkqdy")
+tooltip = "[color=\"47cbff\"]Gimmighoul's Loaded Dice:[/color]
+Gain 12 more gold from each combat encounter"

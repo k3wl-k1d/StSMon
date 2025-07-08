@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://ba725c68ytuwl"]
+
+[ext_resource type="Texture2D" uid="uid://pgj8vfpj6tc5" path="res://art/tile_0130.png" id="1_7tmwi"]
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_f4teg"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_tail_slap.gd" id="2_83hhe"]
+[ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_rmu04"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="3_p2hw0"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_yqha1"]
+
+[resource]
+script = ExtResource("2_83hhe")
+id = "normal_tail_slap"
+type = 0
+target = 3
+rarity = 0
+typing = 0
+cost = 1
+exhaust = false
+cardName = "Tail Slap"
+icon = ExtResource("1_7tmwi")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy twice.[/center]"
+sound = ExtResource("3_p2hw0")
+cardBaseStylebox = ExtResource("1_f4teg")
+cardDragStylebox = ExtResource("2_rmu04")
+cardHoverStylebox = ExtResource("3_yqha1")

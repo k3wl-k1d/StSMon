@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardPile" load_steps=12 format=3 uid="uid://b3361sp3yruc5"]
+
+[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_aylfd"]
+[ext_resource type="Resource" uid="uid://c61chsaoc05tn" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_acrobatics.tres" id="2_8pfxe"]
+[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_esb1y"]
+[ext_resource type="Resource" uid="uid://06ttyieecmbl" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_aeroblast.tres" id="3_a51dh"]
+[ext_resource type="Resource" uid="uid://b06r4kfugrf26" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_air_cutter.tres" id="4_hge8a"]
+[ext_resource type="Resource" uid="uid://bio0quwifbwvh" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_bounce.tres" id="5_0dppk"]
+[ext_resource type="Resource" uid="uid://crh7udrttfcmw" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_feather_dance.tres" id="6_0ocp1"]
+[ext_resource type="Resource" uid="uid://x41bxqv82adw" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_gust.tres" id="7_hbim6"]
+[ext_resource type="Resource" uid="uid://cqi5sxximwwfh" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_hurricane.tres" id="8_1adg4"]
+[ext_resource type="Resource" uid="uid://dl4bqwhjkqdbp" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_tailwind.tres" id="9_o0jxq"]
+[ext_resource type="Resource" uid="uid://dnc2m3holx8t3" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_wing_attack.tres" id="10_kbdk6"]
+
+[resource]
+script = ExtResource("2_esb1y")
+cards = Array[ExtResource("1_aylfd")]([ExtResource("2_8pfxe"), ExtResource("3_a51dh"), ExtResource("4_hge8a"), ExtResource("5_0dppk"), ExtResource("6_0ocp1"), ExtResource("7_hbim6"), ExtResource("8_1adg4"), ExtResource("9_o0jxq"), ExtResource("10_kbdk6")])

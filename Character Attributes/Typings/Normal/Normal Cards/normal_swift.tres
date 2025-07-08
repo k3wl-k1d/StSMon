@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://v0gdgjweju64"]
+
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_1edme"]
+[ext_resource type="Texture2D" uid="uid://bxgrktox5it82" path="res://art/tile_0105.png" id="1_ftip5"]
+[ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_qwcrk"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_swift.gd" id="2_xanod"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_egww8"]
+[ext_resource type="AudioStream" uid="uid://df64e7qat73gs" path="res://art/block.ogg" id="6_5tsh7"]
+
+[resource]
+script = ExtResource("2_xanod")
+id = "normal_swift"
+type = 1
+target = 0
+rarity = 0
+typing = 0
+cost = 0
+exhaust = false
+cardName = "Swift"
+icon = ExtResource("1_ftip5")
+tooltip = "[center]Gain [color='2fbff7']%s[/color] Block and draw a card.[/center]"
+sound = ExtResource("6_5tsh7")
+cardBaseStylebox = ExtResource("1_1edme")
+cardDragStylebox = ExtResource("2_qwcrk")
+cardHoverStylebox = ExtResource("3_egww8")

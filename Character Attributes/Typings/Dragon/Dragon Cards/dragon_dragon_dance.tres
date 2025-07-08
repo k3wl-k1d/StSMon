@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://3ajy4nvor6pm"]
+
+[ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_p4or1"]
+[ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_uboea"]
+[ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_f2xpu"]
+[ext_resource type="Texture2D" uid="uid://c4e7ovx16yfl1" path="res://art/tile_0113.png" id="4_kum8r"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dragon_dance.gd" id="5_ltvoq"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_2hmcj"]
+
+[resource]
+script = ExtResource("5_ltvoq")
+id = "dragon_dragon_dance"
+type = 1
+target = 0
+rarity = 1
+typing = 16
+cost = 1
+exhaust = false
+cardName = "Dragon Dance"
+icon = ExtResource("4_kum8r")
+tooltip = "[center]Gain [color='a30000']1 Strength[/color] and [color='34eba8']1 Haste[/color].[/center]"
+sound = ExtResource("6_2hmcj")
+cardBaseStylebox = ExtResource("1_p4or1")
+cardDragStylebox = ExtResource("2_uboea")
+cardHoverStylebox = ExtResource("3_f2xpu")

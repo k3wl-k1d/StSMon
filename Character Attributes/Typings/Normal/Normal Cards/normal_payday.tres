@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://cycgpew4047oq"]
+
+[ext_resource type="Texture2D" uid="uid://d007n5sscvumv" path="res://art/tile_0090.png" id="1_2a0jw"]
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_k1vgl"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_payday.gd" id="1_s2848"]
+[ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_03c2l"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_jcmba"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="3_tc35j"]
+
+[resource]
+script = ExtResource("1_s2848")
+id = "normal_payday"
+type = 0
+target = 3
+rarity = 2
+typing = 0
+cost = 2
+exhaust = true
+cardName = "Pay Day"
+icon = ExtResource("1_2a0jw")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an enemy. On kill, gain 10 gold.[/center]"
+sound = ExtResource("3_tc35j")
+cardBaseStylebox = ExtResource("1_k1vgl")
+cardDragStylebox = ExtResource("2_03c2l")
+cardHoverStylebox = ExtResource("3_jcmba")

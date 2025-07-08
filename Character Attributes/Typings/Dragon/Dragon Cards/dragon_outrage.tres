@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://burst2ugmp8d"]
+
+[ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_33kb7"]
+[ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_yfgci"]
+[ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_r874n"]
+[ext_resource type="Texture2D" uid="uid://dojlh80rte165" path="res://art/tile_0107.png" id="4_nhaxp"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_outrage.gd" id="5_2lid1"]
+[ext_resource type="AudioStream" uid="uid://de2ryat1pxq6" path="res://art/enemy_attack.ogg" id="6_5h7rf"]
+
+[resource]
+script = ExtResource("5_2lid1")
+id = "dragon_outrage"
+type = 0
+target = 3
+rarity = 2
+typing = 0
+cost = 2
+exhaust = false
+cardName = "Outrage"
+icon = ExtResource("4_nhaxp")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy increased by %s for every time you've used this card this battle. Exhaust 2 random cards.[/center]"
+sound = ExtResource("6_5h7rf")
+cardBaseStylebox = ExtResource("1_33kb7")
+cardDragStylebox = ExtResource("2_yfgci")
+cardHoverStylebox = ExtResource("3_r874n")

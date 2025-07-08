@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://sw54oq4omqog"]
+
+[ext_resource type="Script" path="res://Scenes/UI/turn_order_segment.gd" id="1_ypvhf"]
+[ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_ev2u8"]
+[ext_resource type="Texture2D" uid="uid://kwjumhw0edlf" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_faint_icon.png" id="2_lw6kc"]
+
+[node name="TurnOrderSegment" type="HBoxContainer"]
+offset_right = 60.0
+offset_bottom = 17.0
+scale = Vector2(0.3, 0.3)
+theme_override_constants/separation = 2
+script = ExtResource("1_ypvhf")
+
+[node name="PokemonIcon" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_lw6kc")
+expand_mode = 3
+
+[node name="PokemonName" type="Label" parent="."]
+layout_mode = 2
+theme = ExtResource("2_ev2u8")
+text = "NAME"
+
+[node name="TargetIcon" type="TextureRect" parent="."]
+modulate = Color(0.779291, 0.779291, 0.779291, 0.623529)
+layout_mode = 2
+expand_mode = 3
+flip_h = true

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://bkgjpyc72qmy4"]
+
+[ext_resource type="StyleBox" uid="uid://dw6hxwgsb0i1n" path="res://Scenes/CardUI/Styleboxes/Poison/poison_base_card_stylebox.tres" id="1_h0j2b"]
+[ext_resource type="StyleBox" uid="uid://dygi6qc47ydvn" path="res://Scenes/CardUI/Styleboxes/Poison/poison_drag_card_stylebox.tres" id="2_p4x6j"]
+[ext_resource type="StyleBox" uid="uid://4bmt4assscxi" path="res://Scenes/CardUI/Styleboxes/Poison/poison_hover_card_stylebox.tres" id="3_ksmto"]
+[ext_resource type="Texture2D" uid="uid://oe7v35ii8vrs" path="res://art/tile_0102.png" id="4_mi83k"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_baneful_bunker.gd" id="5_pxrkx"]
+[ext_resource type="AudioStream" uid="uid://df64e7qat73gs" path="res://art/block.ogg" id="6_j122s"]
+
+[resource]
+script = ExtResource("5_pxrkx")
+id = "poison_baneful_bunker"
+type = 1
+target = 0
+rarity = 1
+typing = 14
+cost = 1
+exhaust = true
+cardName = "Baneful Bunker"
+icon = ExtResource("4_mi83k")
+tooltip = "[center]Exhaust
+Gain [color='2fbff7']%s[/color] Block then double your Block.[/center]"
+sound = ExtResource("6_j122s")
+cardBaseStylebox = ExtResource("1_h0j2b")
+cardDragStylebox = ExtResource("2_p4x6j")
+cardHoverStylebox = ExtResource("3_ksmto")

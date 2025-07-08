@@ -1,0 +1,65 @@
+[gd_scene load_steps=16 format=3 uid="uid://cvjlh4bcrl0yv"]
+
+[ext_resource type="Script" path="res://Scenes/Entities/Enemy/enemy_action_picker.gd" id="1_82qhv"]
+[ext_resource type="Script" path="res://Enemy Attributes/Metapod/metapod_debuff_action.gd" id="2_ecyae"]
+[ext_resource type="Script" path="res://Custom Resources/intent.gd" id="4_n4u7x"]
+[ext_resource type="Script" path="res://Enemy Attributes/Metapod/metapod_conditional_debuff_action.gd" id="5_vlrar"]
+[ext_resource type="AudioStream" uid="uid://de2ryat1pxq6" path="res://art/enemy_attack.ogg" id="5_ykc5j"]
+[ext_resource type="Script" path="res://Enemy Attributes/Metapod/metapod_debuff_attack_action.gd" id="6_6dk5v"]
+[ext_resource type="Texture2D" uid="uid://psr6xk3k26oh" path="res://art/tile_0114.png" id="6_ldogp"]
+[ext_resource type="Texture2D" uid="uid://c6rlnthwa4dy5" path="res://art/attack_negative.png" id="7_y2cfp"]
+[ext_resource type="Script" path="res://Enemy Attributes/Metapod/metapod_block_action.gd" id="8_sip27"]
+[ext_resource type="Texture2D" uid="uid://oe7v35ii8vrs" path="res://art/tile_0102.png" id="9_48e8r"]
+[ext_resource type="AudioStream" uid="uid://k8m4o3hlwm7l" path="res://art/enemy_block.ogg" id="10_eomdx"]
+
+[sub_resource type="Resource" id="Resource_nekoo"]
+script = ExtResource("4_n4u7x")
+baseText = ""
+icon = ExtResource("6_ldogp")
+
+[sub_resource type="Resource" id="Resource_7fekj"]
+script = ExtResource("4_n4u7x")
+baseText = "%s"
+icon = ExtResource("7_y2cfp")
+
+[sub_resource type="Resource" id="Resource_jkvnl"]
+script = ExtResource("4_n4u7x")
+baseText = "%s"
+icon = ExtResource("9_48e8r")
+
+[sub_resource type="Resource" id="Resource_caab0"]
+script = ExtResource("4_n4u7x")
+baseText = ""
+icon = ExtResource("6_ldogp")
+
+[node name="MetapodAI" type="Node"]
+script = ExtResource("1_82qhv")
+
+[node name="DebuffAction" type="Node" parent="."]
+script = ExtResource("2_ecyae")
+intent = SubResource("Resource_nekoo")
+type = 1
+actionName = "String Shot"
+sound = ExtResource("5_ykc5j")
+chanceWeight = 1.0
+
+[node name="DebuffAttackAction" type="Node" parent="."]
+script = ExtResource("6_6dk5v")
+intent = SubResource("Resource_7fekj")
+type = 1
+sound = ExtResource("5_ykc5j")
+chanceWeight = 2.0
+
+[node name="BlockAction" type="Node" parent="."]
+script = ExtResource("8_sip27")
+intent = SubResource("Resource_jkvnl")
+type = 1
+actionName = "Protect"
+sound = ExtResource("10_eomdx")
+chanceWeight = 2.0
+
+[node name="ConditionalDebuffAction" type="Node" parent="."]
+script = ExtResource("5_vlrar")
+intent = SubResource("Resource_caab0")
+actionName = "String Shot"
+sound = ExtResource("5_ykc5j")

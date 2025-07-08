@@ -1,0 +1,55 @@
+[gd_scene load_steps=10 format=3 uid="uid://crx8gnqr542mx"]
+
+[ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="1_6kw33"]
+[ext_resource type="PackedScene" uid="uid://cbf7mxnth6of" path="res://Enemy Attributes/Zubat/zubat_ai.tscn" id="2_mmlfv"]
+[ext_resource type="SpriteFrames" uid="uid://guridbhhulb7" path="res://Pokemon Assets/Pokemon/Zubat/zubat_animation.tres" id="3_y3mpl"]
+[ext_resource type="Script" path="res://Custom Resources/status.gd" id="4_7hmuy"]
+[ext_resource type="Texture2D" uid="uid://texi34ehy7on" path="res://Pokemon Assets/Pokemon/Zubat/zubat_icon.png" id="4_h7p25"]
+[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="5_wvrq2"]
+
+[sub_resource type="Resource" id="Resource_i73sq"]
+resource_local_to_scene = true
+script = ExtResource("5_wvrq2")
+ai = ExtResource("2_mmlfv")
+name = "Zubat"
+maxHealth = 8
+entitySpeed = 55
+battleStartStatuses = Array[ExtResource("4_7hmuy")]([])
+animation = ExtResource("3_y3mpl")
+icon = ExtResource("4_h7p25")
+
+[sub_resource type="Resource" id="Resource_058rx"]
+resource_local_to_scene = true
+script = ExtResource("5_wvrq2")
+ai = ExtResource("2_mmlfv")
+name = "Zubat"
+maxHealth = 8
+entitySpeed = 55
+battleStartStatuses = Array[ExtResource("4_7hmuy")]([])
+animation = ExtResource("3_y3mpl")
+icon = ExtResource("4_h7p25")
+
+[sub_resource type="Resource" id="Resource_olbkk"]
+resource_local_to_scene = true
+script = ExtResource("5_wvrq2")
+ai = ExtResource("2_mmlfv")
+name = "Zubat"
+maxHealth = 8
+entitySpeed = 55
+battleStartStatuses = Array[ExtResource("4_7hmuy")]([])
+animation = ExtResource("3_y3mpl")
+icon = ExtResource("4_h7p25")
+
+[node name="Tier1Zubat3" type="Node2D"]
+
+[node name="Enemy" parent="." instance=ExtResource("1_6kw33")]
+position = Vector2(462, 255)
+stats = SubResource("Resource_i73sq")
+
+[node name="Enemy2" parent="." instance=ExtResource("1_6kw33")]
+position = Vector2(572, 95)
+stats = SubResource("Resource_058rx")
+
+[node name="Enemy3" parent="." instance=ExtResource("1_6kw33")]
+position = Vector2(665, 225)
+stats = SubResource("Resource_olbkk")

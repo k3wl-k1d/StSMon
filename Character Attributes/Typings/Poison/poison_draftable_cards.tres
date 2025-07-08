@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CardPile" load_steps=13 format=3 uid="uid://c3mb4wuwbalas"]
+
+[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_souwr"]
+[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_0v7lp"]
+[ext_resource type="Resource" uid="uid://bouqte6pcxl5n" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_toxic.tres" id="2_05ijo"]
+[ext_resource type="Resource" uid="uid://beqrswrm4s4jp" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_corrosive_gas.tres" id="3_bacdq"]
+[ext_resource type="Resource" uid="uid://cy26gugqju2pt" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_poison_fang.tres" id="4_4b8fd"]
+[ext_resource type="Resource" uid="uid://b38gow7xkvayf" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_poison_gas.tres" id="4_41l8b"]
+[ext_resource type="Resource" uid="uid://it2lcknfpfr0" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_gunk_shot.tres" id="5_l7r7i"]
+[ext_resource type="Resource" uid="uid://c41qmdmxbrq4s" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_venoshock.tres" id="6_lfnxq"]
+[ext_resource type="Resource" uid="uid://du72ei5v551d6" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_venom_drench.tres" id="7_00l15"]
+[ext_resource type="Resource" uid="uid://dey4tjskruw5j" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_acid_armor.tres" id="9_wtcsm"]
+[ext_resource type="Resource" uid="uid://bkgjpyc72qmy4" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_baneful_bunker.tres" id="10_j8qq1"]
+[ext_resource type="Resource" uid="uid://f0bv6qcllr3v" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_toxic_thread.tres" id="11_otwpj"]
+
+[resource]
+script = ExtResource("2_0v7lp")
+cards = Array[ExtResource("1_souwr")]([ExtResource("2_05ijo"), ExtResource("3_bacdq"), ExtResource("4_4b8fd"), ExtResource("4_41l8b"), ExtResource("6_lfnxq"), ExtResource("7_00l15"), ExtResource("5_l7r7i"), ExtResource("9_wtcsm"), ExtResource("10_j8qq1"), ExtResource("11_otwpj")])

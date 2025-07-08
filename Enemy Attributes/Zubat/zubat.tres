@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="EnemyStats" load_steps=5 format=3 uid="uid://x01nhvjyenby"]
+
+[ext_resource type="PackedScene" uid="uid://cbf7mxnth6of" path="res://Enemy Attributes/Zubat/zubat_ai.tscn" id="1_qk4bs"]
+[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="1_xbb86"]
+[ext_resource type="SpriteFrames" uid="uid://guridbhhulb7" path="res://Pokemon Assets/Pokemon/Zubat/zubat_animation.tres" id="2_jyuyo"]
+[ext_resource type="Texture2D" uid="uid://texi34ehy7on" path="res://Pokemon Assets/Pokemon/Zubat/zubat_icon.png" id="3_4qc68"]
+
+[resource]
+resource_local_to_scene = true
+script = ExtResource("1_xbb86")
+ai = ExtResource("1_qk4bs")
+name = "Zubat"
+maxHealth = 8
+entitySpeed = 55
+animation = ExtResource("2_jyuyo")
+icon = ExtResource("3_4qc68")

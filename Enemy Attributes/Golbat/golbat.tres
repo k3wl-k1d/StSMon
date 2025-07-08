@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="EnemyStats" load_steps=6 format=3 uid="uid://buetho0krmtco"]
+
+[ext_resource type="Script" path="res://Custom Resources/status.gd" id="1_1epsk"]
+[ext_resource type="SpriteFrames" uid="uid://bwpaj5f0o7p04" path="res://Pokemon Assets/Pokemon/Golbat/golbat_animation.tres" id="1_krq1h"]
+[ext_resource type="PackedScene" uid="uid://csn267ta1ynb4" path="res://Enemy Attributes/Golbat/golbat_ai.tscn" id="1_ln5qs"]
+[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="2_khm80"]
+[ext_resource type="Texture2D" uid="uid://dp1h88blb05lr" path="res://Pokemon Assets/Pokemon/Golbat/golbat_icon.png" id="3_27x8s"]
+
+[resource]
+script = ExtResource("2_khm80")
+ai = ExtResource("1_ln5qs")
+name = "Golbat"
+maxHealth = 16
+entitySpeed = 90
+battleStartStatuses = Array[ExtResource("1_1epsk")]([])
+animation = ExtResource("1_krq1h")
+icon = ExtResource("3_27x8s")

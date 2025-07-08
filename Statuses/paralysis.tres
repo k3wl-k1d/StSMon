@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ParalysisStatus" load_steps=3 format=3 uid="uid://gtxylhcfr17x"]
+
+[ext_resource type="Texture2D" uid="uid://c2xhttrclo1r7" path="res://art/tile_0116.png" id="1_xwi0q"]
+[ext_resource type="Script" path="res://Statuses/paralysis.gd" id="2_3mrju"]
+
+[resource]
+script = ExtResource("2_3mrju")
+id = "paralysis"
+type = 0
+stackType = 0
+canExpire = true
+canBeNegative = false
+duration = 2
+stacks = 0
+name = "Paralyzed"
+icon = ExtResource("1_xwi0q")
+tooltip = "Paralysis: For %s turns, halve the speed stat."

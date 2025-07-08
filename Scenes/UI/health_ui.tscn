@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://jpngd3uykfu5"]
+
+[ext_resource type="Texture2D" uid="uid://dmnh5xxe2xne0" path="res://art/player_heart.png" id="1_dkmt1"]
+[ext_resource type="Script" path="res://Scenes/UI/health_ui.gd" id="1_vpt0t"]
+[ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_lwb24"]
+[ext_resource type="Texture2D" uid="uid://cf6u4hrp3ntk6" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_icon.png" id="2_se7k7"]
+
+[node name="Health" type="HBoxContainer"]
+theme_override_constants/separation = 2
+script = ExtResource("1_vpt0t")
+
+[node name="Icon" type="TextureRect" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(24, 24)
+layout_mode = 2
+texture = ExtResource("2_se7k7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="HealthImage" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_dkmt1")
+stretch_mode = 5
+
+[node name="HealthLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 1
+theme = ExtResource("2_lwb24")
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MaxHealthLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("2_lwb24")
+text = "/14"

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://c4dtutxu4xhva"]
+
+[ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_hrisu"]
+[ext_resource type="Texture2D" uid="uid://bxgrktox5it82" path="res://art/tile_0105.png" id="1_plp70"]
+[ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_0y04u"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dual_chop.gd" id="2_5oxs8"]
+[ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_qvnq6"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_dv86d"]
+
+[resource]
+script = ExtResource("2_5oxs8")
+id = "dragon_dual_chop"
+type = 0
+target = 3
+rarity = 0
+typing = 0
+cost = 2
+exhaust = false
+cardName = "Dual Chop"
+icon = ExtResource("1_plp70")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy twice and apply [color='bd6500']%s Exposed[/color] each hit.[/center]"
+sound = ExtResource("6_dv86d")
+cardBaseStylebox = ExtResource("1_hrisu")
+cardDragStylebox = ExtResource("2_0y04u")
+cardHoverStylebox = ExtResource("3_qvnq6")

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://1f2to0hh70k6"]
+
+[ext_resource type="Script" path="res://Relics/razor_claw_noibat.gd" id="1_df1cv"]
+[ext_resource type="Texture2D" uid="uid://con6y7mc74c5a" path="res://art/tile_0120.png" id="1_xchm3"]
+
+[resource]
+script = ExtResource("1_df1cv")
+attacksRequired = 3
+relicName = "Noibat's Razor Claw"
+id = "razor_claw_noibat"
+type = 4
+characterType = 0
+typing = 0
+starter = false
+consumable = false
+shouldDisplayStacks = true
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_xchm3")
+tooltip = "[color=\"47cbff\"]Noibat's Razor Claw:[/color]
+Upon playing 3 cards, raise the Crit meter by 1"

@@ -1,0 +1,242 @@
+[gd_scene load_steps=30 format=3 uid="uid://cn1m2wviojnt2"]
+
+[ext_resource type="Script" path="res://Scenes/Treasure/treasure.gd" id="1_rkmh0"]
+[ext_resource type="Texture2D" uid="uid://cp4iq5fd6j8be" path="res://art/background.png" id="2_3afs5"]
+[ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_3h08s"]
+[ext_resource type="Script" path="res://Custom Resources/relic.gd" id="2_co2or"]
+[ext_resource type="Texture2D" uid="uid://hva3iy5hon7a" path="res://art/tile_0089.png" id="3_7hjbn"]
+[ext_resource type="Resource" uid="uid://bdttselqfmsj7" path="res://Relics/ether.tres" id="3_ggry8"]
+[ext_resource type="Texture2D" uid="uid://cxvb062yxb211" path="res://art/gold.png" id="4_7y7es"]
+[ext_resource type="Texture2D" uid="uid://d007n5sscvumv" path="res://art/tile_0090.png" id="4_ihthg"]
+[ext_resource type="Resource" uid="uid://dsj6uk6my5ly5" path="res://Relics/sticky_barb.tres" id="5_6kxkd"]
+[ext_resource type="Texture2D" uid="uid://isan6btj7dwy" path="res://art/tile_0091.png" id="5_xsf3t"]
+[ext_resource type="Resource" uid="uid://c05trd4oqaldg" path="res://Relics/leftovers.tres" id="6_dnkdy"]
+[ext_resource type="Resource" uid="uid://b78s21qss62ca" path="res://Relics/assault_vest.tres" id="7_5df1l"]
+[ext_resource type="Resource" uid="uid://bjvpn65ckpcw" path="res://Relics/cell_battery.tres" id="7_dcbyr"]
+[ext_resource type="Resource" uid="uid://b0imqemk7gi1o" path="res://Relics/black_glasses.tres" id="8_iogre"]
+[ext_resource type="Resource" uid="uid://cqewfub2660yv" path="res://Relics/odd_incense.tres" id="9_7k01c"]
+[ext_resource type="Resource" uid="uid://bvesadrc1xh5g" path="res://Relics/spell_tag.tres" id="10_o0uxy"]
+[ext_resource type="Resource" uid="uid://btrokkevyycso" path="res://Relics/memory_mushroom.tres" id="11_rpv0t"]
+[ext_resource type="Resource" uid="uid://bokd83why0a12" path="res://Relics/loaded_dice.tres" id="12_tkg8e"]
+[ext_resource type="Resource" uid="uid://bactflx2hj4vw" path="res://Relics/razor_claw.tres" id="13_0foxt"]
+
+[sub_resource type="Animation" id="Animation_ijmd7"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(2, 2)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("3_7hjbn")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("GPUParticles2D:emitting")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_1uunc"]
+resource_name = "highlight"
+length = 2.0
+loop_mode = 1
+step = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(2, 2), Vector2(2.1, 2.1), Vector2(2, 2)]
+}
+
+[sub_resource type="Animation" id="Animation_long6"]
+resource_name = "opening"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [ExtResource("3_7hjbn"), ExtResource("4_ihthg"), ExtResource("5_xsf3t")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("GPUParticles2D:emitting")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.166667),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("..")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(2),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"_on_treasure_opened"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_2rbrc"]
+_data = {
+"RESET": SubResource("Animation_ijmd7"),
+"highlight": SubResource("Animation_1uunc"),
+"opening": SubResource("Animation_long6")
+}
+
+[sub_resource type="Curve" id="Curve_536v7"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.177165, 1), 0.0, 0.0, 0, 0, Vector2(0.80315, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_dn32y"]
+curve = SubResource("Curve_536v7")
+
+[sub_resource type="Curve" id="Curve_kofom"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.177165, 1), 0.0, 0.0, 0, 0, Vector2(0.728346, 0.86102), 0.135773, 0.135773, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="CurveTexture" id="CurveTexture_as1ml"]
+curve = SubResource("Curve_kofom")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_bpe1u"]
+particle_flag_disable_z = true
+direction = Vector3(0, -1, 0)
+initial_velocity_min = 80.0
+initial_velocity_max = 100.0
+gravity = Vector3(0, 98, 0)
+scale_min = 0.6
+scale_curve = SubResource("CurveTexture_as1ml")
+alpha_curve = SubResource("CurveTexture_dn32y")
+
+[sub_resource type="LabelSettings" id="LabelSettings_5rycu"]
+font_size = 44
+
+[node name="Treasure" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_rkmh0")
+treasureRelicPool = Array[ExtResource("2_co2or")]([ExtResource("3_ggry8"), ExtResource("5_6kxkd"), ExtResource("6_dnkdy"), ExtResource("7_5df1l"), ExtResource("7_dcbyr"), ExtResource("8_iogre"), ExtResource("9_7k01c"), ExtResource("10_o0uxy"), ExtResource("11_rpv0t"), ExtResource("12_tkg8e"), ExtResource("13_0foxt")])
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_3afs5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BackgroundDimmer" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.788235)
+
+[node name="TreasureChest" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+pivot_offset = Vector2(20, 20)
+mouse_filter = 0
+texture = ExtResource("3_7hjbn")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="TreasureChest"]
+unique_name_in_owner = true
+libraries = {
+"": SubResource("AnimationLibrary_2rbrc")
+}
+autoplay = "highlight"
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="TreasureChest"]
+position = Vector2(20, 30)
+emitting = false
+amount = 25
+process_material = SubResource("ParticleProcessMaterial_bpe1u")
+texture = ExtResource("4_7y7es")
+lifetime = 1.5
+one_shot = true
+explosiveness = 0.9
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -67.0
+offset_top = -84.0
+offset_right = 67.0
+offset_bottom = -67.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_3h08s")
+text = "Treasure"
+label_settings = SubResource("LabelSettings_5rycu")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="gui_input" from="TreasureChest" to="." method="_on_treasure_chest_gui_input"]

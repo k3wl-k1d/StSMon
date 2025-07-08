@@ -1,0 +1,75 @@
+[gd_scene load_steps=4 format=3 uid="uid://c76svyl3uv7gj"]
+
+[ext_resource type="PackedScene" uid="uid://dec1tpqrufcad" path="res://Scenes/Event Rooms/event_room_button.tscn" id="1_8n7r2"]
+[ext_resource type="Script" path="res://Scenes/Event Rooms/helpful_event.gd" id="1_nlxhm"]
+[ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_l2und"]
+
+[node name="HelpfulEvent" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nlxhm")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.165656, 0.165656, 0.165656, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -96.0
+offset_bottom = 141.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 8
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("2_l2und")
+text = "Your team of adventurers spot a hooded figure
+pacing back and forth in the darkness.
+
+It spots you and whispers,
+
+\"Do you need some... help?\""
+horizontal_alignment = 1
+
+[node name="Spacer" type="Control" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 10)
+layout_mode = 2
+
+[node name="DuplicateCard" parent="VBoxContainer" instance=ExtResource("1_8n7r2")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(225, 26)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_pressed_color = Color(0.892538, 0.298679, 0.30804, 1)
+text = "Duplicate a random card"
+
+[node name="IncreaseMaxHealth" parent="VBoxContainer" instance=ExtResource("1_8n7r2")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 26)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_hover_color = Color(0.187176, 0.187176, 0.187176, 1)
+text = "An ally permanently gains +5 HP"
+
+[node name="Leave" parent="VBoxContainer" instance=ExtResource("1_8n7r2")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(175, 26)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Quickly run away"

@@ -1,0 +1,58 @@
+[gd_scene load_steps=13 format=3 uid="uid://be0ywiyfyu8qp"]
+
+[ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="1_ft1s6"]
+[ext_resource type="PackedScene" uid="uid://b7cfrckcq2fw" path="res://Enemy Attributes/Rattata/rattata_ai.tscn" id="2_08f1q"]
+[ext_resource type="SpriteFrames" uid="uid://g026eg0t0von" path="res://Pokemon Assets/Pokemon/Rattata/rattata_animation.tres" id="3_3itx4"]
+[ext_resource type="Script" path="res://Custom Resources/status.gd" id="4_gqhmc"]
+[ext_resource type="Texture2D" uid="uid://bnkuicnjifaxj" path="res://Pokemon Assets/Pokemon/Rattata/rattata_icon.png" id="5_bd3f7"]
+[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="5_mpai4"]
+[ext_resource type="PackedScene" uid="uid://cbf7mxnth6of" path="res://Enemy Attributes/Zubat/zubat_ai.tscn" id="6_u46hf"]
+[ext_resource type="SpriteFrames" uid="uid://guridbhhulb7" path="res://Pokemon Assets/Pokemon/Zubat/zubat_animation.tres" id="7_ej8nq"]
+[ext_resource type="Texture2D" uid="uid://texi34ehy7on" path="res://Pokemon Assets/Pokemon/Zubat/zubat_icon.png" id="8_c538n"]
+
+[sub_resource type="Resource" id="Resource_x5gox"]
+resource_local_to_scene = true
+script = ExtResource("5_mpai4")
+ai = ExtResource("2_08f1q")
+name = "Rattata"
+maxHealth = 15
+entitySpeed = 72
+battleStartStatuses = Array[ExtResource("4_gqhmc")]([])
+animation = ExtResource("3_3itx4")
+icon = ExtResource("5_bd3f7")
+
+[sub_resource type="Resource" id="Resource_1pwq3"]
+resource_local_to_scene = true
+script = ExtResource("5_mpai4")
+ai = ExtResource("2_08f1q")
+name = "Rattata"
+maxHealth = 15
+entitySpeed = 72
+battleStartStatuses = Array[ExtResource("4_gqhmc")]([])
+animation = ExtResource("3_3itx4")
+icon = ExtResource("5_bd3f7")
+
+[sub_resource type="Resource" id="Resource_xcl5e"]
+resource_local_to_scene = true
+script = ExtResource("5_mpai4")
+ai = ExtResource("6_u46hf")
+name = "Zubat"
+maxHealth = 8
+entitySpeed = 55
+battleStartStatuses = Array[ExtResource("4_gqhmc")]([])
+animation = ExtResource("7_ej8nq")
+icon = ExtResource("8_c538n")
+
+[node name="Tier1Rattata2Zubat1" type="Node2D"]
+
+[node name="Enemy" parent="." instance=ExtResource("1_ft1s6")]
+position = Vector2(502, 257)
+stats = SubResource("Resource_x5gox")
+
+[node name="Enemy2" parent="." instance=ExtResource("1_ft1s6")]
+position = Vector2(643, 256)
+stats = SubResource("Resource_1pwq3")
+
+[node name="Enemy3" parent="." instance=ExtResource("1_ft1s6")]
+position = Vector2(576, 151)
+stats = SubResource("Resource_xcl5e")

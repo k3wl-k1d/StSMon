@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://b78s21qss62ca"]
+
+[ext_resource type="Texture2D" uid="uid://dytq0eumwvky6" path="res://art/tile_0074.png" id="1_is0f6"]
+[ext_resource type="Script" path="res://Relics/assault_vest.gd" id="2_dckia"]
+
+[resource]
+script = ExtResource("2_dckia")
+relicName = "Assault Vest"
+id = "assault_vest"
+type = 2
+characterType = 0
+typing = 0
+starter = false
+consumable = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_is0f6")
+tooltip = "[color=\"ffdf00\"]Assault Vest:[/color]
+Round end, gain 3 block"

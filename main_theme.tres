@@ -1,0 +1,55 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://cru70siydt0qh"]
+
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_is2e2"]
+[ext_resource type="FontFile" uid="uid://co4ihgn107xyw" path="res://Pokemon Assets/Fonts/pkmnems.ttf" id="1_iutyh"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="2_os18c"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bbnkf"]
+bg_color = Color(0.646029, 0.646029, 0.646029, 0.517647)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.493545, 0.493546, 0.493545, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2ml65"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ftvoh"]
+bg_color = Color(0.722173, 0.690546, 0.653987, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.903956, 0.7321, 0, 1)
+shadow_color = Color(0.866667, 0.737255, 0.423529, 0.529412)
+
+[resource]
+default_font = ExtResource("1_iutyh")
+default_font_size = 22
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_disabled_color = Color(0, 0, 0, 1)
+Button/colors/font_focus_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+Button/colors/font_outline_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(0, 0, 0, 1)
+Button/colors/icon_disabled_color = Color(0, 0, 0, 1)
+Button/colors/icon_focus_color = Color(0, 0, 0, 1)
+Button/colors/icon_hover_color = Color(0, 0, 0, 1)
+Button/colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+Button/colors/icon_normal_color = Color(0, 0, 0, 1)
+Button/colors/icon_pressed_color = Color(0, 0, 0, 1)
+Button/constants/align_to_largest_stylebox = 0
+Button/constants/h_separation = 0
+Button/constants/icon_max_width = 0
+Button/constants/outline_size = 0
+Button/font_sizes/font_size = 22
+Button/fonts/font = ExtResource("1_iutyh")
+Button/styles/disabled = SubResource("StyleBoxFlat_bbnkf")
+Button/styles/focus = SubResource("StyleBoxEmpty_2ml65")
+Button/styles/hover = ExtResource("2_os18c")
+Button/styles/normal = ExtResource("1_is2e2")
+Button/styles/pressed = SubResource("StyleBoxFlat_ftvoh")
+HBoxContainer/constants/separation = 0
+Panel/styles/panel = ExtResource("1_is2e2")
+PanelContainer/styles/panel = ExtResource("2_os18c")

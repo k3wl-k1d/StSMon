@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://c17a3hmcucsrs"]
+
+[ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="1_0jmsm"]
+[ext_resource type="Resource" uid="uid://c0yu7mugb6e7v" path="res://Enemy Attributes/Metapod/metapod.tres" id="2_1c7k2"]
+[ext_resource type="Resource" uid="uid://dhsfrp5k68umj" path="res://Enemy Attributes/Clefairy/clefairy.tres" id="3_f4dxf"]
+
+[node name="Tier1Golbat1Zubat1" type="Node2D"]
+
+[node name="Enemy" parent="." instance=ExtResource("1_0jmsm")]
+position = Vector2(508, 269)
+stats = ExtResource("2_1c7k2")
+
+[node name="Enemy2" parent="." instance=ExtResource("1_0jmsm")]
+position = Vector2(657, 245)
+stats = ExtResource("3_f4dxf")

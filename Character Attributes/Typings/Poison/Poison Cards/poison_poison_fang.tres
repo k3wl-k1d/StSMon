@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://cy26gugqju2pt"]
+
+[ext_resource type="StyleBox" uid="uid://dw6hxwgsb0i1n" path="res://Scenes/CardUI/Styleboxes/Poison/poison_base_card_stylebox.tres" id="1_myr1m"]
+[ext_resource type="StyleBox" uid="uid://dygi6qc47ydvn" path="res://Scenes/CardUI/Styleboxes/Poison/poison_drag_card_stylebox.tres" id="2_anavv"]
+[ext_resource type="StyleBox" uid="uid://4bmt4assscxi" path="res://Scenes/CardUI/Styleboxes/Poison/poison_hover_card_stylebox.tres" id="3_e7tqr"]
+[ext_resource type="Texture2D" uid="uid://bfvi02kojsa00" path="res://art/tile_0103.png" id="4_eas30"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_poison_fang.gd" id="5_armd8"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_qvhud"]
+
+[resource]
+script = ExtResource("5_armd8")
+id = "poison_poison_fang"
+type = 0
+target = 3
+rarity = 0
+typing = 14
+cost = 1
+exhaust = false
+cardName = "Poison Fang"
+icon = ExtResource("4_eas30")
+tooltip = "[center]Apply [color='90249e']%s Poison[/color] then deal [color='f74a2f']%s[/color] Damage to an enemy.[/center]"
+sound = ExtResource("6_qvhud")
+cardBaseStylebox = ExtResource("1_myr1m")
+cardDragStylebox = ExtResource("2_anavv")
+cardHoverStylebox = ExtResource("3_e7tqr")

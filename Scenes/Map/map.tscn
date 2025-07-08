@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=3 uid="uid://wc1woxhih8o"]
+
+[ext_resource type="Script" path="res://Scenes/Map/map.gd" id="1_kkden"]
+[ext_resource type="Script" path="res://Scenes/Map/map_generator.gd" id="3_a2tdv"]
+[ext_resource type="Resource" uid="uid://bhsfxggku4pjc" path="res://Battles/Battle Stats Pools/base_battle_stats_pool.tres" id="3_mnw8j"]
+[ext_resource type="Resource" uid="uid://os5vgetwbuyq" path="res://Scenes/Event Rooms/event_room_pool.tres" id="4_1pho1"]
+
+[sub_resource type="Gradient" id="Gradient_xhp3e"]
+colors = PackedColorArray(0.178186, 0.0499744, 0.025737, 1, 0.486009, 0.213044, 4.81308e-08, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_5bl3q"]
+gradient = SubResource("Gradient_xhp3e")
+width = 70
+
+[node name="Map" type="Node2D"]
+script = ExtResource("1_kkden")
+
+[node name="Visuals" type="Node2D" parent="."]
+
+[node name="Lines" type="Node2D" parent="Visuals"]
+unique_name_in_owner = true
+
+[node name="Rooms" type="Node2D" parent="Visuals"]
+unique_name_in_owner = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(127, 73)
+offset = Vector2(256, 144)
+
+[node name="MapGenerator" type="Node" parent="."]
+script = ExtResource("3_a2tdv")
+battleStatsPool = ExtResource("3_mnw8j")
+eventRoomPool = ExtResource("4_1pho1")
+
+[node name="MapBackground" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Background" type="TextureRect" parent="MapBackground"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture1D_5bl3q")

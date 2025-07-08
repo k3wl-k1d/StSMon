@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://d3bojqislwpj3"]
+
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_7d13h"]
+[ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_sc7d2"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_8bna8"]
+[ext_resource type="Texture2D" uid="uid://44jbm5bqr4k" path="res://art/tile_0117.png" id="4_nwa6u"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_thrash.gd" id="5_w35qh"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_gei1e"]
+
+[resource]
+script = ExtResource("5_w35qh")
+id = "normal_thrash"
+type = 0
+target = 3
+rarity = 1
+typing = 0
+cost = 1
+exhaust = false
+cardName = "Thrash"
+icon = ExtResource("4_nwa6u")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage, increased by %s for every time you've used this card this battle.[/center]"
+sound = ExtResource("6_gei1e")
+cardBaseStylebox = ExtResource("1_7d13h")
+cardDragStylebox = ExtResource("2_sc7d2")
+cardHoverStylebox = ExtResource("3_8bna8")

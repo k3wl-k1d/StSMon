@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://djjewnlqddp2q"]
+
+[ext_resource type="StyleBox" uid="uid://dv63252xj1fc0" path="res://Scenes/CardUI/Styleboxes/Grass/grass_base_card_stylebox.tres" id="1_w1ml2"]
+[ext_resource type="StyleBox" uid="uid://b5o03afs84ycy" path="res://Scenes/CardUI/Styleboxes/Grass/grass_drag_card_stylebox.tres" id="2_thegs"]
+[ext_resource type="StyleBox" uid="uid://bsso4wr02vs2l" path="res://Scenes/CardUI/Styleboxes/Grass/grass_hover_card_stylebox.tres" id="3_vkb6u"]
+[ext_resource type="Texture2D" uid="uid://cn2c1psh561cc" path="res://art/tile_0127.png" id="4_gya7o"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_synthesis.gd" id="5_s6bei"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_cle5k"]
+
+[resource]
+script = ExtResource("5_s6bei")
+id = "grass_synthesis"
+type = 1
+target = 0
+rarity = 1
+typing = 3
+cost = 1
+exhaust = true
+cardName = "Synthesis"
+icon = ExtResource("4_gya7o")
+tooltip = "[center]Exhaust
+Heal [color='32a852']%s[/color] health.[/center]"
+sound = ExtResource("6_cle5k")
+cardBaseStylebox = ExtResource("1_w1ml2")
+cardDragStylebox = ExtResource("2_thegs")
+cardHoverStylebox = ExtResource("3_vkb6u")

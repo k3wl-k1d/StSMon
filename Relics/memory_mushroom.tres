@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://btrokkevyycso"]
+
+[ext_resource type="Texture2D" uid="uid://dpfqok8tuy4r7" path="res://art/tile_0084.png" id="1_asd7p"]
+[ext_resource type="Script" path="res://Relics/memory_mushroom.gd" id="2_p3aak"]
+
+[resource]
+script = ExtResource("2_p3aak")
+baseBlock = 1
+relicName = "Memory Mushroom"
+id = "memory_mushroom"
+type = 4
+characterType = 0
+typing = 0
+starter = false
+consumable = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_asd7p")
+tooltip = "[color=\"ffdf00\"]Memory Mushroom:[/color]
+When a card is played, the active team member gains 1 Block"

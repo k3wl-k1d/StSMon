@@ -1,0 +1,152 @@
+[gd_scene load_steps=15 format=3 uid="uid://mm7cblpvn6l2"]
+
+[ext_resource type="Script" path="res://Scenes/UI/main_menu.gd" id="1_16832"]
+[ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="1_y7dyv"]
+[ext_resource type="Resource" uid="uid://6hfc35ywbs6n" path="res://Scenes/Run/run_startup.tres" id="2_dys71"]
+[ext_resource type="SpriteFrames" uid="uid://cj5llj22ojbkd" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_animation.tres" id="2_ymym4"]
+[ext_resource type="SpriteFrames" uid="uid://g026eg0t0von" path="res://Pokemon Assets/Pokemon/Rattata/rattata_animation.tres" id="3_embpy"]
+[ext_resource type="SpriteFrames" uid="uid://guridbhhulb7" path="res://Pokemon Assets/Pokemon/Zubat/zubat_animation.tres" id="4_f363v"]
+[ext_resource type="SpriteFrames" uid="uid://dsohpwdh3aqhd" path="res://Pokemon Assets/Pokemon/Gimmighoul/gimmighoul_animation.tres" id="4_upl7b"]
+[ext_resource type="SpriteFrames" uid="uid://cvryxc450esq6" path="res://Pokemon Assets/Pokemon/Foongus/foongus_animation.tres" id="5_ld123"]
+[ext_resource type="SpriteFrames" uid="uid://by2hfiuksmpn3" path="res://Pokemon Assets/Pokemon/Noibat/noibat_animation.tres" id="7_6jtqc"]
+[ext_resource type="SpriteFrames" uid="uid://g165hx7hg6o6" path="res://Pokemon Assets/Pokemon/Clefairy/clefairy_animation.tres" id="10_14wlf"]
+[ext_resource type="SpriteFrames" uid="uid://d1y7to11boi1j" path="res://Pokemon Assets/Pokemon/Caterpie/caterpie_animation.tres" id="11_453p2"]
+
+[sub_resource type="Gradient" id="Gradient_pteh1"]
+colors = PackedColorArray(1, 0, 0, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_exc36"]
+gradient = SubResource("Gradient_pteh1")
+width = 75
+
+[sub_resource type="LabelSettings" id="LabelSettings_v510g"]
+font_size = 66
+font_color = Color(0, 0, 0, 1)
+outline_size = 8
+shadow_size = 4
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(4, 2)
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_16832")
+runStartup = ExtResource("2_dys71")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 768.0
+offset_right = 432.0
+offset_bottom = 336.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 1.5708
+texture = SubResource("GradientTexture1D_exc36")
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -30.0
+offset_top = -82.5
+offset_right = 30.0
+offset_bottom = -59.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_y7dyv")
+text = "StSMon"
+label_settings = SubResource("LabelSettings_v510g")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -23.0
+offset_right = 60.0
+offset_bottom = 69.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 12
+
+[node name="Continue" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+theme = ExtResource("1_y7dyv")
+text = "Continue"
+
+[node name="NewRun" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+theme = ExtResource("1_y7dyv")
+text = "New Run"
+
+[node name="Exit" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+theme = ExtResource("1_y7dyv")
+text = "Exit"
+
+[node name="Munchlax" type="AnimatedSprite2D" parent="."]
+position = Vector2(94, 230)
+scale = Vector2(1.4, 1.4)
+sprite_frames = ExtResource("2_ymym4")
+animation = &"munchlax"
+flip_h = true
+
+[node name="Foongus" type="AnimatedSprite2D" parent="."]
+position = Vector2(52, 262)
+sprite_frames = ExtResource("5_ld123")
+flip_h = true
+
+[node name="Gimmighoul" type="AnimatedSprite2D" parent="."]
+position = Vector2(133, 258)
+sprite_frames = ExtResource("4_upl7b")
+animation = &"gimmighoul"
+flip_h = true
+
+[node name="Noibat" type="AnimatedSprite2D" parent="."]
+position = Vector2(145, 171)
+sprite_frames = ExtResource("7_6jtqc")
+animation = &"noibat"
+flip_h = true
+
+[node name="Rattata" type="AnimatedSprite2D" parent="."]
+position = Vector2(613, 261)
+scale = Vector2(1.5, 1.5)
+sprite_frames = ExtResource("3_embpy")
+animation = &"rattata"
+
+[node name="Zubat" type="AnimatedSprite2D" parent="."]
+position = Vector2(647, 181)
+sprite_frames = ExtResource("4_f363v")
+animation = &"zubat"
+
+[node name="Clefairy" type="AnimatedSprite2D" parent="."]
+position = Vector2(672, 290)
+scale = Vector2(1.3, 1.3)
+sprite_frames = ExtResource("10_14wlf")
+animation = &"clefairy"
+
+[node name="Caterpie" type="AnimatedSprite2D" parent="."]
+position = Vector2(572, 298)
+sprite_frames = ExtResource("11_453p2")
+animation = &"caterpie"
+
+[connection signal="pressed" from="VBoxContainer/Continue" to="." method="_on_continue_pressed"]
+[connection signal="pressed" from="VBoxContainer/NewRun" to="." method="_on_new_run_pressed"]
+[connection signal="pressed" from="VBoxContainer/Exit" to="." method="_on_exit_pressed"]

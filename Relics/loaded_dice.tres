@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bokd83why0a12"]
+
+[ext_resource type="Texture2D" uid="uid://bi6pfjs32f820" path="res://art/tile_0101.png" id="1_6a4cg"]
+[ext_resource type="Script" path="res://Relics/loaded_dice.gd" id="2_s32dj"]
+
+[resource]
+script = ExtResource("2_s32dj")
+relicName = "Loaded Dice"
+id = "loaded_dice"
+type = 4
+characterType = 0
+typing = 0
+starter = false
+consumable = false
+baseStacks = 0
+currentStacks = 0
+icon = ExtResource("1_6a4cg")
+tooltip = "[color=\"ffdf00\"]Loaded Dice:[/color]
+Gain 1 to 6 bonus gold at the end of combat"

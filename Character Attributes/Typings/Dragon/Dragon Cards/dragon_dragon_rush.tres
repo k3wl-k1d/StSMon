@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://d3yylfvwvtcds"]
+
+[ext_resource type="Texture2D" uid="uid://c1gvqgvgs3xc8" path="res://art/tile_0131.png" id="1_3q7q5"]
+[ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_foi4h"]
+[ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_f75bj"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dragon_rush.gd" id="2_s3ocs"]
+[ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_fbeet"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_koflu"]
+
+[resource]
+script = ExtResource("2_s3ocs")
+id = "dragon_dragon_rush"
+type = 0
+target = 3
+rarity = 1
+typing = 16
+cost = 2
+exhaust = false
+cardName = "Dragon Rush"
+icon = ExtResource("1_3q7q5")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy and gain [color='34eba8']%s Rush[/color].[/center]"
+sound = ExtResource("6_koflu")
+cardBaseStylebox = ExtResource("1_foi4h")
+cardDragStylebox = ExtResource("2_f75bj")
+cardHoverStylebox = ExtResource("3_fbeet")

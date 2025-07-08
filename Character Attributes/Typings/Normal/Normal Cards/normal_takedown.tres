@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://dya0n0jmppu27"]
+
+[ext_resource type="Texture2D" uid="uid://44jbm5bqr4k" path="res://art/tile_0117.png" id="1_2062f"]
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_hdj6f"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_takedown.gd" id="2_j4glj"]
+[ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_y8bm7"]
+[ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="3_3l7s0"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_dqnqx"]
+
+[resource]
+script = ExtResource("2_j4glj")
+id = "normal_takedown"
+type = 0
+target = 3
+rarity = 1
+typing = 0
+cost = 2
+exhaust = false
+cardName = "Takedown"
+icon = ExtResource("1_2062f")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage and apply [color='bd6500']2 Exposed[/color] to an Enemy.[/center]"
+sound = ExtResource("3_3l7s0")
+cardBaseStylebox = ExtResource("1_hdj6f")
+cardDragStylebox = ExtResource("2_y8bm7")
+cardHoverStylebox = ExtResource("3_dqnqx")

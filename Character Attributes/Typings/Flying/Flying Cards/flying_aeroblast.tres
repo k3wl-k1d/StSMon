@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://06ttyieecmbl"]
+
+[ext_resource type="Script" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_aeroblast.gd" id="1_1xvy1"]
+[ext_resource type="StyleBox" uid="uid://cii52y4iklkde" path="res://Scenes/CardUI/Styleboxes/Flying/flying_base_card_stylebox.tres" id="1_c558u"]
+[ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_waa0g"]
+[ext_resource type="StyleBox" uid="uid://dvdytse782lf7" path="res://Scenes/CardUI/Styleboxes/Flying/flying_hover_card_stylebox.tres" id="3_epw56"]
+[ext_resource type="Texture2D" uid="uid://bb3rcs5nqntir" path="res://art/arrow.png" id="4_6fv8m"]
+[ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_k3wux"]
+
+[resource]
+script = ExtResource("1_1xvy1")
+id = "flying_aeroblast"
+type = 0
+target = 4
+rarity = 2
+typing = 12
+cost = 3
+exhaust = false
+cardName = "Aeroblast"
+icon = ExtResource("4_6fv8m")
+tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies and give your team [color='34eba8']%s Rush[/color].[/center]"
+sound = ExtResource("6_k3wux")
+cardBaseStylebox = ExtResource("1_c558u")
+cardDragStylebox = ExtResource("2_waa0g")
+cardHoverStylebox = ExtResource("3_epw56")

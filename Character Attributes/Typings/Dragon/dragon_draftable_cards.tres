@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CardPile" load_steps=14 format=3 uid="uid://cm17sxr5vgqbp"]
+
+[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_g3igw"]
+[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_h2bsp"]
+[ext_resource type="Resource" uid="uid://cmb6pb64bvc0n" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_breaking_swipe.tres" id="2_y338i"]
+[ext_resource type="Resource" uid="uid://byvlte5abxdci" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_clanging_scales.tres" id="3_btvef"]
+[ext_resource type="Resource" uid="uid://1pmhw5302rtr" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_draco_meteor.tres" id="4_oh1mf"]
+[ext_resource type="Resource" uid="uid://c5wo2htk5g2eq" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dragon_breath.tres" id="5_rr8bw"]
+[ext_resource type="Resource" uid="uid://b5ndrr74s70ke" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dragon_claw.tres" id="6_8f3hn"]
+[ext_resource type="Resource" uid="uid://3ajy4nvor6pm" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dragon_dance.tres" id="7_4wagb"]
+[ext_resource type="Resource" uid="uid://c0xle6j2bgoop" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dragon_rage.tres" id="8_pegml"]
+[ext_resource type="Resource" uid="uid://d3yylfvwvtcds" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dragon_rush.tres" id="9_ednyd"]
+[ext_resource type="Resource" uid="uid://c4dtutxu4xhva" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dual_chop.tres" id="10_xcvkt"]
+[ext_resource type="Resource" uid="uid://burst2ugmp8d" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_outrage.tres" id="11_e5d4y"]
+[ext_resource type="Resource" uid="uid://cmenhm8iis6wm" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_twister.tres" id="12_3pf1l"]
+
+[resource]
+script = ExtResource("2_h2bsp")
+cards = Array[ExtResource("1_g3igw")]([ExtResource("2_y338i"), ExtResource("3_btvef"), ExtResource("4_oh1mf"), ExtResource("5_rr8bw"), ExtResource("6_8f3hn"), ExtResource("7_4wagb"), ExtResource("8_pegml"), ExtResource("9_ednyd"), ExtResource("10_xcvkt"), ExtResource("11_e5d4y"), ExtResource("12_3pf1l")])

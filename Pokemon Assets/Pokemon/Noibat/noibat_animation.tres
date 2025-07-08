@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" load_steps=2 format=3 uid="uid://by2hfiuksmpn3"]
+
+[ext_resource type="Texture2D" uid="uid://cclqincy6h5yx" path="res://Pokemon Assets/Pokemon/Noibat/noibat.png" id="1_7kdp4"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7kdp4")
+}],
+"loop": true,
+"name": &"noibat",
+"speed": 5.0
+}]

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://cutasm8mp4aka"]
+
+[ext_resource type="Texture2D" uid="uid://c1gvqgvgs3xc8" path="res://art/tile_0131.png" id="1_mpguw"]
+[ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_o3pe5"]
+[ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_1wo3v"]
+[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_sharpen.gd" id="2_nj0wi"]
+[ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_2o3re"]
+[ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="3_exvm3"]
+
+[resource]
+script = ExtResource("2_nj0wi")
+id = "normal_sharpen"
+type = 2
+target = 0
+rarity = 1
+typing = 0
+cost = 3
+exhaust = true
+cardName = "Sharpen"
+icon = ExtResource("1_mpguw")
+tooltip = "[center]Round start, gain [color='a30000']2 Strength[/color].[/center]"
+sound = ExtResource("3_exvm3")
+cardBaseStylebox = ExtResource("1_o3pe5")
+cardDragStylebox = ExtResource("2_1wo3v")
+cardHoverStylebox = ExtResource("3_2o3re")

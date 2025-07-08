@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bnbud6cm1xfan"]
+
+[ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="1_dp8a8"]
+[ext_resource type="Resource" uid="uid://cfcy6hpfr2afa" path="res://Enemy Attributes/Darumaka/darumaka.tres" id="2_5ium5"]
+
+[node name="Tier1Darumaka2" type="Node2D"]
+
+[node name="Enemy" parent="." instance=ExtResource("1_dp8a8")]
+position = Vector2(508, 269)
+stats = ExtResource("2_5ium5")
+
+[node name="Enemy2" parent="." instance=ExtResource("1_dp8a8")]
+position = Vector2(660, 292)
+stats = ExtResource("2_5ium5")

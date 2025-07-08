@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="RushStatus" load_steps=3 format=3 uid="uid://dupb3bq3r4ukq"]
+
+[ext_resource type="Texture2D" uid="uid://33wsovfwun21" path="res://art/arrow_small_disabled.png" id="1_273xu"]
+[ext_resource type="Script" path="res://Statuses/rush.gd" id="2_gq6bu"]
+
+[resource]
+script = ExtResource("2_gq6bu")
+id = "rush"
+type = 0
+stackType = 2
+canExpire = true
+canBeNegative = false
+duration = 2
+stacks = 0
+name = "Rush"
+icon = ExtResource("1_273xu")
+tooltip = "Rush: Increase your speed by 25%% for %s turns."

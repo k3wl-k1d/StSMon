@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bo0kpkfbes0fx"]
+
+[ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="1_14cef"]
+[ext_resource type="Resource" uid="uid://c0yu7mugb6e7v" path="res://Enemy Attributes/Metapod/metapod.tres" id="2_b33e8"]
+[ext_resource type="Resource" uid="uid://dbqi1d5fes1o7" path="res://Enemy Attributes/Caterpie/caterpie.tres" id="3_asrwv"]
+
+[node name="Tier0Metapod1Caterpie1" type="Node2D"]
+
+[node name="Enemy" parent="." instance=ExtResource("1_14cef")]
+position = Vector2(450, 271)
+stats = ExtResource("2_b33e8")
+
+[node name="Enemy2" parent="." instance=ExtResource("1_14cef")]
+position = Vector2(603, 292)
+stats = ExtResource("3_asrwv")
