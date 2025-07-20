@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://b8e76cmagaohv"]
 
-[ext_resource type="Script" path="res://Scenes/Shop/shop_relic.gd" id="1_bjndo"]
+[ext_resource type="Script" uid="uid://btgec545u18ce" path="res://Scenes/Shop/shop_relic.gd" id="1_bjndo"]
 [ext_resource type="Resource" uid="uid://bdttselqfmsj7" path="res://Relics/ether.tres" id="2_q3so8"]
 [ext_resource type="PackedScene" uid="uid://cpjeifaoev8x7" path="res://Scenes/RelicHandler/relic_ui.tscn" id="2_vimja"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="4_8exqr"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://byi7xd4w7s22c"]
 
-[ext_resource type="Script" path="res://Scenes/Entities/Player/player.gd" id="1_cufy5"]
+[ext_resource type="Script" uid="uid://cvbsa57n5o5el" path="res://Scenes/Entities/Player/player.gd" id="1_cufy5"]
 [ext_resource type="PackedScene" uid="uid://ccj4nvwbyaiyn" path="res://Scenes/Entities/entity.tscn" id="1_yix0g"]
 [ext_resource type="Resource" uid="uid://blu6htqvxnnqj" path="res://Character Attributes/Typings/Normal/Munchlax/Munchlax/munchlax.tres" id="3_1gf8y"]
 [ext_resource type="PackedScene" uid="uid://dnqccd37xu16v" path="res://Scenes/ModifierHandler/modifier.tscn" id="4_occ0c"]

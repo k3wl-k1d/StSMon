@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=7 format=3 uid="uid://sp1g8b0wsuse"]
 
 [ext_resource type="StyleBox" uid="uid://cyhnloxa86n40" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_base_card_stylebox.tres" id="1_708fj"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_curse.gd" id="2_l1bcg"]
+[ext_resource type="Script" uid="uid://b2npmbsnenrwf" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_curse.gd" id="2_l1bcg"]
 [ext_resource type="StyleBox" uid="uid://ca201cne2u1w4" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_drag_card_stylebox.tres" id="2_mawir"]
 [ext_resource type="StyleBox" uid="uid://cosmxhmhdt3f2" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_hover_card_stylebox.tres" id="3_s8urt"]
 [ext_resource type="Texture2D" uid="uid://cd3bljirfx4l3" path="res://Pokemon Assets/Other Art/Curse.png" id="4_400cy"]

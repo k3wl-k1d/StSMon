@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cqcal03735mv8" path="res://art/tile_0118.png" id="1_ar03k"]
 [ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_scutc"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_clanging_scales.gd" id="2_fdf7f"]
+[ext_resource type="Script" uid="uid://dq17xdwpsu7aw" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_clanging_scales.gd" id="2_fdf7f"]
 [ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_orhb5"]
 [ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_4g7gw"]
 [ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_6jt05"]

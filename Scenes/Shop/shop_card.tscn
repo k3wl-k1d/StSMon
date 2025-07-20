@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://c0ipytqh86mjd"]
 
-[ext_resource type="Script" path="res://Scenes/Shop/shop_card.gd" id="1_exq31"]
+[ext_resource type="Script" uid="uid://b4es87r6p0u5i" path="res://Scenes/Shop/shop_card.gd" id="1_exq31"]
 [ext_resource type="PackedScene" uid="uid://ckmclsd588wx1" path="res://Scenes/CardMenuUI/card_menu_ui.tscn" id="1_rkkc5"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_g5uim"]
 [ext_resource type="Resource" uid="uid://sp1g8b0wsuse" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_curse.tres" id="2_gq7ao"]

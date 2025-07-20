@@ -3,7 +3,7 @@
 [ext_resource type="StyleBox" uid="uid://cyhnloxa86n40" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_base_card_stylebox.tres" id="1_5ygk0"]
 [ext_resource type="Texture2D" uid="uid://cgopx2ponr1qi" path="res://art/tile_0121.png" id="1_gjj7b"]
 [ext_resource type="StyleBox" uid="uid://ca201cne2u1w4" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_drag_card_stylebox.tres" id="2_6yw4v"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_astonish.gd" id="2_weluf"]
+[ext_resource type="Script" uid="uid://b7vagwaospkna" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_astonish.gd" id="2_weluf"]
 [ext_resource type="StyleBox" uid="uid://cosmxhmhdt3f2" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_hover_card_stylebox.tres" id="3_rh5r2"]
 [ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_31rfb"]
 

@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://wc1woxhih8o"]
 
-[ext_resource type="Script" path="res://Scenes/Map/map.gd" id="1_kkden"]
-[ext_resource type="Script" path="res://Scenes/Map/map_generator.gd" id="3_a2tdv"]
+[ext_resource type="Script" uid="uid://f4rnww4l3bdi" path="res://Scenes/Map/map.gd" id="1_kkden"]
+[ext_resource type="Script" uid="uid://dlfytva7c4bgh" path="res://Scenes/Map/map_generator.gd" id="3_a2tdv"]
 [ext_resource type="Resource" uid="uid://bhsfxggku4pjc" path="res://Battles/Battle Stats Pools/base_battle_stats_pool.tres" id="3_mnw8j"]
 [ext_resource type="Resource" uid="uid://os5vgetwbuyq" path="res://Scenes/Event Rooms/event_room_pool.tres" id="4_1pho1"]
 

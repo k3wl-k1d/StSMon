@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://b07wkfc5ooau2"]
 
 [ext_resource type="Texture2D" uid="uid://c4e7ovx16yfl1" path="res://art/tile_0113.png" id="1_hjuvs"]
-[ext_resource type="Script" path="res://Relics/super_potion.gd" id="2_h842c"]
+[ext_resource type="Script" uid="uid://ccg86cvkf4pp4" path="res://Relics/super_potion.gd" id="2_h842c"]
 
 [resource]
 script = ExtResource("2_h842c")
@@ -12,6 +12,7 @@ characterType = 0
 typing = 0
 starter = false
 consumable = true
+shouldDisplayStacks = false
 baseStacks = 5
 currentStacks = 5
 icon = ExtResource("1_hjuvs")

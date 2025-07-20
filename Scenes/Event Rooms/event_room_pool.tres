@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="EventRoomPool" load_steps=4 format=3 uid="uid://os5vgetwbuyq"]
 
-[ext_resource type="Script" path="res://Custom Resources/event_room_pool.gd" id="1_3exyf"]
+[ext_resource type="Script" uid="uid://debjocwtftbhf" path="res://Custom Resources/event_room_pool.gd" id="1_3exyf"]
 [ext_resource type="PackedScene" uid="uid://cc3d1rtfpylvd" path="res://Scenes/Event Rooms/gamblers_event.tscn" id="1_tgtp4"]
 [ext_resource type="PackedScene" uid="uid://c76svyl3uv7gj" path="res://Scenes/Event Rooms/helpful_event.tscn" id="2_dx1kc"]
 

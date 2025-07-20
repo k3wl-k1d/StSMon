@@ -4,7 +4,7 @@
 [ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_53pw8"]
 [ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_de2ow"]
 [ext_resource type="Texture2D" uid="uid://ck1t4hdip6xrl" path="res://art/tile_0119.png" id="4_cqc5l"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_breaking_swipe.gd" id="5_rxu12"]
+[ext_resource type="Script" uid="uid://dlgbig8178euf" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_breaking_swipe.gd" id="5_rxu12"]
 [ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_3bjbk"]
 
 [resource]

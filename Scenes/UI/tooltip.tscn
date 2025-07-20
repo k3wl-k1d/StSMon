@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://ce4ljv3vn70s5"]
 
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="1_jc7ms"]
-[ext_resource type="Script" path="res://Scenes/UI/tooltip.gd" id="2_7svmm"]
+[ext_resource type="Script" uid="uid://bp0ispbrijiow" path="res://Scenes/UI/tooltip.gd" id="2_7svmm"]
 [ext_resource type="Texture2D" uid="uid://dojlh80rte165" path="res://art/tile_0107.png" id="2_v76mc"]
 
 [node name="Tooltip" type="PanelContainer"]

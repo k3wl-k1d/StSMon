@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CurseStatus" load_steps=3 format=3 uid="uid://dcubwww47bhba"]
 
-[ext_resource type="Script" path="res://Statuses/curse.gd" id="1_e1o86"]
+[ext_resource type="Script" uid="uid://m62pmbt5hrr1" path="res://Statuses/curse.gd" id="1_e1o86"]
 [ext_resource type="Texture2D" uid="uid://beryn0l4wfyv5" path="res://Pokemon Assets/Other Art/CurseStatus.png" id="1_f4c6x"]
 
 [resource]

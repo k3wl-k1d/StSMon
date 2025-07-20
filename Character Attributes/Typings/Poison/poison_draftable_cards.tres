@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=13 format=3 uid="uid://c3mb4wuwbalas"]
 
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_souwr"]
-[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_0v7lp"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_souwr"]
+[ext_resource type="Script" uid="uid://cdn8fb0c3g8pc" path="res://Custom Resources/card_pile.gd" id="2_0v7lp"]
 [ext_resource type="Resource" uid="uid://bouqte6pcxl5n" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_toxic.tres" id="2_05ijo"]
 [ext_resource type="Resource" uid="uid://beqrswrm4s4jp" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_corrosive_gas.tres" id="3_bacdq"]
 [ext_resource type="Resource" uid="uid://cy26gugqju2pt" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_poison_fang.tres" id="4_4b8fd"]

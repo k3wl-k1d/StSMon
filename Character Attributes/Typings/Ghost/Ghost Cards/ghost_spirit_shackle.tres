@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://psr6xk3k26oh" path="res://art/tile_0114.png" id="1_ccrfg"]
 [ext_resource type="StyleBox" uid="uid://cyhnloxa86n40" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_base_card_stylebox.tres" id="1_na3py"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_spirit_shackle.gd" id="2_1oett"]
+[ext_resource type="Script" uid="uid://i0efnh122d0h" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_spirit_shackle.gd" id="2_1oett"]
 [ext_resource type="StyleBox" uid="uid://ca201cne2u1w4" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_drag_card_stylebox.tres" id="2_u4fp7"]
 [ext_resource type="StyleBox" uid="uid://cosmxhmhdt3f2" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_hover_card_stylebox.tres" id="3_3q43s"]
 [ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_vj2hi"]

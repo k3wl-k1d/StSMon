@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="ParalysisStatus" load_steps=3 format=3 uid="uid://gtxylhcfr17x"]
 
 [ext_resource type="Texture2D" uid="uid://c2xhttrclo1r7" path="res://art/tile_0116.png" id="1_xwi0q"]
-[ext_resource type="Script" path="res://Statuses/paralysis.gd" id="2_3mrju"]
+[ext_resource type="Script" uid="uid://p7vf57e6qcum" path="res://Statuses/paralysis.gd" id="2_3mrju"]
 
 [resource]
 script = ExtResource("2_3mrju")

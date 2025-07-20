@@ -1,8 +1,9 @@
-[gd_resource type="Resource" script_class="CharacterStats" load_steps=7 format=3 uid="uid://d1bduubp0futd"]
+[gd_resource type="Resource" script_class="CharacterStats" load_steps=8 format=3 uid="uid://d1bduubp0futd"]
 
 [ext_resource type="SpriteFrames" uid="uid://cj5llj22ojbkd" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_animation.tres" id="1_eg5hl"]
-[ext_resource type="Script" path="res://Custom Resources/character_stats.gd" id="1_rcivv"]
+[ext_resource type="Script" uid="uid://djmqwe7osk1pw" path="res://Custom Resources/character_stats.gd" id="1_rcivv"]
 [ext_resource type="Texture2D" uid="uid://b1nj6u7dxl3mh" path="res://art/tile_0085.png" id="2_rhk15"]
+[ext_resource type="Script" uid="uid://c3w42dqbnd0j6" path="res://Custom Resources/status.gd" id="2_u512n"]
 [ext_resource type="Texture2D" uid="uid://dytq0eumwvky6" path="res://art/tile_0074.png" id="3_3vcmd"]
 [ext_resource type="Resource" uid="uid://cdt8ou8kf5840" path="res://Character Attributes/Typings/Normal/Munchlax/Munchlax/munchlax_starting_deck.tres" id="3_sxpmc"]
 [ext_resource type="Texture2D" uid="uid://bxa8pkakcodgw" path="res://art/tile_0082.png" id="4_s01fa"]
@@ -16,8 +17,11 @@ cardsPerTurn = 3
 maxMana = 3
 hurtIcon = ExtResource("3_3vcmd")
 faintIcon = ExtResource("2_rhk15")
+description = ""
+credits = ""
 name = "Floette"
 maxHealth = 30
 entitySpeed = 100
+battleStartStatuses = Array[ExtResource("2_u512n")]([])
 animation = ExtResource("1_eg5hl")
 icon = ExtResource("4_s01fa")

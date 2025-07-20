@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://ckmclsd588wx1"]
 
-[ext_resource type="Script" path="res://Scenes/CardMenuUI/card_menu_ui.gd" id="1_jlu8g"]
+[ext_resource type="Script" uid="uid://k2u0v1tnb7ip" path="res://Scenes/CardMenuUI/card_menu_ui.gd" id="1_jlu8g"]
 [ext_resource type="Resource" uid="uid://cycgpew4047oq" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_payday.tres" id="2_2fics"]
 [ext_resource type="PackedScene" uid="uid://eio7jp8xiwxf" path="res://Scenes/UI/card_visuals.tscn" id="3_f5gwc"]
 

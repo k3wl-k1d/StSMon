@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="NightmarePower" load_steps=3 format=3 uid="uid://gxbrr70m2vd5"]
 
 [ext_resource type="Texture2D" uid="uid://c24y6l0ivlqp7" path="res://art/tile_0108.png" id="1_02jbc"]
-[ext_resource type="Script" path="res://Statuses/Powers/nightmare_power.gd" id="2_ir3i6"]
+[ext_resource type="Script" uid="uid://cear4e8gg8irb" path="res://Statuses/Powers/nightmare_power.gd" id="2_ir3i6"]
 
 [resource]
 script = ExtResource("2_ir3i6")

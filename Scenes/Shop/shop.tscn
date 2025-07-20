@@ -1,9 +1,9 @@
 [gd_scene load_steps=31 format=3 uid="uid://db3a4a0iruxwe"]
 
-[ext_resource type="Script" path="res://Scenes/Shop/shop.gd" id="1_qp6pe"]
+[ext_resource type="Script" uid="uid://r5uy824635rn" path="res://Scenes/Shop/shop.gd" id="1_qp6pe"]
 [ext_resource type="Texture2D" uid="uid://bj3im6egs4wxx" path="res://art/tile_0086.png" id="2_1tjbc"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_6rgp2"]
-[ext_resource type="Script" path="res://Custom Resources/relic.gd" id="2_fnsvc"]
+[ext_resource type="Script" uid="uid://ckr572mgfpwk6" path="res://Custom Resources/relic.gd" id="2_fnsvc"]
 [ext_resource type="Resource" uid="uid://b78s21qss62ca" path="res://Relics/assault_vest.tres" id="3_7vv17"]
 [ext_resource type="Texture2D" uid="uid://cruxsee3mtois" path="res://art/shopkeeper_blink.png" id="3_uxjfw"]
 [ext_resource type="Resource" uid="uid://chqhw31kpdt7q" path="res://Relics/coupons.tres" id="4_aaxhl"]
@@ -70,8 +70,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_xucos"]
 _data = {
-"RESET": SubResource("Animation_lv08v"),
-"blink": SubResource("Animation_g7e2q")
+&"RESET": SubResource("Animation_lv08v"),
+&"blink": SubResource("Animation_g7e2q")
 }
 
 [sub_resource type="LabelSettings" id="LabelSettings_p72kq"]

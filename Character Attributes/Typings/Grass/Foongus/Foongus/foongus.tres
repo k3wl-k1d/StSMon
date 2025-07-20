@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="CharacterStats" load_steps=9 format=3 uid="uid://cnxqlj4h2ysls"]
 
 [ext_resource type="SpriteFrames" uid="uid://cvryxc450esq6" path="res://Pokemon Assets/Pokemon/Foongus/foongus_animation.tres" id="1_cbi0d"]
-[ext_resource type="Script" path="res://Custom Resources/status.gd" id="2_aq7nh"]
+[ext_resource type="Script" uid="uid://c3w42dqbnd0j6" path="res://Custom Resources/status.gd" id="2_aq7nh"]
 [ext_resource type="Resource" uid="uid://ynv0khgbfhxk" path="res://Character Attributes/Typings/Grass/grass_draftable_cards.tres" id="3_6rv05"]
 [ext_resource type="Texture2D" uid="uid://cbo02mv7tnyc4" path="res://Pokemon Assets/Pokemon/Foongus/foongus_icon.png" id="3_fn5d1"]
 [ext_resource type="Resource" uid="uid://c3mb4wuwbalas" path="res://Character Attributes/Typings/Poison/poison_draftable_cards.tres" id="4_x8d60"]
-[ext_resource type="Script" path="res://Custom Resources/character_stats.gd" id="4_xlah4"]
+[ext_resource type="Script" uid="uid://djmqwe7osk1pw" path="res://Custom Resources/character_stats.gd" id="4_xlah4"]
 [ext_resource type="Resource" uid="uid://38uem0gh5add" path="res://Character Attributes/Typings/Grass/Foongus/Foongus/foongus_starting_deck.tres" id="7_arn1n"]
 [ext_resource type="Resource" uid="uid://bmer0gl25ygtk" path="res://Relics/memory_mushroom_foongus.tres" id="8_mkg8k"]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=15 format=3 uid="uid://mm7cblpvn6l2"]
 
-[ext_resource type="Script" path="res://Scenes/UI/main_menu.gd" id="1_16832"]
+[ext_resource type="Script" uid="uid://h3laiwxndnsb" path="res://Scenes/UI/main_menu.gd" id="1_16832"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="1_y7dyv"]
 [ext_resource type="Resource" uid="uid://6hfc35ywbs6n" path="res://Scenes/Run/run_startup.tres" id="2_dys71"]
 [ext_resource type="SpriteFrames" uid="uid://cj5llj22ojbkd" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_animation.tres" id="2_ymym4"]

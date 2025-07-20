@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Card" load_steps=7 format=3 uid="uid://c61chsaoc05tn"]
 
 [ext_resource type="StyleBox" uid="uid://cii52y4iklkde" path="res://Scenes/CardUI/Styleboxes/Flying/flying_base_card_stylebox.tres" id="1_e6dfq"]
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_qx73d"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_qx73d"]
 [ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_2w2te"]
 [ext_resource type="StyleBox" uid="uid://dvdytse782lf7" path="res://Scenes/CardUI/Styleboxes/Flying/flying_hover_card_stylebox.tres" id="3_2g5j6"]
 [ext_resource type="Texture2D" uid="uid://bfvi02kojsa00" path="res://art/tile_0103.png" id="4_7fa0m"]

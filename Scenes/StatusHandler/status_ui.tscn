@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cy611jt0ba64s"]
 
 [ext_resource type="Texture2D" uid="uid://dipj3cv70uita" path="res://art/expose.png" id="1_mo5x0"]
-[ext_resource type="Script" path="res://Scenes/StatusHandler/status_ui.gd" id="1_omsm7"]
+[ext_resource type="Script" uid="uid://c6qytvvdj65ya" path="res://Scenes/StatusHandler/status_ui.gd" id="1_omsm7"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_2f4x0"]
 [ext_resource type="Resource" uid="uid://dgv8ui2njoih4" path="res://Statuses/exposed.tres" id="2_qkmjw"]
 

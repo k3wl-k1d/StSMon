@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="CharacterStats" load_steps=9 format=3 uid="uid://cvqrve7qj0i15"]
 
 [ext_resource type="SpriteFrames" uid="uid://dsohpwdh3aqhd" path="res://Pokemon Assets/Pokemon/Gimmighoul/gimmighoul_animation.tres" id="1_d25l2"]
-[ext_resource type="Script" path="res://Custom Resources/character_stats.gd" id="1_qra6j"]
+[ext_resource type="Script" uid="uid://djmqwe7osk1pw" path="res://Custom Resources/character_stats.gd" id="1_qra6j"]
 [ext_resource type="Texture2D" uid="uid://u5j76e7x3ojx" path="res://Pokemon Assets/Pokemon/Gimmighoul/gimmighoul_icon.png" id="2_2r687"]
 [ext_resource type="Resource" uid="uid://cp5uv58bdis58" path="res://Character Attributes/empty_draftable_cards.tres" id="2_iikhs"]
-[ext_resource type="Script" path="res://Custom Resources/status.gd" id="2_otb05"]
+[ext_resource type="Script" uid="uid://c3w42dqbnd0j6" path="res://Custom Resources/status.gd" id="2_otb05"]
 [ext_resource type="Resource" uid="uid://b4r3dthgjosls" path="res://Character Attributes/Typings/Ghost/ghost_draftable_cards.tres" id="2_u2unx"]
 [ext_resource type="Resource" uid="uid://7orlj3jkpnqo" path="res://Character Attributes/Typings/Ghost/Gimmighoul/gimmighoul_starting_deck.tres" id="4_jsfwx"]
 [ext_resource type="Resource" uid="uid://cnn4pvrqud3rr" path="res://Relics/loaded_dice_gimmighoul.tres" id="8_82h0s"]

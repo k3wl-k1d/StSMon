@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="CharacterStats" load_steps=11 format=3 uid="uid://d1ms18gequk6n"]
 
 [ext_resource type="SpriteFrames" uid="uid://by2hfiuksmpn3" path="res://Pokemon Assets/Pokemon/Noibat/noibat_animation.tres" id="1_ad3us"]
-[ext_resource type="Script" path="res://Custom Resources/status.gd" id="1_utfhc"]
-[ext_resource type="Script" path="res://Custom Resources/character_stats.gd" id="2_nn3ov"]
+[ext_resource type="Script" uid="uid://c3w42dqbnd0j6" path="res://Custom Resources/status.gd" id="1_utfhc"]
+[ext_resource type="Script" uid="uid://djmqwe7osk1pw" path="res://Custom Resources/character_stats.gd" id="2_nn3ov"]
 [ext_resource type="Texture2D" uid="uid://dr22bgf4a5xvp" path="res://Pokemon Assets/Pokemon/Noibat/noibat_fainted.png" id="3_0o8h1"]
 [ext_resource type="Resource" uid="uid://b3361sp3yruc5" path="res://Character Attributes/Typings/Flying/flying_draftable_cards.tres" id="3_ijt5k"]
 [ext_resource type="Resource" uid="uid://cm17sxr5vgqbp" path="res://Character Attributes/Typings/Dragon/dragon_draftable_cards.tres" id="4_051r6"]

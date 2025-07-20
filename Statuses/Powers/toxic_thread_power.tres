@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="ToxicThreadPower" load_steps=2 format=3 uid="uid://o87xb3868l3p"]
 
-[ext_resource type="Script" path="res://Statuses/Powers/toxic_thread_power.gd" id="1_rn242"]
+[ext_resource type="Script" uid="uid://cfbkv4qek38fx" path="res://Statuses/Powers/toxic_thread_power.gd" id="1_rn242"]
 
 [resource]
 script = ExtResource("1_rn242")

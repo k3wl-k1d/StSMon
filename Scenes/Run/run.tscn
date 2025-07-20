@@ -1,6 +1,6 @@
 [gd_scene load_steps=14 format=3 uid="uid://bowpx6sbjk35p"]
 
-[ext_resource type="Script" path="res://Scenes/Run/run.gd" id="1_fm5jg"]
+[ext_resource type="Script" uid="uid://cfl03bt4o7g4d" path="res://Scenes/Run/run.gd" id="1_fm5jg"]
 [ext_resource type="PackedScene" uid="uid://wc1woxhih8o" path="res://Scenes/Map/map.tscn" id="1_yjk3d"]
 [ext_resource type="Resource" uid="uid://6hfc35ywbs6n" path="res://Scenes/Run/run_startup.tres" id="2_h6xyr"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="4_gx3vk"]
@@ -11,7 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://drsugn1044kqi" path="res://Scenes/RelicHandler/relic_handler.tscn" id="7_20fda"]
 [ext_resource type="PackedScene" uid="uid://cuvmgun3qn87y" path="res://Scenes/UI/card_pile_view.tscn" id="7_gcui3"]
 [ext_resource type="PackedScene" uid="uid://dqobr41m6exay" path="res://Scenes/RelicHandler/relic_tooltip.tscn" id="11_4r15i"]
-[ext_resource type="Script" path="res://Scenes/Run/pause_menu.gd" id="12_6mahr"]
+[ext_resource type="Script" uid="uid://bnfped2m8vnsd" path="res://Scenes/Run/pause_menu.gd" id="12_6mahr"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_dri65"]
 font_size = 44

@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://kwtv4ieswl6f"]
 
-[ext_resource type="Script" path="res://Scenes/Entities/Enemy/enemy_action_picker.gd" id="1_22mhg"]
-[ext_resource type="Script" path="res://Enemy Attributes/Darumaka/darumaka_attac_action.gd" id="2_yf7ao"]
+[ext_resource type="Script" uid="uid://brsaxlocfcrsi" path="res://Scenes/Entities/Enemy/enemy_action_picker.gd" id="1_22mhg"]
+[ext_resource type="Script" uid="uid://bs1w6xomi00u0" path="res://Enemy Attributes/Darumaka/darumaka_attac_action.gd" id="2_yf7ao"]
 [ext_resource type="Texture2D" uid="uid://bfvi02kojsa00" path="res://art/tile_0103.png" id="3_ukl8l"]
-[ext_resource type="Script" path="res://Custom Resources/intent.gd" id="4_icayt"]
+[ext_resource type="Script" uid="uid://bp4obu76271gd" path="res://Custom Resources/intent.gd" id="4_icayt"]
 [ext_resource type="AudioStream" uid="uid://de2ryat1pxq6" path="res://art/enemy_attack.ogg" id="5_l80ll"]
 
 [sub_resource type="Resource" id="Resource_nrd3a"]

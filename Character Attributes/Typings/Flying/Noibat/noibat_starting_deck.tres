@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=5 format=3 uid="uid://bc6ohdmchga0x"]
 
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_bi1hi"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_bi1hi"]
 [ext_resource type="Resource" uid="uid://dl4bqwhjkqdbp" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_tailwind.tres" id="2_2avbs"]
-[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_y00q7"]
+[ext_resource type="Script" uid="uid://cdn8fb0c3g8pc" path="res://Custom Resources/card_pile.gd" id="2_y00q7"]
 [ext_resource type="Resource" uid="uid://dnc2m3holx8t3" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_wing_attack.tres" id="3_4t0gj"]
 
 [resource]

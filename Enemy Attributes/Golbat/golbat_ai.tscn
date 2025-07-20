@@ -1,13 +1,13 @@
 [gd_scene load_steps=14 format=3 uid="uid://csn267ta1ynb4"]
 
-[ext_resource type="Script" path="res://Scenes/Entities/Enemy/enemy_action_picker.gd" id="1_3otk8"]
-[ext_resource type="Script" path="res://Enemy Attributes/Golbat/2x_attack_action.gd" id="2_jwfjc"]
+[ext_resource type="Script" uid="uid://brsaxlocfcrsi" path="res://Scenes/Entities/Enemy/enemy_action_picker.gd" id="1_3otk8"]
+[ext_resource type="Script" uid="uid://cbhs0wnbrjal2" path="res://Enemy Attributes/Golbat/2x_attack_action.gd" id="2_jwfjc"]
 [ext_resource type="Texture2D" uid="uid://c6rme2o6dyaoj" path="res://art/tile_0104.png" id="3_ijisn"]
-[ext_resource type="Script" path="res://Custom Resources/intent.gd" id="4_nhwm0"]
+[ext_resource type="Script" uid="uid://bp4obu76271gd" path="res://Custom Resources/intent.gd" id="4_nhwm0"]
 [ext_resource type="AudioStream" uid="uid://de2ryat1pxq6" path="res://art/enemy_attack.ogg" id="5_6tj1f"]
-[ext_resource type="Script" path="res://Enemy Attributes/Golbat/heal_attack_action.gd" id="6_2aj70"]
+[ext_resource type="Script" uid="uid://dqwpnvcgdtq5x" path="res://Enemy Attributes/Golbat/heal_attack_action.gd" id="6_2aj70"]
 [ext_resource type="Texture2D" uid="uid://c6rlnthwa4dy5" path="res://art/attack_negative.png" id="7_ehep0"]
-[ext_resource type="Script" path="res://Enemy Attributes/Golbat/block_action.gd" id="8_3o0w1"]
+[ext_resource type="Script" uid="uid://cimg645pvcsr5" path="res://Enemy Attributes/Golbat/block_action.gd" id="8_3o0w1"]
 [ext_resource type="Texture2D" uid="uid://bi6pfjs32f820" path="res://art/tile_0101.png" id="9_a5qbp"]
 [ext_resource type="AudioStream" uid="uid://k8m4o3hlwm7l" path="res://art/enemy_block.ogg" id="10_ck6ex"]
 

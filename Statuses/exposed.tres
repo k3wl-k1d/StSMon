@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="ExposedStatus" load_steps=3 format=3 uid="uid://dgv8ui2njoih4"]
 
-[ext_resource type="Script" path="res://Statuses/exposed.gd" id="1_dl3nb"]
+[ext_resource type="Script" uid="uid://8d5r4o0as5jb" path="res://Statuses/exposed.gd" id="1_dl3nb"]
 [ext_resource type="Texture2D" uid="uid://dt1k7th8h28b0" path="res://Pokemon Assets/Other Art/Exposed.png" id="1_ewicg"]
 
 [resource]

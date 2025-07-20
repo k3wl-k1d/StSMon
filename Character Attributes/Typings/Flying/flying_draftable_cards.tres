@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=12 format=3 uid="uid://b3361sp3yruc5"]
 
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_aylfd"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_aylfd"]
 [ext_resource type="Resource" uid="uid://c61chsaoc05tn" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_acrobatics.tres" id="2_8pfxe"]
-[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_esb1y"]
+[ext_resource type="Script" uid="uid://cdn8fb0c3g8pc" path="res://Custom Resources/card_pile.gd" id="2_esb1y"]
 [ext_resource type="Resource" uid="uid://06ttyieecmbl" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_aeroblast.tres" id="3_a51dh"]
 [ext_resource type="Resource" uid="uid://b06r4kfugrf26" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_air_cutter.tres" id="4_hge8a"]
 [ext_resource type="Resource" uid="uid://bio0quwifbwvh" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_bounce.tres" id="5_0dppk"]

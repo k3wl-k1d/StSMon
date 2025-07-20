@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=4 format=3 uid="uid://38uem0gh5add"]
 
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_jort8"]
-[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_ltdfu"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_jort8"]
+[ext_resource type="Script" uid="uid://cdn8fb0c3g8pc" path="res://Custom Resources/card_pile.gd" id="2_ltdfu"]
 [ext_resource type="Resource" uid="uid://byx7psbvuu8di" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_rage_powder.tres" id="2_t85gq"]
 
 [resource]

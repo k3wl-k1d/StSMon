@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="MaledictionStatus" load_steps=3 format=3 uid="uid://cf374ow3p15f2"]
 
 [ext_resource type="Texture2D" uid="uid://c24y6l0ivlqp7" path="res://art/tile_0108.png" id="1_7jvgr"]
-[ext_resource type="Script" path="res://Statuses/the_tags_malediction.gd" id="2_yf05r"]
+[ext_resource type="Script" uid="uid://tkpwa1ns23gd" path="res://Statuses/the_tags_malediction.gd" id="2_yf05r"]
 
 [resource]
 script = ExtResource("2_yf05r")

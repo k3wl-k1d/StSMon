@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=14 format=3 uid="uid://cm17sxr5vgqbp"]
 
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_g3igw"]
-[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_h2bsp"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_g3igw"]
+[ext_resource type="Script" uid="uid://cdn8fb0c3g8pc" path="res://Custom Resources/card_pile.gd" id="2_h2bsp"]
 [ext_resource type="Resource" uid="uid://cmb6pb64bvc0n" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_breaking_swipe.tres" id="2_y338i"]
 [ext_resource type="Resource" uid="uid://byvlte5abxdci" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_clanging_scales.tres" id="3_btvef"]
 [ext_resource type="Resource" uid="uid://1pmhw5302rtr" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_draco_meteor.tres" id="4_oh1mf"]

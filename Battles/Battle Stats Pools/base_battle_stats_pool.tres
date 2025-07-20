@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="BattleStatsPool" load_steps=15 format=3 uid="uid://bhsfxggku4pjc"]
 
-[ext_resource type="Script" path="res://Custom Resources/battle_stats.gd" id="1_8jdod"]
+[ext_resource type="Script" uid="uid://be5g2m7v3u2u4" path="res://Custom Resources/battle_stats.gd" id="1_8jdod"]
 [ext_resource type="Resource" uid="uid://q7kmdvrkgqwh" path="res://Battles/Base Battles/tier_0_caterpie_3.tres" id="2_cd5ne"]
 [ext_resource type="Resource" uid="uid://c6pol3kdqxf5v" path="res://Battles/Base Battles/tier_0_rattata1.tres" id="2_h42t1"]
 [ext_resource type="Resource" uid="uid://c5bllkoj85cca" path="res://Battles/Base Battles/tier_0_metapod_1_caterpie_1.tres" id="3_fh80i"]
@@ -8,7 +8,7 @@
 [ext_resource type="Resource" uid="uid://rqxo81ema0b4" path="res://Battles/Base Battles/tier_0_darumaka_1.tres" id="4_sgxd1"]
 [ext_resource type="Resource" uid="uid://dcpln265f6ev" path="res://Battles/Base Battles/tier_1_rattata_2_zubat1.tres" id="4_ud46r"]
 [ext_resource type="Resource" uid="uid://dco5f0x87m7uf" path="res://Battles/Base Battles/tier_1_zubat_3.tres" id="5_bk3n0"]
-[ext_resource type="Script" path="res://Custom Resources/battle_stats_pool.gd" id="6_nuk6q"]
+[ext_resource type="Script" uid="uid://buk4ecxb4c0qa" path="res://Custom Resources/battle_stats_pool.gd" id="6_nuk6q"]
 [ext_resource type="Resource" uid="uid://cv6yo5764rb3q" path="res://Battles/Base Battles/tier_1_luvdisc_12.tres" id="6_ow5gl"]
 [ext_resource type="Resource" uid="uid://d0o7yll0wytyl" path="res://Battles/Base Battles/tier_2_pecharunt.tres" id="6_uoqf4"]
 [ext_resource type="Resource" uid="uid://b8odk5mg6nfk6" path="res://Battles/Base Battles/tier_1_golbat_1_zubat_1.tres" id="7_caopd"]

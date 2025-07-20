@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="EnemyStats" load_steps=6 format=3 uid="uid://cfcy6hpfr2afa"]
 
 [ext_resource type="PackedScene" uid="uid://kwtv4ieswl6f" path="res://Enemy Attributes/Darumaka/darumaka_ai.tscn" id="1_1w82h"]
-[ext_resource type="Script" path="res://Custom Resources/status.gd" id="1_mrpyu"]
+[ext_resource type="Script" uid="uid://c3w42dqbnd0j6" path="res://Custom Resources/status.gd" id="1_mrpyu"]
 [ext_resource type="SpriteFrames" uid="uid://34hqin6yjhv2" path="res://Pokemon Assets/Pokemon/Darumaka/darumaka_animation.tres" id="2_1ibo8"]
-[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="2_yo3jj"]
+[ext_resource type="Script" uid="uid://y1k7frusnwvb" path="res://Custom Resources/enemy_stats.gd" id="2_yo3jj"]
 [ext_resource type="Texture2D" uid="uid://cgoq7k8x3hvlq" path="res://Pokemon Assets/Pokemon/Darumaka/darumaka_icon.png" id="4_jynwi"]
 
 [resource]

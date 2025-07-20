@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="IntimidationStatus" load_steps=3 format=3 uid="uid://dg0i4uqo15h1i"]
 
 [ext_resource type="Texture2D" uid="uid://c6rlnthwa4dy5" path="res://art/attack_negative.png" id="1_pji22"]
-[ext_resource type="Script" path="res://Statuses/intimidation.gd" id="2_ltcfd"]
+[ext_resource type="Script" uid="uid://w5jhcgq5vmu0" path="res://Statuses/intimidation.gd" id="2_ltcfd"]
 
 [resource]
 script = ExtResource("2_ltcfd")

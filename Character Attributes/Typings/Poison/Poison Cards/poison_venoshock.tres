@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://bxgrktox5it82" path="res://art/tile_0105.png" id="1_tqg1k"]
 [ext_resource type="StyleBox" uid="uid://dw6hxwgsb0i1n" path="res://Scenes/CardUI/Styleboxes/Poison/poison_base_card_stylebox.tres" id="1_yhywg"]
 [ext_resource type="StyleBox" uid="uid://dygi6qc47ydvn" path="res://Scenes/CardUI/Styleboxes/Poison/poison_drag_card_stylebox.tres" id="2_lqxmu"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_venoshock.gd" id="2_nbx6w"]
+[ext_resource type="Script" uid="uid://cj4q2bm7rpcp4" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_venoshock.gd" id="2_nbx6w"]
 [ext_resource type="StyleBox" uid="uid://4bmt4assscxi" path="res://Scenes/CardUI/Styleboxes/Poison/poison_hover_card_stylebox.tres" id="3_kuyu2"]
 [ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_xvtmr"]
 

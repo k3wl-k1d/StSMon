@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://b3mou8nqxb4b5"]
 
-[ext_resource type="Script" path="res://Scenes/UI/card_rewards.gd" id="1_1dgtv"]
+[ext_resource type="Script" uid="uid://41qta5obb3dp" path="res://Scenes/UI/card_rewards.gd" id="1_1dgtv"]
 [ext_resource type="PackedScene" uid="uid://ckmclsd588wx1" path="res://Scenes/CardMenuUI/card_menu_ui.tscn" id="1_1i2of"]
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="2_3vx2p"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="2_3vx2p"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_s8uah"]
 [ext_resource type="PackedScene" uid="uid://bg6e2dcyrfigx" path="res://Scenes/UI/card_tooltip_popup.tscn" id="3_44dik"]
 [ext_resource type="Resource" uid="uid://b8xvr6kkw0op" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_acupressure.tres" id="3_xloi1"]

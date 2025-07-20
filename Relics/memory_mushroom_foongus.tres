@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://bmer0gl25ygtk"]
 
 [ext_resource type="Texture2D" uid="uid://dpfqok8tuy4r7" path="res://art/tile_0084.png" id="1_myemn"]
-[ext_resource type="Script" path="res://Relics/memory_mushroom_foongus.gd" id="2_3hcso"]
+[ext_resource type="Script" uid="uid://cl0o24wimn784" path="res://Relics/memory_mushroom_foongus.gd" id="2_3hcso"]
 
 [resource]
 script = ExtResource("2_3hcso")
@@ -13,6 +13,7 @@ characterType = 3
 typing = 0
 starter = true
 consumable = false
+shouldDisplayStacks = false
 baseStacks = 0
 currentStacks = 0
 icon = ExtResource("1_myemn")

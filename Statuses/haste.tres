@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="HasteStatus" load_steps=3 format=3 uid="uid://cg2tq8n30xntf"]
 
 [ext_resource type="Texture2D" uid="uid://bbcnarlm51okn" path="res://art/arrow_small.png" id="1_ipt01"]
-[ext_resource type="Script" path="res://Statuses/haste.gd" id="2_ku2ua"]
+[ext_resource type="Script" uid="uid://dppbhda5sm43a" path="res://Statuses/haste.gd" id="2_ku2ua"]
 
 [resource]
 script = ExtResource("2_ku2ua")

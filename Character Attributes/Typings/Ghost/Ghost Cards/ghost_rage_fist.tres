@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Card" load_steps=7 format=3 uid="uid://bl2qstaepn3ds"]
 
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_5n7ea"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_5n7ea"]
 [ext_resource type="Texture2D" uid="uid://ck1t4hdip6xrl" path="res://art/tile_0119.png" id="1_rx6ld"]
 [ext_resource type="StyleBox" uid="uid://cyhnloxa86n40" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_base_card_stylebox.tres" id="1_tw12w"]
 [ext_resource type="StyleBox" uid="uid://ca201cne2u1w4" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_drag_card_stylebox.tres" id="2_hp18g"]

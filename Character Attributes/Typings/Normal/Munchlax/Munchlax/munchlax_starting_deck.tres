@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=5 format=3 uid="uid://cdt8ou8kf5840"]
 
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_g2xb8"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_g2xb8"]
 [ext_resource type="Resource" uid="uid://cq6kwart48fu6" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_slash.tres" id="2_umwdc"]
-[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="3_m3qgs"]
+[ext_resource type="Script" uid="uid://cdn8fb0c3g8pc" path="res://Custom Resources/card_pile.gd" id="3_m3qgs"]
 [ext_resource type="Resource" uid="uid://dya0n0jmppu27" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_takedown.tres" id="4_num50"]
 
 [resource]

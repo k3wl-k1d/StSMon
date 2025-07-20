@@ -4,7 +4,7 @@
 [ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_6f63n"]
 [ext_resource type="StyleBox" uid="uid://dvdytse782lf7" path="res://Scenes/CardUI/Styleboxes/Flying/flying_hover_card_stylebox.tres" id="3_whgk5"]
 [ext_resource type="Texture2D" uid="uid://con6y7mc74c5a" path="res://art/tile_0120.png" id="4_wyxs0"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_feather_dance.gd" id="5_wx41l"]
+[ext_resource type="Script" uid="uid://qlo3suvfacw8" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_feather_dance.gd" id="5_wx41l"]
 [ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_350mr"]
 
 [resource]

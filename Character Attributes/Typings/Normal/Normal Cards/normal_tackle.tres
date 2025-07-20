@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://c6rme2o6dyaoj" path="res://art/tile_0104.png" id="1_b6qvw"]
 [ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_ed70s"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_tackle.gd" id="1_xjxvk"]
+[ext_resource type="Script" uid="uid://crh0iomtogu1b" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_tackle.gd" id="1_xjxvk"]
 [ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_m5rxa"]
 [ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_gc4l5"]
 [ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="3_qrgtr"]

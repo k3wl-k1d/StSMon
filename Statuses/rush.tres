@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="RushStatus" load_steps=3 format=3 uid="uid://dupb3bq3r4ukq"]
 
 [ext_resource type="Texture2D" uid="uid://33wsovfwun21" path="res://art/arrow_small_disabled.png" id="1_273xu"]
-[ext_resource type="Script" path="res://Statuses/rush.gd" id="2_gq6bu"]
+[ext_resource type="Script" uid="uid://c2fuyigm01sqh" path="res://Statuses/rush.gd" id="2_gq6bu"]
 
 [resource]
 script = ExtResource("2_gq6bu")

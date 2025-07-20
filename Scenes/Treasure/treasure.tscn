@@ -1,9 +1,9 @@
 [gd_scene load_steps=30 format=3 uid="uid://cn1m2wviojnt2"]
 
-[ext_resource type="Script" path="res://Scenes/Treasure/treasure.gd" id="1_rkmh0"]
+[ext_resource type="Script" uid="uid://dxn0qco47pic4" path="res://Scenes/Treasure/treasure.gd" id="1_rkmh0"]
 [ext_resource type="Texture2D" uid="uid://cp4iq5fd6j8be" path="res://art/background.png" id="2_3afs5"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_3h08s"]
-[ext_resource type="Script" path="res://Custom Resources/relic.gd" id="2_co2or"]
+[ext_resource type="Script" uid="uid://ckr572mgfpwk6" path="res://Custom Resources/relic.gd" id="2_co2or"]
 [ext_resource type="Texture2D" uid="uid://hva3iy5hon7a" path="res://art/tile_0089.png" id="3_7hjbn"]
 [ext_resource type="Resource" uid="uid://bdttselqfmsj7" path="res://Relics/ether.tres" id="3_ggry8"]
 [ext_resource type="Texture2D" uid="uid://cxvb062yxb211" path="res://art/gold.png" id="4_7y7es"]
@@ -121,9 +121,9 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_2rbrc"]
 _data = {
-"RESET": SubResource("Animation_ijmd7"),
-"highlight": SubResource("Animation_1uunc"),
-"opening": SubResource("Animation_long6")
+&"RESET": SubResource("Animation_ijmd7"),
+&"highlight": SubResource("Animation_1uunc"),
+&"opening": SubResource("Animation_long6")
 }
 
 [sub_resource type="Curve" id="Curve_536v7"]

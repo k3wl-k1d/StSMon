@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://eio7jp8xiwxf"]
 
-[ext_resource type="Script" path="res://Scenes/UI/card_visuals.gd" id="1_7d04v"]
+[ext_resource type="Script" uid="uid://wskbrcfimixi" path="res://Scenes/UI/card_visuals.gd" id="1_7d04v"]
 [ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_xobgo"]
 [ext_resource type="Resource" uid="uid://c0bcvutrqx8oi" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_hex.tres" id="2_ou273"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_ucctf"]

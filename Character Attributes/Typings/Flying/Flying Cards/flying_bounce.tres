@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://bxa8pkakcodgw" path="res://art/tile_0082.png" id="1_3joaf"]
 [ext_resource type="StyleBox" uid="uid://cii52y4iklkde" path="res://Scenes/CardUI/Styleboxes/Flying/flying_base_card_stylebox.tres" id="1_lcka6"]
 [ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_4pyov"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_bounce.gd" id="2_k5nq5"]
+[ext_resource type="Script" uid="uid://bdibnfv6jaeun" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_bounce.gd" id="2_k5nq5"]
 [ext_resource type="StyleBox" uid="uid://dvdytse782lf7" path="res://Scenes/CardUI/Styleboxes/Flying/flying_hover_card_stylebox.tres" id="3_wavvt"]
 [ext_resource type="AudioStream" uid="uid://df64e7qat73gs" path="res://art/block.ogg" id="6_g25w0"]
 

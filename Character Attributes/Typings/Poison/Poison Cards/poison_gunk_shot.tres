@@ -4,7 +4,7 @@
 [ext_resource type="StyleBox" uid="uid://dygi6qc47ydvn" path="res://Scenes/CardUI/Styleboxes/Poison/poison_drag_card_stylebox.tres" id="2_0sixu"]
 [ext_resource type="StyleBox" uid="uid://4bmt4assscxi" path="res://Scenes/CardUI/Styleboxes/Poison/poison_hover_card_stylebox.tres" id="3_u855b"]
 [ext_resource type="Texture2D" uid="uid://dytq0eumwvky6" path="res://art/tile_0074.png" id="4_ospp0"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_gunk_shot.gd" id="5_ch2m2"]
+[ext_resource type="Script" uid="uid://b33octu5g27w1" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_gunk_shot.gd" id="5_ch2m2"]
 [ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_hoe40"]
 
 [resource]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=22 format=3 uid="uid://bv8cl3apoeq14"]
 
-[ext_resource type="Script" path="res://Scenes/Pokecenter/pokecenter.gd" id="1_kkke0"]
+[ext_resource type="Script" uid="uid://dp2tk5uo0i832" path="res://Scenes/Pokecenter/pokecenter.gd" id="1_kkke0"]
 [ext_resource type="Resource" uid="uid://blu6htqvxnnqj" path="res://Character Attributes/Typings/Normal/Munchlax/Munchlax/munchlax.tres" id="2_884o6"]
 [ext_resource type="Texture2D" uid="uid://c16w1qu83dwdl" path="res://art/rarity.png" id="2_l7kw4"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_q6ogy"]
@@ -176,8 +176,8 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_kugm7"]
 _data = {
-"RESET": SubResource("Animation_y86nw"),
-"fade_out": SubResource("Animation_y5cj1")
+&"RESET": SubResource("Animation_y86nw"),
+&"fade_out": SubResource("Animation_y5cj1")
 }
 
 [node name="Pokecenter" type="Control"]

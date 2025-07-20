@@ -4,7 +4,7 @@
 [ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_sx50f"]
 [ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_gpriv"]
 [ext_resource type="Texture2D" uid="uid://bfvi02kojsa00" path="res://art/tile_0103.png" id="4_bb1ka"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_acupressure.gd" id="5_2xugy"]
+[ext_resource type="Script" uid="uid://c2agycn2p8tnj" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_acupressure.gd" id="5_2xugy"]
 [ext_resource type="AudioStream" uid="uid://b0a2kmidfsyu3" path="res://art/true_strength.ogg" id="6_d3o2s"]
 
 [resource]

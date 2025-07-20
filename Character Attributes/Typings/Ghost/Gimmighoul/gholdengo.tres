@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="CharacterStats" load_steps=6 format=3 uid="uid://cmnf27hnlxwqf"]
 
-[ext_resource type="Script" path="res://Custom Resources/status.gd" id="1_kcaak"]
+[ext_resource type="Script" uid="uid://c3w42dqbnd0j6" path="res://Custom Resources/status.gd" id="1_kcaak"]
 [ext_resource type="Resource" uid="uid://b4r3dthgjosls" path="res://Character Attributes/Typings/Ghost/ghost_draftable_cards.tres" id="2_tghhv"]
-[ext_resource type="Script" path="res://Custom Resources/character_stats.gd" id="2_ycr2k"]
+[ext_resource type="Script" uid="uid://djmqwe7osk1pw" path="res://Custom Resources/character_stats.gd" id="2_ycr2k"]
 [ext_resource type="Resource" uid="uid://cxun0ewq3inkj" path="res://Character Attributes/Typings/Ghost/Gimmighoul/gholdengo_starting_deck.tres" id="4_14p3j"]
 [ext_resource type="Resource" uid="uid://cnn4pvrqud3rr" path="res://Relics/loaded_dice_gimmighoul.tres" id="5_cf4le"]
 

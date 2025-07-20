@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://c24y6l0ivlqp7" path="res://art/tile_0108.png" id="1_yfq0g"]
 [ext_resource type="StyleBox" uid="uid://ca201cne2u1w4" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_drag_card_stylebox.tres" id="2_qisvs"]
 [ext_resource type="StyleBox" uid="uid://cosmxhmhdt3f2" path="res://Scenes/CardUI/Styleboxes/Ghost/ghost_hover_card_stylebox.tres" id="3_gg736"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_destiny_bond.gd" id="5_aj8d8"]
+[ext_resource type="Script" uid="uid://cwdm86kjaw46d" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_destiny_bond.gd" id="5_aj8d8"]
 [ext_resource type="AudioStream" uid="uid://k8m4o3hlwm7l" path="res://art/enemy_block.ogg" id="6_mmwhx"]
 
 [resource]

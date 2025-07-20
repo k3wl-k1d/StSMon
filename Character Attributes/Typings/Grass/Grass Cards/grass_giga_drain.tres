@@ -4,7 +4,7 @@
 [ext_resource type="StyleBox" uid="uid://b5o03afs84ycy" path="res://Scenes/CardUI/Styleboxes/Grass/grass_drag_card_stylebox.tres" id="2_u4syi"]
 [ext_resource type="StyleBox" uid="uid://bsso4wr02vs2l" path="res://Scenes/CardUI/Styleboxes/Grass/grass_hover_card_stylebox.tres" id="3_a3weo"]
 [ext_resource type="Texture2D" uid="uid://bxgrktox5it82" path="res://art/tile_0105.png" id="4_2mvcp"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_giga_drain.gd" id="5_77ily"]
+[ext_resource type="Script" uid="uid://bt6gla7wr8mdu" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_giga_drain.gd" id="5_77ily"]
 [ext_resource type="AudioStream" uid="uid://dixklg6g4jnsq" path="res://art/slash.ogg" id="6_0c1x0"]
 
 [resource]

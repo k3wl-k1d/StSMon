@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://sw54oq4omqog"]
 
-[ext_resource type="Script" path="res://Scenes/UI/turn_order_segment.gd" id="1_ypvhf"]
+[ext_resource type="Script" uid="uid://c8w7rj6g8se15" path="res://Scenes/UI/turn_order_segment.gd" id="1_ypvhf"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_ev2u8"]
 [ext_resource type="Texture2D" uid="uid://kwjumhw0edlf" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_faint_icon.png" id="2_lw6kc"]
 

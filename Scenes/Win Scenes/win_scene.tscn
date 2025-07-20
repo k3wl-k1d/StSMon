@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://cibog4eo8pk27"]
 
-[ext_resource type="Script" path="res://Scenes/Win Scenes/win_scene.gd" id="1_wngu8"]
+[ext_resource type="Script" uid="uid://6vxpu61rusnp" path="res://Scenes/Win Scenes/win_scene.gd" id="1_wngu8"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="3_3rg65"]
 [ext_resource type="Texture2D" uid="uid://cf6u4hrp3ntk6" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_icon.png" id="4_cpyue"]
 

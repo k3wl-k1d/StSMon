@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://syagicvko5m2"]
 
 [ext_resource type="Texture2D" uid="uid://c2xhttrclo1r7" path="res://art/tile_0116.png" id="1_gidej"]
-[ext_resource type="Script" path="res://Relics/sitrus_berry.gd" id="2_ev3tl"]
+[ext_resource type="Script" uid="uid://d3r2uvj36qfe4" path="res://Relics/sitrus_berry.gd" id="2_ev3tl"]
 
 [resource]
 script = ExtResource("2_ev3tl")
@@ -12,6 +12,7 @@ characterType = 0
 typing = 0
 starter = false
 consumable = true
+shouldDisplayStacks = false
 baseStacks = 2
 currentStacks = 2
 icon = ExtResource("1_gidej")

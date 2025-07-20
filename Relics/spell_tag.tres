@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://bvesadrc1xh5g"]
 
 [ext_resource type="Texture2D" uid="uid://dwwohw571cr2a" path="res://art/tile_0092.png" id="1_bq036"]
-[ext_resource type="Script" path="res://Relics/spell_tag.gd" id="2_opfqk"]
+[ext_resource type="Script" uid="uid://ctvlqf1enlk6q" path="res://Relics/spell_tag.gd" id="2_opfqk"]
 
 [resource]
 script = ExtResource("2_opfqk")
@@ -12,6 +12,7 @@ characterType = 0
 typing = 16
 starter = false
 consumable = false
+shouldDisplayStacks = false
 baseStacks = 0
 currentStacks = 0
 icon = ExtResource("1_bq036")

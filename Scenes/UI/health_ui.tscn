@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://jpngd3uykfu5"]
 
 [ext_resource type="Texture2D" uid="uid://dmnh5xxe2xne0" path="res://art/player_heart.png" id="1_dkmt1"]
-[ext_resource type="Script" path="res://Scenes/UI/health_ui.gd" id="1_vpt0t"]
+[ext_resource type="Script" uid="uid://d3i2amij7g4hh" path="res://Scenes/UI/health_ui.gd" id="1_vpt0t"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_lwb24"]
 [ext_resource type="Texture2D" uid="uid://cf6u4hrp3ntk6" path="res://Pokemon Assets/Pokemon/Munchlax/munchlax_icon.png" id="2_se7k7"]
 

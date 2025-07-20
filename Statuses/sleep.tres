@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="SleepStatus" load_steps=3 format=3 uid="uid://7n143qcl82sl"]
 
 [ext_resource type="Texture2D" uid="uid://bj3im6egs4wxx" path="res://art/tile_0086.png" id="1_ut65n"]
-[ext_resource type="Script" path="res://Statuses/sleep.gd" id="2_kayru"]
+[ext_resource type="Script" uid="uid://bmcmqbwiq55fa" path="res://Statuses/sleep.gd" id="2_kayru"]
 
 [resource]
 script = ExtResource("2_kayru")

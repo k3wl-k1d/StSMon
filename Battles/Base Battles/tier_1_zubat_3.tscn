@@ -3,9 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://belsbfnyg7qx6" path="res://Scenes/Entities/Enemy/enemy.tscn" id="1_6kw33"]
 [ext_resource type="PackedScene" uid="uid://cbf7mxnth6of" path="res://Enemy Attributes/Zubat/zubat_ai.tscn" id="2_mmlfv"]
 [ext_resource type="SpriteFrames" uid="uid://guridbhhulb7" path="res://Pokemon Assets/Pokemon/Zubat/zubat_animation.tres" id="3_y3mpl"]
-[ext_resource type="Script" path="res://Custom Resources/status.gd" id="4_7hmuy"]
+[ext_resource type="Script" uid="uid://c3w42dqbnd0j6" path="res://Custom Resources/status.gd" id="4_7hmuy"]
 [ext_resource type="Texture2D" uid="uid://texi34ehy7on" path="res://Pokemon Assets/Pokemon/Zubat/zubat_icon.png" id="4_h7p25"]
-[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="5_wvrq2"]
+[ext_resource type="Script" uid="uid://y1k7frusnwvb" path="res://Custom Resources/enemy_stats.gd" id="5_wvrq2"]
 
 [sub_resource type="Resource" id="Resource_i73sq"]
 resource_local_to_scene = true

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://ks5d7bh7lhac"]
 
-[ext_resource type="Script" path="res://Scenes/UI/crit_ui.gd" id="1_phxd4"]
+[ext_resource type="Script" uid="uid://c7mwyfetry1jt" path="res://Scenes/UI/crit_ui.gd" id="1_phxd4"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="1_rxkua"]
 
 [node name="CritUI" type="VBoxContainer"]

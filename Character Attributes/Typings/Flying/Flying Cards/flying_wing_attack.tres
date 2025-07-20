@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=7 format=3 uid="uid://dnc2m3holx8t3"]
 
-[ext_resource type="Script" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_wing_attack.gd" id="1_0sya7"]
+[ext_resource type="Script" uid="uid://ccdqmf6k2bbwr" path="res://Character Attributes/Typings/Flying/Flying Cards/flying_wing_attack.gd" id="1_0sya7"]
 [ext_resource type="StyleBox" uid="uid://cii52y4iklkde" path="res://Scenes/CardUI/Styleboxes/Flying/flying_base_card_stylebox.tres" id="1_qxmuk"]
 [ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="2_p2sgv"]
 [ext_resource type="StyleBox" uid="uid://c3qmcbwjb0tq4" path="res://Scenes/CardUI/Styleboxes/Flying/flying_drag_card_stylebox.tres" id="2_ui1fb"]

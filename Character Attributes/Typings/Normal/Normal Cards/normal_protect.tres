@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=7 format=3 uid="uid://bdc8p11bg6dw4"]
 
-[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_protect.gd" id="1_6rbav"]
+[ext_resource type="Script" uid="uid://bns17o43di4g1" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_protect.gd" id="1_6rbav"]
 [ext_resource type="StyleBox" uid="uid://bg0iwm7uf4ipl" path="res://Scenes/CardUI/Styleboxes/Normal/normal_base_card_stylebox.tres" id="1_ocaxv"]
 [ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_04hen"]
 [ext_resource type="AudioStream" uid="uid://df64e7qat73gs" path="res://art/block.ogg" id="3_4rnm5"]

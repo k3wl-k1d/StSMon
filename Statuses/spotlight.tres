@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="SpotlightStatus" load_steps=3 format=3 uid="uid://dlylvqw0iop0a"]
 
 [ext_resource type="Texture2D" uid="uid://bb3rcs5nqntir" path="res://art/arrow.png" id="1_wltw1"]
-[ext_resource type="Script" path="res://Statuses/spotlight.gd" id="2_6a1yn"]
+[ext_resource type="Script" uid="uid://caidqa22121u3" path="res://Statuses/spotlight.gd" id="2_6a1yn"]
 
 [resource]
 script = ExtResource("2_6a1yn")

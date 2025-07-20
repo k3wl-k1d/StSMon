@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="RunStartup" load_steps=4 format=3 uid="uid://6hfc35ywbs6n"]
 
-[ext_resource type="Script" path="res://Custom Resources/run_startup.gd" id="1_44kxo"]
+[ext_resource type="Script" uid="uid://bmvmsed1310xx" path="res://Custom Resources/run_startup.gd" id="1_44kxo"]
 [ext_resource type="Resource" uid="uid://cvqrve7qj0i15" path="res://Character Attributes/Typings/Ghost/Gimmighoul/gimmighoul.tres" id="1_84u25"]
 [ext_resource type="Resource" uid="uid://blu6htqvxnnqj" path="res://Character Attributes/Typings/Normal/Munchlax/Munchlax/munchlax.tres" id="2_712m8"]
 

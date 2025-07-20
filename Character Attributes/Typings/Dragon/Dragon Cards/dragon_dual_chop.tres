@@ -3,7 +3,7 @@
 [ext_resource type="StyleBox" uid="uid://cu3nniukdfgix" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_base_card_stylebox.tres" id="1_hrisu"]
 [ext_resource type="Texture2D" uid="uid://bxgrktox5it82" path="res://art/tile_0105.png" id="1_plp70"]
 [ext_resource type="StyleBox" uid="uid://ddomb0cbfxgpb" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_drag_card_stylebox.tres" id="2_0y04u"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dual_chop.gd" id="2_5oxs8"]
+[ext_resource type="Script" uid="uid://drmr6yemlpsbf" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_dual_chop.gd" id="2_5oxs8"]
 [ext_resource type="StyleBox" uid="uid://u6qadtb532pl" path="res://Scenes/CardUI/Styleboxes/Dragon/dragon_hover_card_stylebox.tres" id="3_qvnq6"]
 [ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_dv86d"]
 

@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://bokd83why0a12"]
 
 [ext_resource type="Texture2D" uid="uid://bi6pfjs32f820" path="res://art/tile_0101.png" id="1_6a4cg"]
-[ext_resource type="Script" path="res://Relics/loaded_dice.gd" id="2_s32dj"]
+[ext_resource type="Script" uid="uid://cwj8g5torrcwy" path="res://Relics/loaded_dice.gd" id="2_s32dj"]
 
 [resource]
 script = ExtResource("2_s32dj")
@@ -12,6 +12,7 @@ characterType = 0
 typing = 0
 starter = false
 consumable = false
+shouldDisplayStacks = false
 baseStacks = 0
 currentStacks = 0
 icon = ExtResource("1_6a4cg")

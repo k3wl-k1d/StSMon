@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="DetectStatus" load_steps=3 format=3 uid="uid://kmija8snx1f8"]
 
 [ext_resource type="Texture2D" uid="uid://oe7v35ii8vrs" path="res://art/tile_0102.png" id="1_buqop"]
-[ext_resource type="Script" path="res://Statuses/detect.gd" id="2_x0r8a"]
+[ext_resource type="Script" uid="uid://dfhhey8nmmp2y" path="res://Statuses/detect.gd" id="2_x0r8a"]
 
 [resource]
 script = ExtResource("2_x0r8a")

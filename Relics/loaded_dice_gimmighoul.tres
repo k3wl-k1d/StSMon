@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://cnn4pvrqud3rr"]
 
 [ext_resource type="Texture2D" uid="uid://cqvh1eb3jil4n" path="res://Pokemon Assets/Other Art/LoadedDieNL.png" id="1_tkqdy"]
-[ext_resource type="Script" path="res://Relics/loaded_dice.gd" id="2_o6csh"]
+[ext_resource type="Script" uid="uid://cwj8g5torrcwy" path="res://Relics/loaded_dice.gd" id="2_o6csh"]
 
 [resource]
 script = ExtResource("2_o6csh")
@@ -12,6 +12,7 @@ characterType = 2
 typing = 0
 starter = true
 consumable = false
+shouldDisplayStacks = false
 baseStacks = 0
 currentStacks = 0
 icon = ExtResource("1_tkqdy")

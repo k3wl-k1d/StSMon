@@ -4,7 +4,7 @@
 [ext_resource type="StyleBox" uid="uid://ckd4v2juaeapk" path="res://Scenes/CardUI/Styleboxes/Normal/normal_drag_card_stylebox.tres" id="2_sc7d2"]
 [ext_resource type="StyleBox" uid="uid://j2uch185usng" path="res://Scenes/CardUI/Styleboxes/Normal/normal_hover_card_stylebox.tres" id="3_8bna8"]
 [ext_resource type="Texture2D" uid="uid://44jbm5bqr4k" path="res://art/tile_0117.png" id="4_nwa6u"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_thrash.gd" id="5_w35qh"]
+[ext_resource type="Script" uid="uid://diyjukgy0cvds" path="res://Character Attributes/Typings/Normal/Normal Cards/normal_thrash.gd" id="5_w35qh"]
 [ext_resource type="AudioStream" uid="uid://b1vpjjmi5cj3n" path="res://art/axe.ogg" id="6_gei1e"]
 
 [resource]

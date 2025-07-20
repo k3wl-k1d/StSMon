@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dqobr41m6exay"]
 
-[ext_resource type="Script" path="res://Scenes/RelicHandler/relic_tooltip.gd" id="1_7uf1s"]
+[ext_resource type="Script" uid="uid://jguy75txmgns" path="res://Scenes/RelicHandler/relic_tooltip.gd" id="1_7uf1s"]
 [ext_resource type="Texture2D" uid="uid://dytq0eumwvky6" path="res://art/tile_0074.png" id="2_be250"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="3_uaptt"]
 

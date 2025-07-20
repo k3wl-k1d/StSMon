@@ -4,7 +4,7 @@
 [ext_resource type="StyleBox" uid="uid://dygi6qc47ydvn" path="res://Scenes/CardUI/Styleboxes/Poison/poison_drag_card_stylebox.tres" id="2_3gulv"]
 [ext_resource type="StyleBox" uid="uid://4bmt4assscxi" path="res://Scenes/CardUI/Styleboxes/Poison/poison_hover_card_stylebox.tres" id="3_n6stt"]
 [ext_resource type="Texture2D" uid="uid://bi6pfjs32f820" path="res://art/tile_0101.png" id="4_4n37m"]
-[ext_resource type="Script" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_acid_armor.gd" id="5_mtp3f"]
+[ext_resource type="Script" uid="uid://dax1b013n3ih" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_acid_armor.gd" id="5_mtp3f"]
 [ext_resource type="AudioStream" uid="uid://df64e7qat73gs" path="res://art/block.ogg" id="6_5fise"]
 
 [resource]

@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://c76svyl3uv7gj"]
 
 [ext_resource type="PackedScene" uid="uid://dec1tpqrufcad" path="res://Scenes/Event Rooms/event_room_button.tscn" id="1_8n7r2"]
-[ext_resource type="Script" path="res://Scenes/Event Rooms/helpful_event.gd" id="1_nlxhm"]
+[ext_resource type="Script" uid="uid://iu2q65dnt5v2" path="res://Scenes/Event Rooms/helpful_event.gd" id="1_nlxhm"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="2_l2und"]
 
 [node name="HelpfulEvent" type="Control"]

@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://chqhw31kpdt7q"]
+[gd_resource type="Resource" script_class="CouponsRelic" load_steps=3 format=3 uid="uid://chqhw31kpdt7q"]
 
 [ext_resource type="Texture2D" uid="uid://c8kys6n30onlf" path="res://art/coupons.png" id="1_dh5ds"]
-[ext_resource type="Script" path="res://Relics/coupons.gd" id="2_isqxe"]
+[ext_resource type="Script" uid="uid://ctqlah3davjos" path="res://Relics/coupons.gd" id="2_isqxe"]
 
 [resource]
 script = ExtResource("2_isqxe")
@@ -13,6 +13,7 @@ characterType = 0
 typing = 0
 starter = false
 consumable = false
+shouldDisplayStacks = false
 baseStacks = 0
 currentStacks = 0
 icon = ExtResource("1_dh5ds")

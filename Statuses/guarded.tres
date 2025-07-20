@@ -1,7 +1,7 @@
-[gd_resource type="Resource" load_steps=3 format=3 uid="uid://ddg7r0af8cxxb"]
+[gd_resource type="Resource" script_class="GuardedStatus" load_steps=3 format=3 uid="uid://ddg7r0af8cxxb"]
 
 [ext_resource type="Texture2D" uid="uid://bi6pfjs32f820" path="res://art/tile_0101.png" id="1_5cjw1"]
-[ext_resource type="Script" path="res://Statuses/guarded.gd" id="2_f82gj"]
+[ext_resource type="Script" uid="uid://c7eop6pugxcuv" path="res://Statuses/guarded.gd" id="2_f82gj"]
 
 [resource]
 script = ExtResource("2_f82gj")

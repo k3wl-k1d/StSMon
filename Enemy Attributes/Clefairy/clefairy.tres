@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="EnemyStats" load_steps=6 format=3 uid="uid://dhsfrp5k68umj"]
 
 [ext_resource type="PackedScene" uid="uid://btomku2lj3ojh" path="res://Enemy Attributes/Clefairy/clefairy_ai.tscn" id="1_ksgou"]
-[ext_resource type="Script" path="res://Custom Resources/status.gd" id="1_nhfuh"]
+[ext_resource type="Script" uid="uid://c3w42dqbnd0j6" path="res://Custom Resources/status.gd" id="1_nhfuh"]
 [ext_resource type="SpriteFrames" uid="uid://g165hx7hg6o6" path="res://Pokemon Assets/Pokemon/Clefairy/clefairy_animation.tres" id="2_enhdi"]
-[ext_resource type="Script" path="res://Custom Resources/enemy_stats.gd" id="2_h8ygr"]
+[ext_resource type="Script" uid="uid://y1k7frusnwvb" path="res://Custom Resources/enemy_stats.gd" id="2_h8ygr"]
 [ext_resource type="Texture2D" uid="uid://bfaauodyq6bd5" path="res://Pokemon Assets/Pokemon/Clefairy/clefairy_icon.png" id="4_kl6ge"]
 
 [resource]

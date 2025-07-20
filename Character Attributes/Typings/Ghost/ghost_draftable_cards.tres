@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=15 format=3 uid="uid://b4r3dthgjosls"]
 
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_huecl"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_huecl"]
 [ext_resource type="Resource" uid="uid://1hpop4cqa15r" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_astonish.tres" id="2_kf38h"]
 [ext_resource type="Resource" uid="uid://sp1g8b0wsuse" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_curse.tres" id="3_efebr"]
 [ext_resource type="Resource" uid="uid://d3rls73bqxtid" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_grudge.tres" id="4_gblkm"]
@@ -13,7 +13,7 @@
 [ext_resource type="Resource" uid="uid://d3540cqjxymfr" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_spirit_shackle.tres" id="11_v0sd2"]
 [ext_resource type="Resource" uid="uid://bbyadtx58q82y" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_shadow_ball.tres" id="12_bos81"]
 [ext_resource type="Resource" uid="uid://o3c7kegavtgg" path="res://Character Attributes/Typings/Ghost/Ghost Cards/ghost_destiny_bond.tres" id="13_b0re7"]
-[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="13_u8ilp"]
+[ext_resource type="Script" uid="uid://cdn8fb0c3g8pc" path="res://Custom Resources/card_pile.gd" id="13_u8ilp"]
 
 [resource]
 script = ExtResource("13_u8ilp")

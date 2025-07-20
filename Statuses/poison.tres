@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="PoisonStatus" load_steps=3 format=3 uid="uid://cqw7ttrlo0aot"]
 
 [ext_resource type="Texture2D" uid="uid://clbji84e7ec6m" path="res://art/tile_0126.png" id="1_mnvjl"]
-[ext_resource type="Script" path="res://Statuses/poison.gd" id="2_1e4ol"]
+[ext_resource type="Script" uid="uid://c6s0t5qyjbafs" path="res://Statuses/poison.gd" id="2_1e4ol"]
 
 [resource]
 script = ExtResource("2_1e4ol")

@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=68 format=3 uid="uid://dfwh06ohfr6n3"]
 
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_yp5ve"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_yp5ve"]
 [ext_resource type="Resource" uid="uid://cmb6pb64bvc0n" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_breaking_swipe.tres" id="2_auvx7"]
 [ext_resource type="Resource" uid="uid://byvlte5abxdci" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_clanging_scales.tres" id="3_ihjmc"]
 [ext_resource type="Resource" uid="uid://1pmhw5302rtr" path="res://Character Attributes/Typings/Dragon/Dragon Cards/dragon_draco_meteor.tres" id="4_rh67u"]
@@ -66,7 +66,7 @@
 [ext_resource type="Resource" uid="uid://f0bv6qcllr3v" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_toxic_thread.tres" id="64_obddk"]
 [ext_resource type="Resource" uid="uid://du72ei5v551d6" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_venom_drench.tres" id="65_g6krv"]
 [ext_resource type="Resource" uid="uid://c41qmdmxbrq4s" path="res://Character Attributes/Typings/Poison/Poison Cards/poison_venoshock.tres" id="66_qifl7"]
-[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="67_th3dn"]
+[ext_resource type="Script" uid="uid://cdn8fb0c3g8pc" path="res://Custom Resources/card_pile.gd" id="67_th3dn"]
 
 [resource]
 script = ExtResource("67_th3dn")

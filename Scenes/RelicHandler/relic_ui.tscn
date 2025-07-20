@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://cpjeifaoev8x7"]
 
 [ext_resource type="Texture2D" uid="uid://dytq0eumwvky6" path="res://art/tile_0074.png" id="1_5jrri"]
-[ext_resource type="Script" path="res://Scenes/RelicHandler/relic_ui.gd" id="1_fena4"]
+[ext_resource type="Script" uid="uid://hkikj8564rqf" path="res://Scenes/RelicHandler/relic_ui.gd" id="1_fena4"]
 [ext_resource type="Material" uid="uid://d30aqi80c1nrc" path="res://Pokemon Assets/white_sprite_material.tres" id="2_pup3i"]
 [ext_resource type="Theme" uid="uid://cru70siydt0qh" path="res://main_theme.tres" id="3_2lxwp"]
 
@@ -66,8 +66,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_c2ty3"]
 _data = {
-"RESET": SubResource("Animation_ob7k6"),
-"flash": SubResource("Animation_u7l6o")
+&"RESET": SubResource("Animation_ob7k6"),
+&"flash": SubResource("Animation_u7l6o")
 }
 
 [node name="RelicUI" type="Control"]

@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="CardPile" load_steps=12 format=3 uid="uid://ynv0khgbfhxk"]
 
-[ext_resource type="Script" path="res://Custom Resources/card.gd" id="1_prthm"]
+[ext_resource type="Script" uid="uid://dfq4euvtfncvf" path="res://Custom Resources/card.gd" id="1_prthm"]
 [ext_resource type="Resource" uid="uid://byx7psbvuu8di" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_rage_powder.tres" id="2_5cwjl"]
-[ext_resource type="Script" path="res://Custom Resources/card_pile.gd" id="2_6f27k"]
+[ext_resource type="Script" uid="uid://cdn8fb0c3g8pc" path="res://Custom Resources/card_pile.gd" id="2_6f27k"]
 [ext_resource type="Resource" uid="uid://13b2jjqoqca3" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_absorb.tres" id="3_8db3p"]
 [ext_resource type="Resource" uid="uid://dbgn71whxp15v" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_giga_drain.tres" id="4_kivvt"]
 [ext_resource type="Resource" uid="uid://bw2538r515wd4" path="res://Character Attributes/Typings/Grass/Grass Cards/grass_leaf_tornado.tres" id="5_sx2xg"]

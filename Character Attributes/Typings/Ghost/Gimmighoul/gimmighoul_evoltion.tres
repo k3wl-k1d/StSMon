@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://5rgwf03u7rxc"]
 
-[ext_resource type="Script" path="res://Character Attributes/Typings/Ghost/Gimmighoul/gimmighoul_evolution.gd" id="1_p66na"]
+[ext_resource type="Script" uid="uid://c75ddyw3oollg" path="res://Character Attributes/Typings/Ghost/Gimmighoul/gimmighoul_evolution.gd" id="1_p66na"]
 [ext_resource type="Resource" uid="uid://cmnf27hnlxwqf" path="res://Character Attributes/Typings/Ghost/Gimmighoul/gholdengo.tres" id="1_qpeyu"]
 
 [resource]
