@@ -83,6 +83,8 @@ func _save_run(wasOnMap: bool) -> void:
 	saveData.currentDeck = PokemonTeam.deck
 	saveData.char1StartingDeck = characterP1.startingDeck
 	saveData.char2StartingDeck = characterP2.startingDeck
+	saveData.char1Evolution = characterP1.evolution
+	saveData.char2Evolution = characterP2.evolution
 	saveData.currentHealthP1 = characterP1.health
 	saveData.currentHealthP2 = characterP2.health
 	saveData.speedP1 = characterP1.speed
@@ -92,6 +94,7 @@ func _save_run(wasOnMap: bool) -> void:
 	saveData.mapData = map.mapData.duplicate()
 	saveData.floorsClimbed = map.floorsClimbed
 	saveData.wasOnMap = wasOnMap
+	saveData.currentCrit = PokemonTeam.critMeter
 	saveData.save_data()
 
 func _load_run() -> void:
@@ -110,7 +113,10 @@ func _load_run() -> void:
 	characterP2.baseIcon = characterP2.icon
 	characterP1.startingDeck = saveData.char1StartingDeck
 	characterP2.startingDeck = saveData.char2StartingDeck
+	characterP1.evolution = saveData.char1Evolution
+	characterP2.evolution = saveData.char2Evolution
 	PokemonTeam.deck = saveData.currentDeck
+	PokemonTeam.set_crit(saveData.currentCrit)
 	relicHandler.add_relics(saveData.relics)
 	_setup_top_bar()
 	_setup_connection_events()
@@ -134,6 +140,8 @@ func _show_map() -> void:
 	if currentView.get_child_count() > 0:
 		currentView.get_child(0).queue_free()
 	
+	PokemonTeam.check_team_evolutions()
+	
 	map.show_map()
 	map.unlock_next_rooms()
 	
@@ -148,12 +156,22 @@ func _setup_connection_events() -> void:
 	Events.treasure_room_exited.connect(_on_treasure_room_exited)
 	Events.event_room_exited.connect(_show_map)
 	
+	if not Events.evolving.is_connected(_on_evolve):
+		Events.evolving.connect(_on_evolve)
+	
 	battleButton.pressed.connect(_change_view.bind(BATTLE_SCENE))
 	pokecenterButton.pressed.connect(_change_view.bind(POKECENTER_SCENE))
 	treasureButton.pressed.connect(_change_view.bind(TREASURE_SCENE))
 	shopButton.pressed.connect(_change_view.bind(SHOP_SCENE))
 	rewardsButton.pressed.connect(_change_view.bind(BATTLE_REWARD_SCENE))
 	mapButton.pressed.connect(_show_map)
+
+func _on_evolve(character: CharacterStats) -> void:
+	var evolvedCharacter := character.evolution.currentEvolution
+	if character == characterP1:
+		characterP1 = evolvedCharacter
+	else:
+		characterP2 = evolvedCharacter
 
 func _setup_top_bar() -> void:
 	characterP1.stats_changed.connect(p1Health.update_stats.bind(characterP1))
@@ -162,6 +180,8 @@ func _setup_top_bar() -> void:
 	p2Health.update_stats(characterP2)
 	
 	goldUI.runStats = stats
+	characterP1.evolution.runStats = stats
+	characterP2.evolution.runStats = stats
 	
 	if not relicHandler.has_relic("super_potion"):
 		relicHandler.add_relic(SUPER_POTION.duplicate())

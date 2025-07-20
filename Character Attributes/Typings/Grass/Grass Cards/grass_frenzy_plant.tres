@@ -16,6 +16,7 @@ rarity = 2
 typing = 3
 cost = 3
 exhaust = false
+removeAfterCombat = false
 cardName = "Frenzy Plant"
 icon = ExtResource("4_1kfbk")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy and sleep for [color='57f7d2']%s[/color] turns.[/center]"

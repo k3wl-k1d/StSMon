@@ -16,6 +16,7 @@ rarity = 0
 typing = 0
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Protect"
 icon = ExtResource("4_f6fhh")
 tooltip = "[center]Gain [color='2fbff7']%s[/color] Block.[/center]"

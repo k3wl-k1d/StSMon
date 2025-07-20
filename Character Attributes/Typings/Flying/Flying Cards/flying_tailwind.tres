@@ -16,6 +16,7 @@ rarity = 1
 typing = 12
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Tailwind"
 icon = ExtResource("4_x6os1")
 tooltip = "[center]Both allies gain [color='34eba8']%s Rush[/color]. Draw a card.[/center]"

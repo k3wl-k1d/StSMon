@@ -16,6 +16,7 @@ rarity = 0
 typing = 16
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Breaking Swipe"
 icon = ExtResource("4_cqc5l")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage and apply [color='bd6500']2 Intimidation[/color] to all Enemies.[/center]"

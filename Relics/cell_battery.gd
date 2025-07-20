@@ -30,7 +30,7 @@ func _on_card_played(card: Card) -> void:
 		return
 	
 	skills_this_turn += 1
-	relic_ui.relic.currentStacks = skills_this_turn
+	relic_ui.relic.currentStacks = floori(skills_this_turn / skills_required)
 	
 	if skills_this_turn % skills_required == 0:
 		var enemies := relic_ui.get_tree().get_nodes_in_group("enemies")

@@ -16,6 +16,7 @@ rarity = 2
 typing = 15
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Last Respects"
 icon = ExtResource("1_5efbf")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all enemies. When an ally faints, permanently increase my damage by 10.[/center]"

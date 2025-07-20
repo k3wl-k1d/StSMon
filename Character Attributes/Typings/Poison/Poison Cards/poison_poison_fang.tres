@@ -16,6 +16,7 @@ rarity = 0
 typing = 14
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Poison Fang"
 icon = ExtResource("4_eas30")
 tooltip = "[center]Apply [color='90249e']%s Poison[/color] then deal [color='f74a2f']%s[/color] Damage to an enemy.[/center]"

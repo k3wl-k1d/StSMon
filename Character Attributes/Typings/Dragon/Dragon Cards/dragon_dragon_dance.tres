@@ -16,6 +16,7 @@ rarity = 1
 typing = 16
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Dragon Dance"
 icon = ExtResource("4_kum8r")
 tooltip = "[center]Gain [color='a30000']1 Strength[/color] and [color='34eba8']1 Haste[/color].[/center]"

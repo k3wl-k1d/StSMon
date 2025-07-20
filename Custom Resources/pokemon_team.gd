@@ -9,7 +9,7 @@ static var players: Array[Node]
 static var active: Player
 static var fainted: Array[Node]
 
-static var deck := STARTER_DECK
+static var deck := STARTER_DECK.custom_duplicate()
 static var discard: CardPile
 static var drawPile: CardPile
 
@@ -37,7 +37,7 @@ static func set_deck() -> void:
 static func reset_game() -> void:
 	critMeter = 0
 	totalTeammateDeaths = 0
-	deck = STARTER_DECK
+	deck = STARTER_DECK.custom_duplicate()
 	discard = null
 	drawPile = null
 	teammate1 = null
@@ -66,8 +66,20 @@ static func increase_crit(amount: int) -> void:
 	if critMeter >= CRIT_CHARGE_MAX:
 		Events.crit_ready.emit()
 
+static func set_crit(amount: int) -> void:
+	critMeter = clampi(amount, 0, CRIT_CHARGE_MAX)
+	
+	if critMeter >= CRIT_CHARGE_MAX:
+		Events.crit_ready.emit()
+
 static func _on_crit_reset() -> void:
 	critMeter = 0
+
+static func check_team_evolutions() -> void:
+	if teammate1.evolution.check_evolution():
+		Events.evolving.emit(teammate1)
+	if teammate2.evolution.check_evolution():
+		Events.evolving.emit(teammate2)
 
 static func _on_player_died(player: Player) -> void:
 	player.statusHandler.clear_statuses()

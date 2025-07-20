@@ -16,6 +16,7 @@ rarity = 0
 typing = 14
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Acid Armor"
 icon = ExtResource("4_4n37m")
 tooltip = "[center]Gain [color='2fbff7']%s[/color] Block.[/center]"

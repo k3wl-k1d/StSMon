@@ -16,6 +16,7 @@ rarity = 0
 typing = 15
 cost = 0
 exhaust = false
+removeAfterCombat = false
 cardName = "Astonish"
 icon = ExtResource("1_gjj7b")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an enemy and apply [color='3e1a91']2 Curse[/color].[/center]"

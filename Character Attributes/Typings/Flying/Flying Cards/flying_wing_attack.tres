@@ -16,6 +16,7 @@ rarity = 0
 typing = 12
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Wing Attack"
 icon = ExtResource("4_rx6ao")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy and increase your Crit by 2.[/center]"

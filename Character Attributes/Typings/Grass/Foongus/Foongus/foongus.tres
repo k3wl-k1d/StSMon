@@ -17,7 +17,7 @@ startingDeck = ExtResource("7_arn1n")
 draftableCardsPrimaryType = ExtResource("3_6rv05")
 draftableCardsSecondaryType = ExtResource("4_x8d60")
 cardsPerTurn = 5
-maxMana = 5
+maxMana = 4
 startingRelic = ExtResource("8_mkg8k")
 hurtIcon = ExtResource("3_fn5d1")
 faintIcon = ExtResource("3_fn5d1")
@@ -27,7 +27,7 @@ Evolves by leveling up"
 credits = "Icon by Gust
 Sprite by Gamefreak"
 name = "Foongus"
-maxHealth = 25
+maxHealth = 22
 entitySpeed = 20
 battleStartStatuses = Array[ExtResource("2_aq7nh")]([])
 animation = ExtResource("1_cbi0d")

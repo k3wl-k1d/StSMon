@@ -16,6 +16,7 @@ rarity = 0
 typing = 3
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Absorb"
 icon = ExtResource("4_l7fnw")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy and heal [color='32a852']%s[/color] health.[/center]"

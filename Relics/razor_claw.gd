@@ -21,7 +21,7 @@ func _on_card_played(card: Card) -> void:
 		return
 	
 	attacksTotal += 1
-	relicUI.relic.currentStacks = attacksTotal
+	relicUI.relic.currentStacks = floori(attacksTotal / attacksRequired)
 	relicUI.update_relic_ui()
 	
 	if attacksTotal % attacksRequired == 0:

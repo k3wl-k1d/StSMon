@@ -16,6 +16,7 @@ rarity = 2
 typing = 15
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Rage Fist"
 icon = ExtResource("1_rx6ld")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an enemy. If your ally is fainted, deal [color='f74a2f']%s[/color] Damage instead.[/center]"

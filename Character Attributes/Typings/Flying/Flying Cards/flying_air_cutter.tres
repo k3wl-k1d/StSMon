@@ -16,6 +16,7 @@ rarity = 0
 typing = 12
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Air Cutter"
 icon = ExtResource("4_lreoa")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies.[/center]"

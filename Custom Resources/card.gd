@@ -20,6 +20,7 @@ const RARITY_COLOURS := {
 @export var typing: Typing
 @export var cost: int
 @export var exhaust: bool = false
+@export var removeAfterCombat: bool = false
 
 @export_group("Card Visuals")
 @export var cardName: String

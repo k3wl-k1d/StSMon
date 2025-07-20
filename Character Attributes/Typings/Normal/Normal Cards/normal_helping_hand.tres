@@ -16,6 +16,7 @@ rarity = 0
 typing = 0
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Helping Hand"
 icon = ExtResource("1_vx4rf")
 tooltip = "[center]Your ally gains [color='a30000']1 Strength[/color].[/center]"

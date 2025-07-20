@@ -11,14 +11,16 @@
 script = ExtResource("2_uj3rq")
 id = "normal_metronome"
 type = 1
-target = 0
+target = null
 rarity = 2
-typing = 0
+typing = null
 cost = 1
-exhaust = false
+exhaust = true
+removeAfterCombat = false
 cardName = "Metronome"
 icon = ExtResource("1_chlpf")
-tooltip = "Generate a random card. It costs 0. [R]"
+tooltip = "[center]Exhaust
+Generate a random card. It costs 0.[/center]"
 sound = ExtResource("3_qn0du")
 cardBaseStylebox = ExtResource("1_4y25y")
 cardDragStylebox = ExtResource("2_3ekav")

@@ -16,6 +16,7 @@ rarity = 1
 typing = 3
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Rage Powder"
 icon = ExtResource("4_hvhln")
 tooltip = "[center]Redirect all enemy targets to the user and gain [color='2fbff7']%s[/color] Block.[/center]"

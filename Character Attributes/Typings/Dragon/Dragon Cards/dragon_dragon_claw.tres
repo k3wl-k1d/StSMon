@@ -16,6 +16,7 @@ rarity = 0
 typing = 16
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Dragon Claw"
 icon = ExtResource("4_h034c")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy.[/center]"

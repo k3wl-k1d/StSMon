@@ -16,6 +16,7 @@ rarity = 1
 typing = 0
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Takedown"
 icon = ExtResource("1_2062f")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage and apply [color='bd6500']2 Exposed[/color] to an Enemy.[/center]"

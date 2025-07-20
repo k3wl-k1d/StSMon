@@ -16,6 +16,7 @@ rarity = 0
 typing = 0
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Tackle"
 icon = ExtResource("1_b6qvw")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy.[/center]"

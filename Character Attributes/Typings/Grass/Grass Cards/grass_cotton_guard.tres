@@ -16,6 +16,7 @@ rarity = 2
 typing = 3
 cost = 2
 exhaust = true
+removeAfterCombat = false
 cardName = "Cotton Guard"
 icon = ExtResource("1_ap7kl")
 tooltip = "[center]Exhaust

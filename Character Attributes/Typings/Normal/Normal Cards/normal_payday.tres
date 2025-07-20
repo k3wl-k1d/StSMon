@@ -16,6 +16,7 @@ rarity = 2
 typing = 0
 cost = 2
 exhaust = true
+removeAfterCombat = false
 cardName = "Pay Day"
 icon = ExtResource("1_2a0jw")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an enemy. On kill, gain 10 gold.[/center]"

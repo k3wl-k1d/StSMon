@@ -16,6 +16,7 @@ rarity = 0
 typing = 14
 cost = 0
 exhaust = false
+removeAfterCombat = false
 cardName = "Corrosive Gas"
 icon = ExtResource("4_cg445")
 tooltip = "[center]Set everyone's Block to 0 and draw a card for each 6 Block removed.[/center]"

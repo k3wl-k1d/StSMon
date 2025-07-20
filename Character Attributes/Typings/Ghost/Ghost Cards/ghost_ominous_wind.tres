@@ -16,6 +16,7 @@ rarity = 1
 typing = 15
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Ominous Wind"
 icon = ExtResource("1_puepd")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage and apply [color='3e1a91']4 Curse[/color] to all enemies.[/center]"

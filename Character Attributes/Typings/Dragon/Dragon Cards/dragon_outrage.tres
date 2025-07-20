@@ -16,6 +16,7 @@ rarity = 2
 typing = 0
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Outrage"
 icon = ExtResource("4_nhaxp")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy increased by %s for every time you've used this card this battle. Exhaust 2 random cards.[/center]"

@@ -16,6 +16,7 @@ rarity = 1
 typing = 14
 cost = 1
 exhaust = true
+removeAfterCombat = false
 cardName = "Baneful Bunker"
 icon = ExtResource("4_mi83k")
 tooltip = "[center]Exhaust

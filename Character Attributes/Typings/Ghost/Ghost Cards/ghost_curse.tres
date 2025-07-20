@@ -16,9 +16,10 @@ rarity = 0
 typing = 15
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Curse"
 icon = ExtResource("4_400cy")
-tooltip = "[center]Apply [color='3e1a91']5 Curse[/color] to an enemy.[/center]"
+tooltip = "[center]Apply [color='3e1a91']4 Curse[/color] to an enemy.[/center]"
 sound = ExtResource("6_5dfuc")
 cardBaseStylebox = ExtResource("1_708fj")
 cardDragStylebox = ExtResource("2_mawir")

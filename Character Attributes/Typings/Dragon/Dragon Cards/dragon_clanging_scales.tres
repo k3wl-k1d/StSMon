@@ -16,6 +16,7 @@ rarity = 2
 typing = 16
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Clanging Scales"
 icon = ExtResource("1_ar03k")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies but gain [color='bd6500']5 Exposed[/color].[/center]"

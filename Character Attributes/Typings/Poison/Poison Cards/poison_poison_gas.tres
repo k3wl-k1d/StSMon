@@ -16,6 +16,7 @@ rarity = 1
 typing = 14
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Poison Gas"
 icon = ExtResource("4_v0tn8")
 tooltip = "[center]Apply [color='90249e']6 Poison[/color] to all enemies.[/center]"

@@ -16,6 +16,7 @@ rarity = 2
 typing = 15
 cost = 1
 exhaust = true
+removeAfterCombat = false
 cardName = "Poltergeist"
 icon = ExtResource("1_kxtru")
 tooltip = "[center]Exhaust

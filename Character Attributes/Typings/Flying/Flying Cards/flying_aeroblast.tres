@@ -16,6 +16,7 @@ rarity = 2
 typing = 12
 cost = 3
 exhaust = false
+removeAfterCombat = false
 cardName = "Aeroblast"
 icon = ExtResource("4_6fv8m")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies and give your team [color='34eba8']%s Rush[/color].[/center]"

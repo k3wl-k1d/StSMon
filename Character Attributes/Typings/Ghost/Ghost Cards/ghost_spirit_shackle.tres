@@ -16,6 +16,7 @@ rarity = 1
 typing = 15
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Spirit Shackle"
 icon = ExtResource("1_ccrfg")
 tooltip = "[center]Apply [color='3e1a91']8 Curse[/color] then activate all [color='3e1a91']Curses[/color].[/center]"

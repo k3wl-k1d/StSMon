@@ -16,6 +16,7 @@ rarity = 2
 typing = 3
 cost = 2
 exhaust = true
+removeAfterCombat = false
 cardName = "Sleep Powder"
 icon = ExtResource("1_ubg13")
 tooltip = "[center]Exhaust

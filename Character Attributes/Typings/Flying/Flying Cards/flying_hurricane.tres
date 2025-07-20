@@ -16,6 +16,7 @@ rarity = 2
 typing = 12
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Hurricane"
 icon = ExtResource("4_3ew11")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy. Exhaust a random card to draw 2.[/center]"

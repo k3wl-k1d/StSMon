@@ -12,6 +12,7 @@ enum Typing {NORMAL, FIRE, WATER, GRASS, ELECTRIC, PSYCHIC, GROUND, ROCK, FIGHTI
 @export var cardsPerTurn: int
 @export var maxMana: int
 @export var startingRelic: Relic
+@export var evolution: EvolutionRequirements
 
 @export_group("Visuals")
 @export var hurtIcon: Texture

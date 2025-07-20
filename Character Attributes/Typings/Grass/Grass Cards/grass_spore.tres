@@ -16,6 +16,7 @@ rarity = 0
 typing = 3
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Spore"
 icon = ExtResource("4_xdkgx")
 tooltip = "[center]Apply [color='57f7d2']1 Sleep[/color] to an enemy.[/center]"

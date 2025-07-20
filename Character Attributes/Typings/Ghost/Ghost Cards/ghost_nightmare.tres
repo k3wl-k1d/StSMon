@@ -16,6 +16,7 @@ rarity = 2
 typing = 15
 cost = 2
 exhaust = true
+removeAfterCombat = false
 cardName = "Nightmare"
 icon = ExtResource("1_ew1p4")
 tooltip = "[center]Round start, apply [color='3e1a91']3 Curse[/color] to all enemies.[/center]"

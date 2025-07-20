@@ -16,6 +16,7 @@ rarity = 0
 typing = 15
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Hex"
 icon = ExtResource("1_c0han")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an enemy. If it is afflicted with any status, deal double the Damage.[/center]"

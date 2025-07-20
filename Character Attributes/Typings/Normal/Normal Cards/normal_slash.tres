@@ -16,6 +16,7 @@ rarity = 0
 typing = 0
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Slash"
 icon = ExtResource("1_acfnv")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies.[/center]"

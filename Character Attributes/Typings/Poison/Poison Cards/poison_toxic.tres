@@ -16,6 +16,7 @@ rarity = 0
 typing = 14
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Toxic"
 icon = ExtResource("4_l0u2d")
 tooltip = "[center]Apply [color='90249e']4 Poison[/color] to an enemy.[/center]"

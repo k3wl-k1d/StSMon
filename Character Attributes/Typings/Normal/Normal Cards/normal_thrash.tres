@@ -16,6 +16,7 @@ rarity = 1
 typing = 0
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Thrash"
 icon = ExtResource("4_nwa6u")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage, increased by %s for every time you've used this card this battle.[/center]"

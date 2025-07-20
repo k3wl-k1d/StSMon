@@ -2,7 +2,7 @@ extends Card
 
 const CURSE_STATUS := preload("res://Statuses/curse.tres")
 
-var curseAmount := 5
+var curseAmount := 4
 
 func apply_effects(targets: Array[Node], _modifiers: ModifierHandler) -> void:
 	var statusEffect := StatusEffect.new()

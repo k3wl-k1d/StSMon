@@ -16,6 +16,7 @@ rarity = 1
 typing = 3
 cost = 3
 exhaust = false
+removeAfterCombat = false
 cardName = "Leaf Tornado"
 icon = ExtResource("4_di6am")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies.[/center]"

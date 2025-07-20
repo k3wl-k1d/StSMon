@@ -11,6 +11,8 @@ const SAVE_PATH := "user://savegame.tres"
 @export var currentDeck: CardPile
 @export var char1StartingDeck: CardPile
 @export var char2StartingDeck: CardPile
+@export var char1Evolution: EvolutionRequirements
+@export var char2Evolution: EvolutionRequirements
 @export var currentHealthP1: int
 @export var currentHealthP2: int
 @export var speedP1: int
@@ -20,6 +22,7 @@ const SAVE_PATH := "user://savegame.tres"
 @export var lastRoom: Room
 @export var floorsClimbed: int
 @export var wasOnMap: bool
+@export var currentCrit: int
 
 func save_data() -> void:
 	var err := ResourceSaver.save(self, SAVE_PATH)

@@ -13,6 +13,7 @@ rarity = 0
 typing = 0
 cost = 1
 exhaust = true
+removeAfterCombat = false
 cardName = "Confusion"
 icon = ExtResource("1_yv5n0")
 tooltip = "[center]Exhaust.[/center]"

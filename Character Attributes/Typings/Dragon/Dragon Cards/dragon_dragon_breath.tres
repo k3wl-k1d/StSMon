@@ -16,6 +16,7 @@ rarity = 2
 typing = 16
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Dragon Breath"
 icon = ExtResource("4_mduya")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy. 50%% chance to [color='f0e91a']Paralyze[/color], 50%% chance to [color='ff932e']Burn[/color] that Enemy for 3 turns.[/center]"

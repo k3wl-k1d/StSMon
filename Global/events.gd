@@ -19,6 +19,7 @@ signal player_died(player: Player)
 signal player_revived(player: Player)
 signal both_players_died
 signal player_hit_without_block
+signal evolving(character: CharacterStats)
 
 # Enemy related events
 signal enemy_hit_without_block(enemy: Enemy, damage: int)

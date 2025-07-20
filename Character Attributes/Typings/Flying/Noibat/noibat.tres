@@ -29,7 +29,7 @@ Evolves by leveling up"
 credits = "Icon by Noivern
 Sprite taken from Pokémon Showdown"
 name = "Noibat"
-maxHealth = 30
+maxHealth = 25
 entitySpeed = 75
 battleStartStatuses = Array[ExtResource("1_utfhc")]([])
 animation = ExtResource("1_ad3us")

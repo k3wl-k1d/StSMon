@@ -16,6 +16,7 @@ rarity = 1
 typing = 12
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Feather Dance"
 icon = ExtResource("4_wyxs0")
 tooltip = "[center]Increase your Crit by 3. Draw a card.[/center]"

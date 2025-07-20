@@ -16,6 +16,7 @@ rarity = 0
 typing = 12
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Gust"
 icon = ExtResource("4_2665h")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy and draw a card.[/center]"

@@ -16,6 +16,7 @@ rarity = 1
 typing = 14
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Venoshock"
 icon = ExtResource("1_tqg1k")
 tooltip = "[center]Deal flat Damage equal to the target's [color='90249e']Poison[/color] stacks.[/center]"

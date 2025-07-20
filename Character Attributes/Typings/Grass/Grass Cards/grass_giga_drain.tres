@@ -16,6 +16,7 @@ rarity = 0
 typing = 3
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Giga Drain"
 icon = ExtResource("4_2mvcp")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to all Enemies and heal [color='32a852']%s[/color] health.[/center]"

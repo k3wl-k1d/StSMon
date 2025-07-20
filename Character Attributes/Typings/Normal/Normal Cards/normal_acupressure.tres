@@ -16,6 +16,7 @@ rarity = 2
 typing = 0
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Acupressure"
 icon = ExtResource("4_bb1ka")
 tooltip = "Round start, gain a random stat buff. [R]"

@@ -16,6 +16,7 @@ rarity = 1
 typing = 0
 cost = 3
 exhaust = true
+removeAfterCombat = false
 cardName = "Sharpen"
 icon = ExtResource("1_mpguw")
 tooltip = "[center]Round start, gain [color='a30000']2 Strength[/color].[/center]"

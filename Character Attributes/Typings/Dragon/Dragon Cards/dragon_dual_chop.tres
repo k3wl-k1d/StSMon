@@ -16,6 +16,7 @@ rarity = 0
 typing = 0
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Dual Chop"
 icon = ExtResource("1_plp70")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy twice and apply [color='bd6500']%s Exposed[/color] each hit.[/center]"

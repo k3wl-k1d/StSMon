@@ -16,6 +16,7 @@ rarity = 1
 typing = 15
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Shadow Ball"
 icon = ExtResource("1_k0unh")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an enemy and [color='f74a2f']5[/color] flat Damage to your ally.[/center]"

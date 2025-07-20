@@ -16,6 +16,7 @@ rarity = 2
 typing = 14
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Gunk Shot"
 icon = ExtResource("4_ospp0")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an enemy. If it is [color='90249e']Poisoned[/color], double its [color='90249e']Poison[/color] instead.[/center]"

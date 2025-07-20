@@ -16,6 +16,7 @@ rarity = 2
 typing = 14
 cost = 3
 exhaust = false
+removeAfterCombat = false
 cardName = "Venom Drench"
 icon = ExtResource("4_rvpf2")
 tooltip = "[center]Turn start, [color='90249e']Poison[/color] is doubled instead. Apply [color='90249e']6 Poison[/color].[/center]"

@@ -16,6 +16,7 @@ rarity = 2
 typing = 12
 cost = 0
 exhaust = false
+removeAfterCombat = false
 cardName = "Acrobatics"
 icon = ExtResource("4_7fa0m")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to an Enemy and gain [color='34eba8']1 Haste[/color]. Draw a card.[/center]"

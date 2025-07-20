@@ -1,6 +1,6 @@
 extends Relic
 
-@export var attacksRequired := 3
+@export var attacksRequired := 4
 
 var relicUI: RelicUI
 var attacksTotal: int = 0
@@ -14,7 +14,7 @@ func deactivate_relic(_owner: RelicUI) -> void:
 
 func _on_card_played(_card: Card) -> void:
 	attacksTotal += 1
-	relicUI.relic.currentStacks = attacksTotal
+	relicUI.relic.currentStacks = floori(attacksTotal / attacksRequired)
 	relicUI.update_relic_ui()
 	
 	if attacksTotal % attacksRequired == 0:

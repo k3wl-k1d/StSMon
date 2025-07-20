@@ -16,6 +16,7 @@ rarity = 1
 typing = 0
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Follow Me"
 icon = ExtResource("1_73ybm")
 tooltip = "[center]Redirect all enemy targets to the user.[/center]"

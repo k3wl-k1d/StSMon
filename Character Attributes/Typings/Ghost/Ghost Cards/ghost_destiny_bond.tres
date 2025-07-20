@@ -16,6 +16,7 @@ rarity = 2
 typing = 15
 cost = 2
 exhaust = false
+removeAfterCombat = false
 cardName = "Destiny Bond"
 icon = ExtResource("1_yfq0g")
 tooltip = "[center]Kill your ally to fully heal yourself and gain Block equal to the amount healed. You gain [color='3e1a91']5 Curse[/color].[/center]"

@@ -16,6 +16,7 @@ rarity = 0
 typing = 15
 cost = 1
 exhaust = false
+removeAfterCombat = false
 cardName = "Grudge"
 icon = ExtResource("1_o2oj8")
 tooltip = "[center]Deal [color='f74a2f']%s[/color] Damage to everyone except myself.[/center]"
