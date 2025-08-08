@@ -22,4 +22,4 @@ func _on_status_changed(target: Node) -> void:
 	speedModifier.add_new_value(hasteModifierValue)
 
 func get_tooltip() -> String:
-	return tooltip % ceili(stacks * 10)
+	return tooltip % ceili(stacks * 5)

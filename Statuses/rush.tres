@@ -14,4 +14,4 @@ duration = 2
 stacks = 0
 name = "Rush"
 icon = ExtResource("1_273xu")
-tooltip = "Rush: Increase your speed by 25%% for %s turns."
+tooltip = "Rush: Increase your speed by 15%% for %s turns."

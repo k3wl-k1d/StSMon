@@ -1,7 +1,7 @@
 class_name RushStatus
 extends Status
 
-const MODIFIER := 1.25
+const MODIFIER := 1.15
 
 func initialize_status(target: Node) -> void:
 	assert(target.get("modifierHandler"), "No modifiers on %s" % target)
